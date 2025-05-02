@@ -1,7 +1,38 @@
 # 大模型微调（Fine-tuning）
 
-[TOC]
-
+- [大模型微调（Fine-tuning）](#大模型微调fine-tuning)
+  - [1 本质和核心](#1-本质和核心)
+  - [2 fine-tuning 原理](#2-fine-tuning-原理)
+    - [**核心步骤**](#核心步骤)
+  - [3 前置知识（具体见其他文件）](#3-前置知识具体见其他文件)
+    - [3.1 基础知识](#31-基础知识)
+      - [注意力机制](#注意力机制)
+      - [transformer结构](#transformer结构)
+    - [3.2 大模型相关知识](#32-大模型相关知识)
+      - [预训练](#预训练)
+  - [4 fine-tuning的应用](#4-fine-tuning的应用)
+      - [（1）全量微调（Full Fine-Tuning）](#1全量微调full-fine-tuning)
+      - [（2）参数高效微调（Parameter-Efficient Fine-Tuning, PEFT）](#2参数高效微调parameter-efficient-fine-tuning-peft)
+        - [1 前缀调优 Prefix Tuning](#1-前缀调优-prefix-tuning)
+        - [2 提示调优 Prompt Tuning](#2-提示调优-prompt-tuning)
+        - [3 LoRA](#3-lora)
+        - [4 P-Tuning](#4-p-tuning)
+        - [5 P-Tuning v2](#5-p-tuning-v2)
+        - [6 Adapter Tuning](#6-adapter-tuning)
+      - [（3）监督式微调（Supervised Fine-Tuning, SFT）](#3监督式微调supervised-fine-tuning-sft)
+      - [（4）基于人类反馈的强化学习微调（RLHF）](#4基于人类反馈的强化学习微调rlhf)
+        - [a）使用监督数据微调语言模型](#a使用监督数据微调语言模型)
+        - [b）训练奖励模型](#b训练奖励模型)
+        - [c）训练RL模型](#c训练rl模型)
+      - [（5）基于AI反馈的强化学习微调（RLAIF）](#5基于ai反馈的强化学习微调rlaif)
+      - [总结](#总结)
+  - [5 模型微调的主要参数](#5-模型微调的主要参数)
+    - [基础微调参数](#基础微调参数)
+    - [高效微调（PEFT）参数](#高效微调peft参数)
+  - [6 实操注意点](#6-实操注意点)
+    - [支持微调的模型](#支持微调的模型)
+    - [数据集](#数据集)
+  - [7 具体例子--Chat-嬛嬛](#7-具体例子--chat-嬛嬛)
 
 
 ## 1 本质和核心
