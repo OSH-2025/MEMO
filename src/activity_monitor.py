@@ -20,6 +20,7 @@ import win32com.client
 from win32com.shell import shell, shellcon
 import sqlite3
 import re
+from collections import defaultdict
 
 # 配置日志记录
 logging.basicConfig(
@@ -51,12 +52,17 @@ class ActivityMonitor:
         
         # 浏览器历史记录数据库路径
         self.chrome_history_path = os.path.join(os.getenv('LOCALAPPDATA'), 
-                                              'Google\\Chrome\\User Data\\Default\\History')
+                                            'Google\\Chrome\\User Data\\Default\\History')
         self.edge_history_path = os.path.join(os.getenv('LOCALAPPDATA'), 
                                             'Microsoft\\Edge\\User Data\\Default\\History')
         
         # 上次检查的浏览历史时间
         self.last_browser_check = time.time()
+        
+        # 用于浏览器历史去重
+        self.known_visited_urls = set()  # 存储已访问的URL标识符
+        self.url_visit_times = {}  # 记录URL访问时间，用于清理
+        self.last_url_cleanup = time.time()  # 最后一次清理时间
         
         # 创建文件操作监控线程
         self.file_monitor_thread = None
@@ -67,6 +73,35 @@ class ActivityMonitor:
         # 配置
         self.min_window_focus_interval = 2  # 最小窗口焦点变化间隔(秒)
         self.last_window_focus_time = 0
+        
+        # GUI进程缓存
+        self.gui_processes = set()
+        self.last_gui_check = 0
+        self.gui_check_interval = 60  # 每60秒更新一次GUI进程列表
+        
+        # 频率限制
+        self.activity_frequency = {}  # 记录活动类型的频率
+        self.frequency_limits = {
+            "browser_history": 10,  # 每分钟最多记录10条浏览记录
+            "window_focus": 20,     # 每分钟最多记录20次窗口焦点变化
+            "file_access": 15       # 每分钟最多记录15次文件访问
+        }
+        self.last_minute_counts = defaultdict(int)
+        self.last_minute_reset = time.time()
+        
+        # 时间上下文
+        self.time_context = {
+            "last_update": time.time(),
+            "day_of_week": datetime.datetime.now().weekday(),
+            "hour_of_day": datetime.datetime.now().hour,
+            "is_weekend": datetime.datetime.now().weekday() >= 5,
+            "session_start": time.time()
+        }
+        
+        # 应用使用历史
+        self.app_usage_history = defaultdict(list)  # 应用名称 -> 使用时间列表
+        self.current_active_app = None
+        self.current_app_start_time = None
         
         logger.info("活动监控器初始化完成")
     
@@ -104,7 +139,11 @@ class ActivityMonitor:
             return {}
     
     def _get_browser_history(self) -> List[Dict[str, Any]]:
-        """获取浏览器历史记录"""
+        """获取浏览器历史记录，改进为仅捕获新访问的网页
+        
+        返回:
+            新访问的网页列表
+        """
         history_entries = []
         
         # 检查距离上次浏览器历史检查是否已经过去了至少30秒
@@ -113,109 +152,123 @@ class ActivityMonitor:
             return []
             
         self.last_browser_check = current_time
-        timeframe = int((current_time - 60) * 1000000)  # 获取最近1分钟的历史
         
-        # 尝试读取Chrome历史
-        if os.path.exists(self.chrome_history_path):
+        # 使用更短的时间窗口，减少重复条目
+        # 仅查询最近30秒内的历史记录，而不是1分钟
+        timeframe = int((current_time - 30) * 1000000)  
+        
+        # 每10分钟清理一次旧的URL记录
+        if current_time - self.last_url_cleanup > 600:
+            cleanup_threshold = current_time - 3600  # 1小时前的记录
+            # 清理超过1小时的URL记录
+            old_urls = [url for url, visit_time in self.url_visit_times.items() 
+                        if visit_time < cleanup_threshold]
+            for url in old_urls:
+                self.known_visited_urls.discard(url)
+                self.url_visit_times.pop(url, None)
+            self.last_url_cleanup = current_time
+        
+        # 处理Chrome历史
+        chrome_entries = self._get_browser_specific_history(
+            self.chrome_history_path, 'chrome', timeframe
+        )
+        history_entries.extend(chrome_entries)
+        
+        # 处理Edge历史
+        edge_entries = self._get_browser_specific_history(
+            self.edge_history_path, 'edge', timeframe
+        )
+        history_entries.extend(edge_entries)
+        
+        return history_entries
+    
+    def _get_browser_specific_history(self, db_path: str, browser_name: str, timeframe: int) -> List[Dict[str, Any]]:
+        """获取特定浏览器的历史记录
+        
+        Args:
+            db_path: 浏览器历史数据库路径
+            browser_name: 浏览器名称
+            timeframe: 时间阈值
+            
+        Returns:
+            历史记录条目列表
+        """
+        history_entries = []
+        
+        if not os.path.exists(db_path):
+            return []
+            
+        try:
+            # 复制数据库以避免锁定
+            temp_db = os.path.join(self.output_dir, f"temp_{browser_name}_history")
             try:
-                # 复制数据库以避免锁定
-                temp_db = os.path.join(self.output_dir, "temp_chrome_history")
-                try:
-                    import shutil
-                    shutil.copy2(self.chrome_history_path, temp_db)
+                import shutil
+                shutil.copy2(db_path, temp_db)
+            
+                # 连接复制的数据库
+                conn = sqlite3.connect(temp_db)
+                cursor = conn.cursor()
                 
-                    # 连接复制的数据库
-                    conn = sqlite3.connect(temp_db)
-                    cursor = conn.cursor()
+                # 查询最近的历史记录，按访问时间排序
+                cursor.execute(
+                    """
+                    SELECT url, title, last_visit_time 
+                    FROM urls 
+                    WHERE last_visit_time > ? 
+                    ORDER BY last_visit_time DESC
+                    LIMIT 10
+                    """, 
+                    (timeframe,)
+                )
+                
+                current_time = time.time()
+                
+                for row in cursor.fetchall():
+                    url, title, visit_time = row
                     
-                    # 查询最近的历史记录
-                    cursor.execute(
-                        """
-                        SELECT url, title, last_visit_time 
-                        FROM urls 
-                        WHERE last_visit_time > ? 
-                        ORDER BY last_visit_time DESC
-                        LIMIT 10
-                        """, 
-                        (timeframe,)
-                    )
+                    # 转换Chrome/Edge时间戳格式
+                    chrome_epoch = datetime.datetime(1601, 1, 1)
+                    visit_datetime = chrome_epoch + datetime.timedelta(microseconds=visit_time)
                     
-                    for row in cursor.fetchall():
-                        url, title, visit_time = row
-                        # 转换Chrome时间戳格式
-                        chrome_epoch = datetime.datetime(1601, 1, 1)
-                        visit_datetime = chrome_epoch + datetime.timedelta(microseconds=visit_time)
-                        
+                    # 创建唯一标识符：URL+标题
+                    url_identifier = f"{url}:{title}"
+                    
+                    # 仅记录新访问的URL
+                    if url_identifier not in self.known_visited_urls:
                         # 过滤掉不应记录的URL
                         if not self._should_filter_url(url):
+                            # 记录新的访问
+                            self.known_visited_urls.add(url_identifier)
+                            self.url_visit_times[url_identifier] = current_time
+                            
+                            # 从URL提取域名
+                            domain = ""
+                            try:
+                                from urllib.parse import urlparse
+                                parsed_url = urlparse(url)
+                                domain = parsed_url.netloc
+                            except:
+                                pass
+                            
                             history_entries.append({
                                 "type": "browser_history",
-                                "browser": "chrome",
+                                "browser": browser_name,
                                 "url": url,
                                 "title": title,
+                                "domain": domain,
                                 "timestamp": visit_datetime.isoformat()
                             })
                             
-                    conn.close()
-                finally:
-                    # 删除临时数据库文件
-                    try:
-                        os.remove(temp_db)
-                    except:
-                        pass
-            except Exception as e:
-                logger.error(f"读取Chrome历史记录出错: {e}")
-        
-        # 同样读取Edge历史
-        if os.path.exists(self.edge_history_path):
-            try:
-                # 复制数据库以避免锁定
-                temp_db = os.path.join(self.output_dir, "temp_edge_history")
+                cursor.close()
+                conn.close()
+            finally:
+                # 删除临时数据库文件
                 try:
-                    import shutil
-                    shutil.copy2(self.edge_history_path, temp_db)
-                
-                    # 连接复制的数据库
-                    conn = sqlite3.connect(temp_db)
-                    cursor = conn.cursor()
-                    
-                    # 查询最近的历史记录
-                    cursor.execute(
-                        """
-                        SELECT url, title, last_visit_time 
-                        FROM urls 
-                        WHERE last_visit_time > ? 
-                        ORDER BY last_visit_time DESC
-                        LIMIT 10
-                        """, 
-                        (timeframe,)
-                    )
-                    
-                    for row in cursor.fetchall():
-                        url, title, visit_time = row
-                        # 转换Chrome/Edge时间戳格式
-                        chrome_epoch = datetime.datetime(1601, 1, 1)
-                        visit_datetime = chrome_epoch + datetime.timedelta(microseconds=visit_time)
-                        
-                        # 过滤掉不应记录的URL
-                        if not self._should_filter_url(url):
-                            history_entries.append({
-                                "type": "browser_history",
-                                "browser": "edge",
-                                "url": url,
-                                "title": title,
-                                "timestamp": visit_datetime.isoformat()
-                            })
-                            
-                    conn.close()
-                finally:
-                    # 删除临时数据库文件
-                    try:
-                        os.remove(temp_db)
-                    except:
-                        pass
-            except Exception as e:
-                logger.error(f"读取Edge历史记录出错: {e}")
+                    os.remove(temp_db)
+                except:
+                    pass
+        except Exception as e:
+            logger.error(f"读取{browser_name}历史记录出错: {e}")
         
         return history_entries
     
@@ -225,6 +278,7 @@ class ActivityMonitor:
         返回:
             True表示应该过滤掉，False表示应该保留
         """
+        # 敏感模式匹配 - 保护隐私
         sensitive_patterns = [
             r'password',
             r'login',
@@ -235,26 +289,87 @@ class ActivityMonitor:
             r'credential',
             r'private',
             r'secret',
+            r'email',
+            r'mail\.',
+            r'payment',
+            r'checkout',
+            r'billing',
+            r'bank',
+            r'wallet',
+            r'finance',
+            r'admin',
+            r'manage',
+            r'dashboard'
         ]
         
         for pattern in sensitive_patterns:
             if re.search(pattern, url, re.IGNORECASE):
                 return True
                 
-        # 过滤掉明显的系统或自动同步URLs
+        # 过滤系统或自动同步URLs
         system_urls = [
             'chrome-extension://',
             'edge-extension://',
             'chrome://newtab',
             'edge://newtab',
             'about:blank',
+            'chrome://',
+            'edge://',
+            'about:',
+            'file:///',
             'chrome://extensions',
-            'edge://extensions'
+            'edge://extensions',
+            'chrome-search://',
+            'edge-search://',
+            'chrome://sync',
+            'chrome://settings',
+            'edge://settings',
+            'chrome://history',
+            'edge://history'
         ]
         
         for sys_url in system_urls:
             if url.startswith(sys_url):
                 return True
+        
+        # 过滤掉网站噪音
+        noise_patterns = [
+            r'/ads/',
+            r'/analytics/',
+            r'/metrics/',
+            r'/tracking/',
+            r'/beacon/',
+            r'/pixel/',
+            r'/telemetry/',
+            r'favicon\.ico$',
+            r'\.woff',
+            r'\.ttf',
+            r'\.svg',
+            r'\.png$',
+            r'\.jpg$',
+            r'\.gif$',
+            r'\.css$',
+            r'\.js$'
+        ]
+        
+        for pattern in noise_patterns:
+            if re.search(pattern, url, re.IGNORECASE):
+                return True
+        
+        # 提取和清理域名用于统计和重复过滤
+        domain_match = re.search(r'https?://([^/]+)', url)
+        if domain_match:
+            domain = domain_match.group(1)
+            
+            # 忽略常见的广告和跟踪域名
+            ad_domains = [
+                'ads.', 'adservice.', 'analytics.', 'tracker.', 
+                'pixel.', 'metrics.', 'logging.', 'stats.'
+            ]
+            
+            for ad_domain in ad_domains:
+                if ad_domain in domain:
+                    return True
                 
         return False
     
@@ -335,28 +450,66 @@ class ActivityMonitor:
                 'svchost.exe', 'services.exe', 'lsass.exe', 'csrss.exe',
                 'smss.exe', 'winlogon.exe', 'wininit.exe', 'System',
                 'Registry', 'fontdrvhost.exe', 'dwm.exe', 'conhost.exe',
-                'explorer.exe', 'taskhostw.exe', 'SgrmBroker.exe', 'spoolsv.exe'
+                'taskhostw.exe', 'SgrmBroker.exe', 'spoolsv.exe',
+                'SearchIndexer.exe', 'ShellExperienceHost.exe', 'ctfmon.exe',
+                'RuntimeBroker.exe', 'WmiPrvSE.exe', 'dllhost.exe',
+                'sihost.exe', 'SecurityHealthService.exe', 'Memory Compression',
+                'WUDFHost.exe', 'NVDisplay.Container.exe', 'SearchUI.exe',
+                'smartscreen.exe', 'SystemSettings.exe', 'TextInputHost.exe',
+                'ApplicationFrameHost.exe', 'Idle'
             ]
             
-            if proc.info['name'].lower() in [p.lower() for p in system_processes]:
+            process_name_lower = proc.info['name'].lower()
+            
+            if process_name_lower in [p.lower() for p in system_processes]:
                 return False
                 
             # 过滤系统路径下的进程
             system_paths = [
                 os.environ.get('SystemRoot', 'C:\\Windows'),
                 os.path.join(os.environ.get('SystemRoot', 'C:\\Windows'), 'System32'),
-                os.path.join(os.environ.get('SystemRoot', 'C:\\Windows'), 'SysWOW64')
+                os.path.join(os.environ.get('SystemRoot', 'C:\\Windows'), 'SysWOW64'),
+                os.path.join(os.environ.get('SystemRoot', 'C:\\Windows'), 'SystemApps')
             ]
             
             if proc.info['exe']:
+                exe_path_lower = proc.info['exe'].lower()
+                
                 for path in system_paths:
-                    if proc.info['exe'].lower().startswith(path.lower()):
-                        # 但要保留一些重要的应用
-                        important_apps = ['notepad.exe', 'wordpad.exe', 'mspaint.exe']
-                        if proc.info['name'].lower() in [app.lower() for app in important_apps]:
+                    path_lower = path.lower()
+                    if exe_path_lower.startswith(path_lower):
+                        # 保留一些重要的用户应用
+                        important_apps = [
+                            'notepad.exe', 'wordpad.exe', 'mspaint.exe', 
+                            'calc.exe', 'cmd.exe', 'powershell.exe',
+                            'explorer.exe', 'mstsc.exe', 'taskmgr.exe',
+                            'winword.exe', 'excel.exe', 'powerpnt.exe',
+                            'outlook.exe', 'onenote.exe', 'code.exe',
+                            'devenv.exe', 'msedge.exe', 'chrome.exe'
+                        ]
+                        
+                        if process_name_lower in [app.lower() for app in important_apps]:
                             return True
+                        
                         return False
             
+            # 检查通用命名模式的系统进程
+            system_patterns = [
+                r'^Microsoft\.', r'^Windows\.', r'^WinStore', 
+                r'Service$', r'Svc$', r'Host$', r'Agent$'
+            ]
+            
+            for pattern in system_patterns:
+                if re.search(pattern, proc.info['name'], re.IGNORECASE):
+                    return False
+            
+            # 进程有GUI窗口更可能是用户进程
+            try:
+                if proc.info['pid'] in self.gui_processes:
+                    return True
+            except:
+                pass
+                
             return True
             
         except (psutil.NoSuchProcess, psutil.AccessDenied):
@@ -443,6 +596,15 @@ class ActivityMonitor:
         self.file_monitor_thread.daemon = True
         self.file_monitor_thread.start()
         
+        # 初始化会话开始时间
+        self.time_context["session_start"] = time.time()
+        
+        # 记录会话开始事件
+        self.activities.append({
+            "type": "session_start",
+            "timestamp": datetime.datetime.now().isoformat()
+        })
+        
         # 初始化已知进程集合
         for proc in psutil.process_iter(['pid', 'name', 'exe', 'cmdline', 'create_time']):
             try:
@@ -457,11 +619,21 @@ class ActivityMonitor:
             except (psutil.NoSuchProcess, psutil.AccessDenied):
                 pass
         
+        # 初始化GUI进程列表
+        self._update_gui_processes()
+        
         try:
             while self.running:
                 try:
+                    # 更新时间上下文
+                    self._update_time_context()
+                    
+                    # 更新GUI进程列表
+                    self._update_gui_processes()
+                    
                     # 获取当前活跃窗口信息
                     window_info = self._get_active_window_info()
+                    
                     # 检查窗口焦点是否改变且最小间隔时间已过
                     current_time = time.time()
                     if (window_info and 
@@ -470,10 +642,16 @@ class ActivityMonitor:
                         
                         self.last_active_window = window_info.get("window_title")
                         self.last_window_focus_time = current_time
-                        self.activities.append({
-                            "type": "window_focus",
-                            **window_info
-                        })
+                        
+                        # 检查记录频率
+                        if self._check_frequency_limit("window_focus"):
+                            self.activities.append({
+                                "type": "window_focus",
+                                **window_info
+                            })
+                        
+                        # 跟踪应用使用时长
+                        self._track_app_usage(window_info)
                     
                     # 获取进程启动和关闭信息
                     process_events = self._monitor_processes()
@@ -481,7 +659,14 @@ class ActivityMonitor:
                     
                     # 获取浏览器历史
                     browser_history = self._get_browser_history()
-                    self.activities.extend(browser_history)
+                    
+                    # 筛选浏览器历史，应用频率限制
+                    filtered_history = []
+                    for entry in browser_history:
+                        if self._check_frequency_limit("browser_history"):
+                            filtered_history.append(entry)
+                    
+                    self.activities.extend(filtered_history)
                     
                     # 检查是否需要保存数据
                     current_time = time.time()
@@ -504,6 +689,25 @@ class ActivityMonitor:
         """停止监控用户活动"""
         logger.info("停止监控用户活动")
         self.running = False
+        
+        # 记录会话结束事件
+        self.activities.append({
+            "type": "session_end",
+            "session_duration": time.time() - self.time_context["session_start"],
+            "timestamp": datetime.datetime.now().isoformat()
+        })
+        
+        # 如果当前有活跃应用，记录其使用时长
+        if self.current_active_app and self.current_app_start_time:
+            usage_duration = time.time() - self.current_app_start_time
+            if usage_duration >= 5:
+                self.activities.append({
+                    "type": "app_usage",
+                    "process_name": self.current_active_app,
+                    "duration": round(usage_duration, 2),
+                    "timestamp": datetime.datetime.now().isoformat()
+                })
+        
         self.save_data()
         
         # 等待文件监控线程结束
@@ -523,6 +727,101 @@ class ActivityMonitor:
         
         logger.info(f"保存了 {len(self.activities)} 条活动记录到 {filename}")
         self.activities = []
+
+    def _update_gui_processes(self):
+        """更新具有GUI窗口的进程列表"""
+        current_time = time.time()
+        if current_time - self.last_gui_check < self.gui_check_interval:
+            return
+            
+        self.last_gui_check = current_time
+        self.gui_processes = set()
+        
+        try:
+            def callback(hwnd, ctx):
+                if win32gui.IsWindowVisible(hwnd) and win32gui.GetWindowText(hwnd):
+                    _, pid = win32process.GetWindowThreadProcessId(hwnd)
+                    ctx.add(pid)
+                return True
+                
+            win32gui.EnumWindows(callback, self.gui_processes)
+        except Exception as e:
+            logger.error(f"更新GUI进程列表时出错: {e}")
+    
+    def _update_time_context(self):
+        """更新时间上下文信息"""
+        now = datetime.datetime.now()
+        current_time = time.time()
+        
+        # 每小时更新一次时间上下文
+        if current_time - self.time_context["last_update"] >= 3600:
+            self.time_context.update({
+                "last_update": current_time,
+                "day_of_week": now.weekday(),
+                "hour_of_day": now.hour,
+                "is_weekend": now.weekday() >= 5
+            })
+            
+            # 将时间上下文作为一个事件记录
+            self.activities.append({
+                "type": "time_context",
+                "day_of_week": self.time_context["day_of_week"],
+                "hour_of_day": self.time_context["hour_of_day"],
+                "is_weekend": self.time_context["is_weekend"],
+                "timestamp": now.isoformat()
+            })
+    
+    def _check_frequency_limit(self, activity_type: str) -> bool:
+        """检查是否超过频率限制
+        
+        Args:
+            activity_type: 活动类型
+            
+        Returns:
+            是否允许记录此活动
+        """
+        current_time = time.time()
+        
+        # 每分钟重置一次计数
+        if current_time - self.last_minute_reset >= 60:
+            self.last_minute_counts = defaultdict(int)
+            self.last_minute_reset = current_time
+        
+        # 检查是否超过限制
+        limit = self.frequency_limits.get(activity_type, 30)  # 默认每分钟最多30条
+        if self.last_minute_counts[activity_type] >= limit:
+            return False
+            
+        # 增加计数
+        self.last_minute_counts[activity_type] += 1
+        return True
+        
+    def _track_app_usage(self, window_info):
+        """跟踪应用使用时长
+        
+        Args:
+            window_info: 当前窗口信息
+        """
+        current_time = time.time()
+        current_app = window_info.get("process_name")
+        
+        # 如果有活跃的应用且不同于当前应用
+        if self.current_active_app and self.current_app_start_time and self.current_active_app != current_app:
+            usage_duration = current_time - self.current_app_start_time
+            
+            # 只记录使用时间超过5秒的应用
+            if usage_duration >= 5:
+                # 记录应用使用时长
+                self.activities.append({
+                    "type": "app_usage",
+                    "process_name": self.current_active_app,
+                    "duration": round(usage_duration, 2),
+                    "timestamp": datetime.datetime.now().isoformat()
+                })
+        
+        # 更新当前活跃应用
+        self.current_active_app = current_app
+        self.current_app_start_time = current_time
 
 if __name__ == "__main__":
     try:
