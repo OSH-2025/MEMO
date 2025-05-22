@@ -122,20 +122,14 @@ class ActivityAnalyzer:
         # 标准化浏览器历史记录
         for activity in self.activities:
             if activity['type'] == 'browser_history':
-                # 如果已经有域名字段，使用现有域名
+                url = activity.get('url', '')  # 修复点：先赋值url，防止未定义
                 if 'domain' not in activity or not activity['domain']:
-                    # 提取域名
-                    url = activity.get('url', '')
                     try:
                         parsed_url = urlparse(url)
                         activity['domain'] = parsed_url.netloc
                     except:
                         activity['domain'] = ''
-                
-                # 简化URL
                 activity['simplified_url'] = self._simplify_url(url)
-                
-                # 添加有意义的描述
                 activity['description'] = self._generate_browser_description(activity)
         
         # 标准化文件路径
