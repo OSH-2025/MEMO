@@ -1,0 +1,1459 @@
+instruction,input,reference,prediction,ref_time,ref_operation,ref_target,pred_time,pred_operation,pred_target,exact_match,operation_match,target_match
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 00:07:34 - 访问网站 aizex.me 的页面 'Aizex Panel'
+2025-05-28 00:07:42 - 访问网站 stug-x.memofun.net 的页面 'ChatGPT'
+2025-05-28 00:08:01 - 访问网站 stug-x.memofun.net 的页面 'SRE模块不匹配解决方案'
+2025-05-28 00:14:03 - 访问网站 www.google.com 的页面 '菜鸟教程 - Google 搜索'
+2025-05-28 00:14:06 - 访问网站 www.runoob.com 的页面 '菜鸟教程 - 学的不仅是技术，更是梦想！'",2025-05-28 00:14:06 - 访问网站 www.runoob.com 的页面 '菜鸟教程 - 学的不仅是技术，更是梦想！',2025-05-28 00:14:10 - 访问网站 www.runoob.com 的页面 'Python 网络编程 - 菜鸟教程',2025-05-28 00:14:06,browser_history,www.runoob.com,2025-05-28 00:14:10,browser_history,www.runoob.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:01:45 - 启动应用: msedge.exe
+2025-05-28 16:02:19 - 关闭应用: msedge.exe
+2025-05-28 16:02:45 - 启动应用: msedge.exe
+2025-05-28 16:02:48 - 启动应用: SDXHelper.exe
+2025-05-28 16:02:49 - 启动应用: SDXHelper.exe",2025-05-28 16:02:52 - 关闭应用: SDXHelper.exe,2025-05-28 16:02:49 - 关闭应用: msedge.exe,2025-05-28 16:02:52,process_end,SDXHelper.exe,2025-05-28 16:02:49,process_end,msedge.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 19:12:45 - 启动应用: msedge.exe
+2025-05-28 19:14:17 - 关闭应用: msedge.exe
+2025-05-28 19:14:45 - 启动应用: msedge.exe
+2025-05-28 19:15:19 - 关闭应用: msedge.exe
+2025-05-28 19:15:45 - 启动应用: msedge.exe",2025-05-28 19:15:52 - 启动应用: OfficeC2RClient.exe,2025-05-28 19:16:19 - 关闭应用: msedge.exe,2025-05-28 19:15:52,process_start,OfficeC2RClient.exe,2025-05-28 19:16:19,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 20:32:04 - 启动应用: LZUpdate.exe
+2025-05-28 20:32:06 - 时间上下文: 周三 20时
+2025-05-28 20:32:07 - 启动应用: msedge.exe
+2025-05-28 20:32:10 - 启动应用: LeASPac.exe
+2025-05-28 20:32:13 - 关闭应用: LeASPac.exe",2025-05-28 20:32:14 - 切换到窗口: Bugdragon - [E:/longarch/Bugdragon/Bugdragon.xpr] - Vivado 2023.2 (应用: vivado.exe),2025-05-28 20:32:14 - 关闭应用: msedge.exe,2025-05-28 20:32:14,window_focus,Bugdragon - [E:/longarch/Bugdragon/Bugdragon.xpr] - Vivado 2023.2 (应用: vivado.exe),2025-05-28 20:32:14,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:11:20 - 启动应用: Code.exe
+2025-05-28 08:11:21 - 启动应用: Code.exe
+2025-05-28 08:11:21 - 启动应用: Code.exe
+2025-05-28 08:11:22 - 切换到窗口: Visual Studio Code (应用: Code.exe)
+2025-05-28 08:11:23 - 启动应用: Code.exe",2025-05-28 08:11:23 - 关闭应用: Code.exe,2025-05-28 08:11:24 - 关闭应用: Code.exe,2025-05-28 08:11:23,process_end,Code.exe,2025-05-28 08:11:24,process_end,Code.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:13:53 - 启动应用: msedge.exe
+2025-05-28 08:13:54 - 切换到窗口: SRE模块不匹配解决方案 和另外 1 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 08:13:55 - 关闭应用: devenv.exe
+2025-05-28 08:13:55 - 启动应用: msedge.exe
+2025-05-28 08:13:56 - 启动应用: msedge.exe",2025-05-28 08:13:58 - 切换到窗口: WeTab 新标签页 和另外 2 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:13:56 - 关闭应用: msedge.exe,2025-05-28 08:13:58,window_focus,WeTab 新标签页 和另外 2 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:13:56,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:16:54 - 启动应用: srcscanner.exe
+2025-05-28 08:16:56 - 启动应用: srcscanner.exe
+2025-05-28 08:16:58 - 关闭应用: srcscanner.exe
+2025-05-28 08:16:59 - 关闭应用: srcscanner.exe
+2025-05-28 08:17:00 - 启动应用: srcscanner.exe",2025-05-28 08:17:00 - 启动应用: srcscanner.exe,2025-05-28 08:17:03 - 关闭应用: srcscanner.exe,2025-05-28 08:17:00,process_start,srcscanner.exe,2025-05-28 08:17:03,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:16:56 - 启动应用: srcscanner.exe
+2025-05-28 08:16:58 - 关闭应用: srcscanner.exe
+2025-05-28 08:16:59 - 关闭应用: srcscanner.exe
+2025-05-28 08:17:00 - 启动应用: srcscanner.exe
+2025-05-28 08:17:00 - 启动应用: srcscanner.exe",2025-05-28 08:17:03 - 关闭应用: srcscanner.exe,2025-05-28 08:17:01 - 关闭应用: srcscanner.exe,2025-05-28 08:17:03,process_end,srcscanner.exe,2025-05-28 08:17:01,process_end,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:16:58 - 关闭应用: srcscanner.exe
+2025-05-28 08:16:59 - 关闭应用: srcscanner.exe
+2025-05-28 08:17:00 - 启动应用: srcscanner.exe
+2025-05-28 08:17:00 - 启动应用: srcscanner.exe
+2025-05-28 08:17:03 - 关闭应用: srcscanner.exe",2025-05-28 08:17:03 - 关闭应用: srcscanner.exe,2025-05-28 08:17:03 - 关闭应用: srcscanner.exe,2025-05-28 08:17:03,process_end,srcscanner.exe,2025-05-28 08:17:03,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:18:17 - 启动应用: srcscanner.exe
+2025-05-28 08:18:20 - 关闭应用: srcscanner.exe
+2025-05-28 08:18:21 - 启动应用: srcscanner.exe
+2025-05-28 08:18:23 - 启动应用: srcscanner.exe
+2025-05-28 08:18:23 - 启动应用: srcscanner.exe",2025-05-28 08:18:24 - 关闭应用: srcscanner.exe,2025-05-28 08:18:23 - 关闭应用: srcscanner.exe,2025-05-28 08:18:24,process_end,srcscanner.exe,2025-05-28 08:18:23,process_end,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:18:21 - 启动应用: srcscanner.exe
+2025-05-28 08:18:23 - 启动应用: srcscanner.exe
+2025-05-28 08:18:23 - 启动应用: srcscanner.exe
+2025-05-28 08:18:24 - 关闭应用: srcscanner.exe
+2025-05-28 08:18:26 - 关闭应用: srcscanner.exe",2025-05-28 08:18:26 - 关闭应用: srcscanner.exe,2025-05-28 08:18:26 - 关闭应用: srcscanner.exe,2025-05-28 08:18:26,process_end,srcscanner.exe,2025-05-28 08:18:26,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:18:23 - 启动应用: srcscanner.exe
+2025-05-28 08:18:24 - 关闭应用: srcscanner.exe
+2025-05-28 08:18:26 - 关闭应用: srcscanner.exe
+2025-05-28 08:18:26 - 关闭应用: srcscanner.exe
+2025-05-28 08:19:03 - 启动应用: srcscanner.exe",2025-05-28 08:19:04 - 关闭应用: msedge.exe,2025-05-28 08:19:04 - 启动应用: srcscanner.exe,2025-05-28 08:19:04,process_end,msedge.exe,2025-05-28 08:19:04,process_start,srcscanner.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:21:16 - 启动应用: srcscanner.exe
+2025-05-28 08:21:16 - 启动应用: srcscanner.exe
+2025-05-28 08:21:19 - 关闭应用: srcscanner.exe
+2025-05-28 08:21:19 - 关闭应用: srcscanner.exe
+2025-05-28 08:21:20 - 启动应用: srcscanner.exe",2025-05-28 08:21:20 - 启动应用: srcscanner.exe,2025-05-28 08:21:22 - 关闭应用: srcscanner.exe,2025-05-28 08:21:20,process_start,srcscanner.exe,2025-05-28 08:21:22,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:23:53 - 关闭应用: msedge.exe
+2025-05-28 08:23:54 - 启动应用: srcscanner.exe
+2025-05-28 08:23:54 - 启动应用: srcscanner.exe
+2025-05-28 08:23:57 - 关闭应用: srcscanner.exe
+2025-05-28 08:23:57 - 关闭应用: srcscanner.exe",2025-05-28 08:24:19 - 关闭应用: msedge.exe,2025-05-28 08:23:57 - 关闭应用: srcscanner.exe,2025-05-28 08:24:19,process_end,msedge.exe,2025-05-28 08:23:57,process_end,srcscanner.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:25:44 - 关闭应用: srcscanner.exe
+2025-05-28 08:25:45 - 启动应用: srcscanner.exe
+2025-05-28 08:25:45 - 启动应用: srcscanner.exe
+2025-05-28 08:25:47 - 关闭应用: srcscanner.exe
+2025-05-28 08:25:47 - 关闭应用: srcscanner.exe",2025-05-28 08:25:51 - 关闭应用: msedge.exe,2025-05-28 08:25:47 - 关闭应用: msedge.exe,2025-05-28 08:25:51,process_end,msedge.exe,2025-05-28 08:25:47,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:25:45 - 启动应用: srcscanner.exe
+2025-05-28 08:25:45 - 启动应用: srcscanner.exe
+2025-05-28 08:25:47 - 关闭应用: srcscanner.exe
+2025-05-28 08:25:47 - 关闭应用: srcscanner.exe
+2025-05-28 08:25:51 - 关闭应用: msedge.exe",2025-05-28 08:25:55 - 关闭应用: biz_render.exe,2025-05-28 08:25:51 - 关闭应用: msedge.exe,2025-05-28 08:25:55,process_end,biz_render.exe,2025-05-28 08:25:51,process_end,msedge.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:27:35 - 启动应用: srcscanner.exe
+2025-05-28 08:27:35 - 启动应用: srcscanner.exe
+2025-05-28 08:27:38 - 关闭应用: srcscanner.exe
+2025-05-28 08:27:38 - 关闭应用: srcscanner.exe
+2025-05-28 08:27:57 - 启动应用: srcscanner.exe",2025-05-28 08:27:59 - 启动应用: srcscanner.exe,2025-05-28 08:27:57 - 启动应用: srcscanner.exe,2025-05-28 08:27:59,process_start,srcscanner.exe,2025-05-28 08:27:57,process_start,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:27:38 - 关闭应用: srcscanner.exe
+2025-05-28 08:27:38 - 关闭应用: srcscanner.exe
+2025-05-28 08:27:57 - 启动应用: srcscanner.exe
+2025-05-28 08:27:59 - 启动应用: srcscanner.exe
+2025-05-28 08:27:59 - 启动应用: srcscanner.exe",2025-05-28 08:28:01 - 关闭应用: srcscanner.exe,2025-05-28 08:28:00 - 关闭应用: srcscanner.exe,2025-05-28 08:28:01,process_end,srcscanner.exe,2025-05-28 08:28:00,process_end,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:28:03 - 关闭应用: srcscanner.exe
+2025-05-28 08:28:03 - 关闭应用: srcscanner.exe
+2025-05-28 08:28:05 - 启动应用: srcscanner.exe
+2025-05-28 08:28:05 - 启动应用: srcscanner.exe
+2025-05-28 08:28:07 - 启动应用: srcscanner.exe",2025-05-28 08:28:08 - 关闭应用: srcscanner.exe,2025-05-28 08:28:07 - 启动应用: srcscanner.exe,2025-05-28 08:28:08,process_end,srcscanner.exe,2025-05-28 08:28:07,process_start,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:34:35 - 启动应用: msedge.exe
+2025-05-28 08:34:35 - 启动应用: msedge.exe
+2025-05-28 08:34:37 - 切换到窗口: verilog case嵌套 - Google 搜索 和另外 6 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 08:34:38 - 关闭应用: msedge.exe
+2025-05-28 08:34:42 - 启动应用: msedge.exe",2025-05-28 08:34:49 - 启动应用: msedge.exe,2025-05-28 08:34:42 - 切换到窗口: 2025年考研数学数理逻辑知识点总结（含模板） - B站资源网 和另外 6 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:34:49,process_start,msedge.exe,2025-05-28 08:34:42,window_focus,2025年考研数学数理逻辑知识点总结（含模板） - B站资源网 和另外 6 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:37:32 - 启动应用: srcscanner.exe
+2025-05-28 08:37:32 - 启动应用: srcscanner.exe
+2025-05-28 08:37:35 - 关闭应用: srcscanner.exe
+2025-05-28 08:37:35 - 关闭应用: srcscanner.exe
+2025-05-28 08:37:54 - 启动应用: srcscanner.exe",2025-05-28 08:37:54 - 启动应用: srcscanner.exe,2025-05-28 08:37:54 - 启动应用: srcscanner.exe,2025-05-28 08:37:54,process_start,srcscanner.exe,2025-05-28 08:37:54,process_start,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:38:58 - 启动应用: srcscanner.exe
+2025-05-28 08:38:58 - 启动应用: srcscanner.exe
+2025-05-28 08:39:01 - 关闭应用: srcscanner.exe
+2025-05-28 08:39:01 - 关闭应用: srcscanner.exe
+2025-05-28 08:39:41 - 启动应用: srcscanner.exe",2025-05-28 08:39:44 - 关闭应用: srcscanner.exe,2025-05-28 08:39:41 - 启动应用: srcscanner.exe,2025-05-28 08:39:44,process_end,srcscanner.exe,2025-05-28 08:39:41,process_start,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:39:41 - 启动应用: srcscanner.exe
+2025-05-28 08:39:44 - 关闭应用: srcscanner.exe
+2025-05-28 08:39:49 - 启动应用: srcscanner.exe
+2025-05-28 08:39:49 - 启动应用: srcscanner.exe
+2025-05-28 08:39:50 - 关闭应用: msedge.exe",2025-05-28 08:39:52 - 关闭应用: srcscanner.exe,2025-05-28 08:39:50 - 关闭应用: srcscanner.exe,2025-05-28 08:39:52,process_end,srcscanner.exe,2025-05-28 08:39:50,process_end,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:45:02 - 启动应用: srcscanner.exe
+2025-05-28 08:45:02 - 启动应用: srcscanner.exe
+2025-05-28 08:45:05 - 关闭应用: srcscanner.exe
+2025-05-28 08:45:05 - 关闭应用: srcscanner.exe
+2025-05-28 08:45:47 - 启动应用: srcscanner.exe",2025-05-28 08:45:47 - 启动应用: srcscanner.exe,2025-05-28 08:45:50 - 关闭应用: srcscanner.exe,2025-05-28 08:45:47,process_start,srcscanner.exe,2025-05-28 08:45:50,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:47:49 - 启动应用: srcscanner.exe
+2025-05-28 08:47:52 - 关闭应用: srcscanner.exe
+2025-05-28 08:47:55 - 启动应用: srcscanner.exe
+2025-05-28 08:47:55 - 启动应用: srcscanner.exe
+2025-05-28 08:47:58 - 关闭应用: srcscanner.exe",2025-05-28 08:47:58 - 关闭应用: srcscanner.exe,2025-05-28 08:47:58 - 关闭应用: srcscanner.exe,2025-05-28 08:47:58,process_end,srcscanner.exe,2025-05-28 08:47:58,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:48:45 - 关闭应用: srcscanner.exe
+2025-05-28 08:48:49 - 启动应用: srcscanner.exe
+2025-05-28 08:48:51 - 关闭应用: msedge.exe
+2025-05-28 08:48:52 - 关闭应用: msedge.exe
+2025-05-28 08:48:52 - 关闭应用: srcscanner.exe",2025-05-28 08:48:55 - 启动应用: srcscanner.exe,2025-05-28 08:48:52 - 关闭应用: msedge.exe,2025-05-28 08:48:55,process_start,srcscanner.exe,2025-05-28 08:48:52,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:53:25 - 启动应用: srcscanner.exe
+2025-05-28 08:53:25 - 启动应用: srcscanner.exe
+2025-05-28 08:53:27 - 启动应用: srcscanner.exe
+2025-05-28 08:53:27 - 启动应用: srcscanner.exe
+2025-05-28 08:53:27 - 关闭应用: srcscanner.exe",2025-05-28 08:53:27 - 关闭应用: srcscanner.exe,2025-05-28 08:53:27 - 关闭应用: srcscanner.exe,2025-05-28 08:53:27,process_end,srcscanner.exe,2025-05-28 08:53:27,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:55:42 - 启动应用: cmd.exe
+2025-05-28 08:55:42 - 启动应用: cmd.exe
+2025-05-28 08:55:42 - 启动应用: cmd.exe
+2025-05-28 08:55:43 - 启动应用: cmd.exe
+2025-05-28 08:55:44 - 启动应用: cmd.exe",2025-05-28 08:55:46 - 关闭应用: cmd.exe,2025-05-28 08:55:45 - 切换到窗口: 2025.5 qq_crawler_v1.0.0.0 (应用: cmd.exe),2025-05-28 08:55:46,process_end,cmd.exe,2025-05-28 08:55:45,window_focus,2025.5 qq_crawler_v1.0.0.0 (应用: cmd.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:56:53 - 启动应用: Tobii.EyeTracking.Portal.WPF.exe
+2025-05-28 08:56:56 - 关闭应用: LZStrategy.exe
+2025-05-28 08:56:58 - 关闭应用: HeadlessCommand.exe
+2025-05-28 08:57:00 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe
+2025-05-28 08:57:00 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe",2025-05-28 08:57:00 - 关闭应用: aipictool.exe,2025-05-28 08:57:00 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe,2025-05-28 08:57:00,process_end,aipictool.exe,2025-05-28 08:57:00,process_end,Tobii.EyeTracking.Portal.WPF.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:57:19 - 切换到窗口: predecode.sv - new - Visual Studio Code (应用: Code.exe)
+2025-05-28 08:57:20 - 关闭应用: SLBStrategy.exe
+2025-05-28 08:57:21 - 关闭应用: LenovoAppStore.exe
+2025-05-28 08:57:21 - 关闭应用: LenovoAppStore.exe
+2025-05-28 08:57:21 - 关闭应用: LenovoAppStore.exe",2025-05-28 08:57:21 - 关闭应用: LenovoAppStore.exe,2025-05-28 08:57:21 - 关闭应用: LenovoAppStore.exe,2025-05-28 08:57:21,process_end,LenovoAppStore.exe,2025-05-28 08:57:21,process_end,LenovoAppStore.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:02:39 - 启动应用: srcscanner.exe
+2025-05-28 09:02:39 - 启动应用: srcscanner.exe
+2025-05-28 09:02:42 - 关闭应用: srcscanner.exe
+2025-05-28 09:02:42 - 关闭应用: srcscanner.exe
+2025-05-28 09:02:45 - 启动应用: srcscanner.exe",2025-05-28 09:02:47 - 关闭应用: srcscanner.exe,2025-05-28 09:02:45 - 启动应用: srcscanner.exe,2025-05-28 09:02:47,process_end,srcscanner.exe,2025-05-28 09:02:45,process_start,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:02:42 - 关闭应用: srcscanner.exe
+2025-05-28 09:02:45 - 启动应用: srcscanner.exe
+2025-05-28 09:02:47 - 关闭应用: srcscanner.exe
+2025-05-28 09:02:49 - 关闭应用: msedge.exe
+2025-05-28 09:03:03 - 启动应用: srcscanner.exe",2025-05-28 09:03:03 - 启动应用: srcscanner.exe,2025-05-28 09:03:03 - 启动应用: srcscanner.exe,2025-05-28 09:03:03,process_start,srcscanner.exe,2025-05-28 09:03:03,process_start,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:03:42 - 关闭应用: srcscanner.exe
+2025-05-28 09:03:42 - 关闭应用: srcscanner.exe
+2025-05-28 09:03:51 - 关闭应用: msedge.exe
+2025-05-28 09:03:54 - 启动应用: srcscanner.exe
+2025-05-28 09:03:57 - 关闭应用: srcscanner.exe",2025-05-28 09:04:00 - 启动应用: srcscanner.exe,2025-05-28 09:03:57 - 关闭应用: srcscanner.exe,2025-05-28 09:04:00,process_start,srcscanner.exe,2025-05-28 09:03:57,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:13:29 - 关闭应用: srcscanner.exe
+2025-05-28 09:13:31 - 关闭应用: FileCoAuth.exe
+2025-05-28 09:13:32 - 启动应用: srcscanner.exe
+2025-05-28 09:13:35 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:26 - 启动应用: srcscanner.exe",2025-05-28 09:14:29 - 关闭应用: srcscanner.exe,2025-05-28 09:14:28 - 关闭应用: srcscanner.exe,2025-05-28 09:14:29,process_end,srcscanner.exe,2025-05-28 09:14:28,process_end,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:13:31 - 关闭应用: FileCoAuth.exe
+2025-05-28 09:13:32 - 启动应用: srcscanner.exe
+2025-05-28 09:13:35 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:26 - 启动应用: srcscanner.exe
+2025-05-28 09:14:29 - 关闭应用: srcscanner.exe",2025-05-28 09:14:41 - 启动应用: srcscanner.exe,2025-05-28 09:14:32 - 启动应用: srcscanner.exe,2025-05-28 09:14:41,process_start,srcscanner.exe,2025-05-28 09:14:32,process_start,srcscanner.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:13:32 - 启动应用: srcscanner.exe
+2025-05-28 09:13:35 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:26 - 启动应用: srcscanner.exe
+2025-05-28 09:14:29 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:41 - 启动应用: srcscanner.exe",2025-05-28 09:14:41 - 启动应用: srcscanner.exe,2025-05-28 09:14:43 - 关闭应用: srcscanner.exe,2025-05-28 09:14:41,process_start,srcscanner.exe,2025-05-28 09:14:43,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:13:35 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:26 - 启动应用: srcscanner.exe
+2025-05-28 09:14:29 - 关闭应用: srcscanner.exe
+2025-05-28 09:14:41 - 启动应用: srcscanner.exe
+2025-05-28 09:14:41 - 启动应用: srcscanner.exe",2025-05-28 09:14:44 - 关闭应用: srcscanner.exe,2025-05-28 09:14:44 - 关闭应用: srcscanner.exe,2025-05-28 09:14:44,process_end,srcscanner.exe,2025-05-28 09:14:44,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:15:26 - 启动应用: srcscanner.exe
+2025-05-28 09:15:29 - 关闭应用: srcscanner.exe
+2025-05-28 09:15:32 - 启动应用: srcscanner.exe
+2025-05-28 09:15:32 - 启动应用: srcscanner.exe
+2025-05-28 09:15:35 - 关闭应用: srcscanner.exe",2025-05-28 09:15:35 - 关闭应用: srcscanner.exe,2025-05-28 09:15:35 - 关闭应用: srcscanner.exe,2025-05-28 09:15:35,process_end,srcscanner.exe,2025-05-28 09:15:35,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:18:56 - 关闭应用: srcscanner.exe
+2025-05-28 09:18:56 - 关闭应用: srcscanner.exe
+2025-05-28 09:19:12 - 启动应用: srcscanner.exe
+2025-05-28 09:19:15 - 关闭应用: srcscanner.exe
+2025-05-28 09:19:27 - 启动应用: srcscanner.exe",2025-05-28 09:19:27 - 启动应用: srcscanner.exe,2025-05-28 09:19:28 - 关闭应用: srcscanner.exe,2025-05-28 09:19:27,process_start,srcscanner.exe,2025-05-28 09:19:28,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:23:33 - 关闭应用: srcscanner.exe
+2025-05-28 09:23:33 - 关闭应用: srcscanner.exe
+2025-05-28 09:23:46 - 启动应用: srcscanner.exe
+2025-05-28 09:23:46 - 启动应用: srcscanner.exe
+2025-05-28 09:23:49 - 关闭应用: srcscanner.exe",2025-05-28 09:23:49 - 关闭应用: srcscanner.exe,2025-05-28 09:23:49 - 关闭应用: srcscanner.exe,2025-05-28 09:23:49,process_end,srcscanner.exe,2025-05-28 09:23:49,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 09:25:25 - 启动应用: srcscanner.exe
+2025-05-28 09:25:25 - 启动应用: srcscanner.exe
+2025-05-28 09:25:27 - 关闭应用: srcscanner.exe
+2025-05-28 09:25:27 - 关闭应用: srcscanner.exe
+2025-05-28 09:25:43 - 启动应用: srcscanner.exe",2025-05-28 09:25:43 - 启动应用: srcscanner.exe,2025-05-28 09:25:46 - 关闭应用: srcscanner.exe,2025-05-28 09:25:43,process_start,srcscanner.exe,2025-05-28 09:25:46,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe
+2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe
+2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe
+2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe
+2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe",2025-05-28 15:57:12 - 切换到窗口: Adobe Genuine Service Alert (应用: AdobeGCClient.exe),2025-05-28 15:56:57 - 启动应用: AdobeGCClient.exe,2025-05-28 15:57:12,window_focus,Adobe Genuine Service Alert (应用: AdobeGCClient.exe),2025-05-28 15:56:57,process_start,AdobeGCClient.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 15:57:16 - 启动应用: SLBrowser.exe
+2025-05-28 15:57:16 - 启动应用: SLBrowser.exe
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe
+2025-05-28 15:57:16 - 关闭应用: msedge.exe",2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe,2025-05-28 15:57:16 - 关闭应用: msedge.exe,2025-05-28 15:57:16,process_end,AdobeGCClient.exe,2025-05-28 15:57:16,process_end,msedge.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe
+2025-05-28 15:57:16 - 关闭应用: msedge.exe
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe
+2025-05-28 15:57:16 - 关闭应用: AdobeGCClient.exe",2025-05-28 15:57:16 - 启动应用: SLBrowser.exe,2025-05-28 15:57:16 - 关闭应用: msedge.exe,2025-05-28 15:57:16,process_start,SLBrowser.exe,2025-05-28 15:57:16,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:09:16 - 启动应用: srcscanner.exe
+2025-05-28 16:09:18 - 关闭应用: srcscanner.exe
+2025-05-28 16:09:18 - 关闭应用: srcscanner.exe
+2025-05-28 16:09:28 - 关闭应用: SGPicFaceTool.exe
+2025-05-28 16:10:16 - 关闭应用: msedge.exe",2025-05-28 16:10:26 - 启动应用: srcscanner.exe,2025-05-28 16:10:16 - 关闭应用: msedge.exe,2025-05-28 16:10:26,process_start,srcscanner.exe,2025-05-28 16:10:16,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:09:18 - 关闭应用: srcscanner.exe
+2025-05-28 16:09:18 - 关闭应用: srcscanner.exe
+2025-05-28 16:09:28 - 关闭应用: SGPicFaceTool.exe
+2025-05-28 16:10:16 - 关闭应用: msedge.exe
+2025-05-28 16:10:26 - 启动应用: srcscanner.exe",2025-05-28 16:10:26 - 启动应用: srcscanner.exe,2025-05-28 16:10:26 - 启动应用: srcscanner.exe,2025-05-28 16:10:26,process_start,srcscanner.exe,2025-05-28 16:10:26,process_start,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:11:03 - 关闭应用: srcscanner.exe
+2025-05-28 16:11:03 - 关闭应用: srcscanner.exe
+2025-05-28 16:11:19 - 关闭应用: msedge.exe
+2025-05-28 16:11:33 - 启动应用: srcscanner.exe
+2025-05-28 16:11:33 - 启动应用: srcscanner.exe",2025-05-28 16:11:35 - 关闭应用: srcscanner.exe,2025-05-28 16:11:35 - 关闭应用: srcscanner.exe,2025-05-28 16:11:35,process_end,srcscanner.exe,2025-05-28 16:11:35,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:12:03 - 启动应用: srcscanner.exe
+2025-05-28 16:12:03 - 启动应用: srcscanner.exe
+2025-05-28 16:12:05 - 关闭应用: srcscanner.exe
+2025-05-28 16:12:05 - 关闭应用: srcscanner.exe
+2025-05-28 16:12:33 - 启动应用: srcscanner.exe",2025-05-28 16:12:33 - 启动应用: srcscanner.exe,2025-05-28 16:12:34 - 关闭应用: srcscanner.exe,2025-05-28 16:12:33,process_start,srcscanner.exe,2025-05-28 16:12:34,process_end,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:13:55 - 关闭应用: srcscanner.exe
+2025-05-28 16:14:19 - 关闭应用: msedge.exe
+2025-05-28 16:14:35 - 启动应用: srcscanner.exe
+2025-05-28 16:14:35 - 启动应用: srcscanner.exe
+2025-05-28 16:14:38 - 关闭应用: srcscanner.exe",2025-05-28 16:14:38 - 关闭应用: srcscanner.exe,2025-05-28 16:14:38 - 关闭应用: srcscanner.exe,2025-05-28 16:14:38,process_end,srcscanner.exe,2025-05-28 16:14:38,process_end,srcscanner.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:15:21 - 启动应用: srcscanner.exe
+2025-05-28 16:15:22 - 启动应用: srcscanner.exe
+2025-05-28 16:15:24 - 关闭应用: srcscanner.exe
+2025-05-28 16:15:24 - 关闭应用: srcscanner.exe
+2025-05-28 16:15:30 - 启动应用: srcscanner.exe",2025-05-28 16:15:32 - 关闭应用: srcscanner.exe,2025-05-28 16:15:30 - 启动应用: srcscanner.exe,2025-05-28 16:15:32,process_end,srcscanner.exe,2025-05-28 16:15:30,process_start,srcscanner.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:26:45 - 启动应用: msedge.exe
+2025-05-28 16:28:17 - 关闭应用: msedge.exe
+2025-05-28 16:28:45 - 启动应用: msedge.exe
+2025-05-28 16:29:19 - 关闭应用: msedge.exe
+2025-05-28 16:29:29 - 关闭应用: SGPicFaceTool.exe",2025-05-28 16:29:45 - 启动应用: msedge.exe,2025-05-28 16:29:46 - 启动应用: msedge.exe,2025-05-28 16:29:45,process_start,msedge.exe,2025-05-28 16:29:46,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 18:58:14 - 启动应用: powershell.exe
+2025-05-28 18:58:20 - 启动应用: powershell.exe
+2025-05-28 18:58:22 - 关闭应用: powershell.exe
+2025-05-28 18:58:24 - 关闭应用: SGPicFaceTool.exe
+2025-05-28 18:58:26 - 启动应用: powershell.exe",2025-05-28 18:58:28 - 关闭应用: powershell.exe,2025-05-28 18:58:28 - 关闭应用: powershell.exe,2025-05-28 18:58:28,process_end,powershell.exe,2025-05-28 18:58:28,process_end,powershell.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 18:58:26 - 启动应用: powershell.exe
+2025-05-28 18:58:28 - 关闭应用: powershell.exe
+2025-05-28 18:58:30 - 启动应用: powershell.exe
+2025-05-28 18:58:31 - 关闭应用: powershell.exe
+2025-05-28 18:58:35 - 关闭应用: powershell.exe",2025-05-28 18:58:36 - 启动应用: powershell.exe,2025-05-28 18:58:35 - 启动应用: powershell.exe,2025-05-28 18:58:36,process_start,powershell.exe,2025-05-28 18:58:35,process_start,powershell.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 18:59:45 - 启动应用: msedge.exe
+2025-05-28 19:00:19 - 关闭应用: msedge.exe
+2025-05-28 19:00:45 - 启动应用: msedge.exe
+2025-05-28 19:02:17 - 关闭应用: msedge.exe
+2025-05-28 19:02:45 - 启动应用: msedge.exe",2025-05-28 19:03:19 - 关闭应用: msedge.exe,2025-05-28 19:03:18 - 关闭应用: msedge.exe,2025-05-28 19:03:19,process_end,msedge.exe,2025-05-28 19:03:18,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 19:06:45 - 启动应用: msedge.exe
+2025-05-28 19:08:17 - 关闭应用: msedge.exe
+2025-05-28 19:08:45 - 启动应用: msedge.exe
+2025-05-28 19:09:18 - 关闭应用: msedge.exe
+2025-05-28 19:09:45 - 启动应用: msedge.exe",2025-05-28 19:11:17 - 关闭应用: msedge.exe,2025-05-28 19:10:18 - 关闭应用: msedge.exe,2025-05-28 19:11:17,process_end,msedge.exe,2025-05-28 19:10:18,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 19:20:45 - 启动应用: msedge.exe
+2025-05-28 19:21:18 - 关闭应用: msedge.exe
+2025-05-28 19:21:45 - 启动应用: msedge.exe
+2025-05-28 19:23:16 - 关闭应用: msedge.exe
+2025-05-28 19:23:45 - 启动应用: msedge.exe",2025-05-28 19:24:19 - 关闭应用: msedge.exe,2025-05-28 19:24:15 - 关闭应用: msedge.exe,2025-05-28 19:24:19,process_end,msedge.exe,2025-05-28 19:24:15,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 19:23:16 - 关闭应用: msedge.exe
+2025-05-28 19:23:45 - 启动应用: msedge.exe
+2025-05-28 19:24:19 - 关闭应用: msedge.exe
+2025-05-28 19:24:45 - 启动应用: msedge.exe
+2025-05-28 19:25:47 - 关闭应用: msedge.exe",2025-05-28 19:26:45 - 启动应用: msedge.exe,2025-05-28 19:26:14 - 启动应用: msedge.exe,2025-05-28 19:26:45,process_start,msedge.exe,2025-05-28 19:26:14,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 20:39:53 - 关闭应用: LenovoAppupdate.exe
+2025-05-28 20:39:55 - 关闭应用: SogouSvc.exe
+2025-05-28 20:39:55 - 关闭应用: Appvant.exe
+2025-05-28 20:39:57 - 关闭应用: SLBAgent.exe
+2025-05-28 20:39:57 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe",2025-05-28 20:39:57 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe,2025-05-28 20:39:57 - 关闭应用: Tobii.EyeTracking.Portal.WPF.exe,2025-05-28 20:39:57,process_end,Tobii.EyeTracking.Portal.WPF.exe,2025-05-28 20:39:57,process_end,Tobii.EyeTracking.Portal.WPF.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 20:40:16 - 启动应用: msedge.exe
+2025-05-28 20:40:17 - 关闭应用: msedge.exe
+2025-05-28 20:40:17 - 关闭应用: CloudMGR.exe
+2025-05-28 20:40:19 - 关闭应用: SLBStrategy.exe
+2025-05-28 20:41:16 - 启动应用: msedge.exe",2025-05-28 20:41:17 - 关闭应用: msedge.exe,2025-05-28 20:41:17 - 关闭应用: msedge.exe,2025-05-28 20:41:17,process_end,msedge.exe,2025-05-28 20:41:17,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 20:55:20 - 启动应用: msedge.exe
+2025-05-28 20:55:20 - 关闭应用: msedge.exe
+2025-05-28 20:56:20 - 启动应用: msedge.exe
+2025-05-28 20:56:21 - 关闭应用: msedge.exe
+2025-05-28 20:57:20 - 启动应用: msedge.exe",2025-05-28 20:57:21 - 关闭应用: msedge.exe,2025-05-28 20:57:21 - 关闭应用: msedge.exe,2025-05-28 20:57:21,process_end,msedge.exe,2025-05-28 20:57:21,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 20:57:20 - 启动应用: msedge.exe
+2025-05-28 20:57:21 - 关闭应用: msedge.exe
+2025-05-28 20:58:20 - 启动应用: msedge.exe
+2025-05-28 20:58:21 - 关闭应用: msedge.exe
+2025-05-28 20:59:21 - 关闭应用: msedge.exe",2025-05-28 20:59:21 - 启动应用: msedge.exe,2025-05-28 20:59:21 - 启动应用: msedge.exe,2025-05-28 20:59:21,process_start,msedge.exe,2025-05-28 20:59:21,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 21:44:45 - 启动应用: msedge.exe
+2025-05-28 21:45:18 - 关闭应用: msedge.exe
+2025-05-28 21:45:45 - 启动应用: msedge.exe
+2025-05-28 21:47:16 - 关闭应用: msedge.exe
+2025-05-28 21:47:45 - 启动应用: msedge.exe",2025-05-28 21:48:20 - 关闭应用: msedge.exe,2025-05-28 21:48:18 - 关闭应用: msedge.exe,2025-05-28 21:48:20,process_end,msedge.exe,2025-05-28 21:48:18,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 21:59:37 - 启动应用: msrdc.exe
+2025-05-28 21:59:38 - 关闭应用: msrdc.exe
+2025-05-28 21:59:41 - 关闭应用: wsl.exe
+2025-05-28 21:59:41 - 关闭应用: wsl.exe
+2025-05-28 21:59:41 - 关闭应用: wslhost.exe",2025-05-28 21:59:41 - 关闭应用: wslhost.exe,2025-05-28 21:59:41 - 关闭应用: wslhost.exe,2025-05-28 21:59:41,process_end,wslhost.exe,2025-05-28 21:59:41,process_end,wslhost.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 21:59:38 - 关闭应用: msrdc.exe
+2025-05-28 21:59:41 - 关闭应用: wsl.exe
+2025-05-28 21:59:41 - 关闭应用: wsl.exe
+2025-05-28 21:59:41 - 关闭应用: wslhost.exe
+2025-05-28 21:59:41 - 关闭应用: wslhost.exe",2025-05-28 21:59:41 - 关闭应用: LeASPac.exe,2025-05-28 21:59:41 - 关闭应用: wsl.exe,2025-05-28 21:59:41,process_end,LeASPac.exe,2025-05-28 21:59:41,process_end,wsl.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 00:12:14 - 访问网站 www.bing.com 的页面 '华莱士树 - 搜索'
+2025-05-28 00:12:20 - 访问网站 zhuanlan.zhihu.com 的页面 '【HDL系列】乘法器(4)——图解Wallace树 - 知乎'
+2025-05-28 00:12:52 - 访问网站 zhuanlan.zhihu.com 的页面 '【HDL系列】进位保存加法器原理与设计 - 知乎'
+2025-05-28 00:31:30 - 访问网站 www.wenhui.space 的页面 'Booth算法与Wallace树 – Wenhui's Rotten Pen'
+2025-05-28 00:31:30 - 访问网站 www.wenhui.space 的页面 'Booth算法与Wallace树 – Wenhui's Rotten Pen'",2025-05-28 00:31:38 - 访问网站 cn.bing.com 的页面 '32位booth编码 - 搜索',2025-05-28 00:31:31 - 访问网站 www.wenhui.space 的页面 'Booth算法与Wallace树 – Wenhui's Rotten Pen',2025-05-28 00:31:38,browser_history,cn.bing.com,2025-05-28 00:31:31,browser_history,www.wenhui.space,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:47:53 - 启动应用: msedge.exe
+2025-05-28 08:47:56 - 关闭应用: MpCmdRun.exe
+2025-05-28 08:47:57 - 切换到窗口: Aizex 合租面板 和另外 6 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 08:47:57 - 启动应用: msedge.exe
+2025-05-28 08:48:06 - 启动应用: msedge.exe",2025-05-28 08:48:10 - 切换到窗口: ChatGPT 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:48:07 - 启动应用: msedge.exe,2025-05-28 08:48:10,window_focus,ChatGPT 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:48:07,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 15:58:27 - 会话开始
+2025-05-28 15:58:34 - 切换到窗口: Task Track | 所有任务 (应用: Notion.exe)
+2025-05-28 15:58:44 - 启动应用: msedge.exe
+2025-05-28 15:58:44 - 启动应用: msedge.exe
+2025-05-28 15:58:48 - 切换到窗口: 新建标签页 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 15:58:48 - 使用应用: Notion.exe (时长: 14.03秒),2025-05-28 15:58:49 - 关闭应用: msedge.exe,2025-05-28 15:58:48,app_usage,Notion.exe (时长: 14.03秒),2025-05-28 15:58:49,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:02:02 - 启动应用: msedge.exe
+2025-05-28 16:02:05 - 切换到窗口: 实时语音转文字 - 通义听悟 和另外 2 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 16:02:09 - 启动应用: msedge.exe
+2025-05-28 16:02:16 - 切换到窗口: 如何进行实时语音转文字？ - 通义听悟 和另外 2 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 16:02:26 - 切换到窗口: 了解通义听悟 - 通义听悟 和另外 2 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 16:02:29 - 启动应用: msedge.exe,2025-05-28 16:02:31 - 关闭应用: msedge.exe,2025-05-28 16:02:29,process_start,msedge.exe,2025-05-28 16:02:31,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:06:15 - 启动应用: QQ.exe
+2025-05-28 08:06:17 - 切换到窗口: 大创 (应用: QQ.exe)
+2025-05-28 08:06:18 - 启动应用: QQ.exe
+2025-05-28 08:06:22 - 切换到窗口: 文件管理器 (应用: QQ.exe)
+2025-05-28 08:06:59 - 切换到窗口: 另存为 (应用: QQ.exe)",2025-05-28 08:07:11 - 访问文件: CODH (位于 D:\25 spring),2025-05-28 08:07:00 - 关闭应用: QQ.exe,2025-05-28 08:07:11,file_access,CODH (位于 D:\25 spring),2025-05-28 08:07:00,process_end,QQ.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:08:04 - 启动应用: msedge.exe
+2025-05-28 08:08:05 - 启动应用: msedge.exe
+2025-05-28 08:08:08 - 启动应用: msedge.exe
+2025-05-28 08:08:10 - 关闭应用: msedge.exe
+2025-05-28 08:08:11 - 切换到窗口: 课程日历 - CODH 2025 和另外 1 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 08:08:12 - 启动应用: msedge.exe,2025-05-28 08:08:11 - 使用应用: msedge.exe (时长: 9.61秒),2025-05-28 08:08:12,process_start,msedge.exe,2025-05-28 08:08:11,app_usage,msedge.exe (时长: 9.61秒),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:10:13 - 启动应用: vhdl_ls.exe
+2025-05-28 08:10:17 - 关闭应用: cmd.exe
+2025-05-28 08:10:17 - 关闭应用: cmd.exe
+2025-05-28 08:10:21 - 关闭应用: cmd.exe
+2025-05-28 08:10:21 - 关闭应用: iverilog.exe",2025-05-28 08:10:21 - 关闭应用: cmd.exe,2025-05-28 08:10:21 - 关闭应用: iverilog.exe,2025-05-28 08:10:21,process_end,cmd.exe,2025-05-28 08:10:21,process_end,iverilog.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:10:21 - 关闭应用: iverilog.exe
+2025-05-28 08:10:21 - 关闭应用: cmd.exe
+2025-05-28 08:10:21 - 关闭应用: ivl.exe
+2025-05-28 08:10:21 - 关闭应用: ivlpp.exe
+2025-05-28 08:10:47 - 关闭应用: msedge.exe",2025-05-28 08:11:53 - 关闭应用: QQ.exe,2025-05-28 08:10:47 - 关闭应用: msedge.exe,2025-05-28 08:11:53,process_end,QQ.exe,2025-05-28 08:10:47,process_end,msedge.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:12:46 - 关闭应用: LeASPac.exe
+2025-05-28 08:12:51 - 启动应用: msedge.exe
+2025-05-28 08:12:55 - 切换到窗口: 【HDL系列】进位保存加法器原理与设计 - 知乎 和另外 4 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 08:13:10 - 关闭应用: msedge.exe
+2025-05-28 08:13:10 - 关闭应用: msedge.exe",2025-05-28 08:13:27 - 关闭应用: msedge.exe,2025-05-28 08:13:10 - 关闭应用: msedge.exe,2025-05-28 08:13:27,process_end,msedge.exe,2025-05-28 08:13:10,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:21:06 - 启动应用: Typora.exe
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:09 - 切换到窗口: Typora (应用: Typora.exe)",2025-05-28 08:21:09 - 使用应用: msedge.exe (时长: 5.26秒),2025-05-28 08:21:09 - 启动应用: msedge.exe,2025-05-28 08:21:09,app_usage,msedge.exe (时长: 5.26秒),2025-05-28 08:21:09,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:07 - 启动应用: Typora.exe
+2025-05-28 08:21:09 - 切换到窗口: Typora (应用: Typora.exe)
+2025-05-28 08:21:09 - 使用应用: msedge.exe (时长: 5.26秒)",2025-05-28 08:21:19 - 切换到窗口: Untitled• - Typora (应用: Typora.exe),2025-05-28 08:21:11 - 启动应用: msedge.exe,2025-05-28 08:21:19,window_focus,Untitled• - Typora (应用: Typora.exe),2025-05-28 08:21:11,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:45:06 - 启动应用: NisSrv.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost64.exe
+2025-05-28 08:45:06 - 关闭应用: LAVService.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe",2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe,2025-05-28 08:45:06 - 关闭应用: msedge.exe,2025-05-28 08:45:06,process_end,WSPluginHost.exe,2025-05-28 08:45:06,process_end,msedge.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:45:06 - 关闭应用: LAVService.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe
+2025-05-28 08:45:06 - 关闭应用: wsctrl11.exe
+2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe",2025-05-28 08:45:06 - 关闭应用: WSPluginHost64.exe,2025-05-28 08:45:06 - 关闭应用: WSPluginHost.exe,2025-05-28 08:45:06,process_end,WSPluginHost64.exe,2025-05-28 08:45:06,process_end,WSPluginHost.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 08:47:51 - 启动应用: msedge.exe
+2025-05-28 08:47:51 - 切换到窗口: 新建标签页 和另外 6 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 08:47:51 - 使用应用: DesktopAssistant.exe (时长: 138.94秒)
+2025-05-28 08:47:53 - 启动应用: msedge.exe
+2025-05-28 08:47:56 - 关闭应用: MpCmdRun.exe",2025-05-28 08:47:57 - 切换到窗口: Aizex 合租面板 和另外 6 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:47:56 - 关闭应用: msedge.exe,2025-05-28 08:47:57,window_focus,Aizex 合租面板 和另外 6 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 08:47:56,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:20:40 - 使用应用: FoxitPDFEditor.exe (时长: 26.75秒)
+2025-05-28 10:20:44 - 启动应用: QQ.exe
+2025-05-28 10:21:04 - 启动应用: QQ.exe
+2025-05-28 10:21:07 - 切换到窗口: 全网搜索 (应用: QQ.exe)
+2025-05-28 10:21:10 - 关闭应用: QQ.exe",2025-05-28 10:21:11 - 切换到窗口: QQ (应用: QQ.exe),2025-05-28 10:21:10 - 关闭应用: QQ.exe,2025-05-28 10:21:11,window_focus,QQ (应用: QQ.exe),2025-05-28 10:21:10,process_end,QQ.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:20:44 - 启动应用: QQ.exe
+2025-05-28 10:21:04 - 启动应用: QQ.exe
+2025-05-28 10:21:07 - 切换到窗口: 全网搜索 (应用: QQ.exe)
+2025-05-28 10:21:10 - 关闭应用: QQ.exe
+2025-05-28 10:21:11 - 切换到窗口: QQ (应用: QQ.exe)",2025-05-28 10:21:13 - 启动应用: QQ.exe,2025-05-28 10:21:12 - 启动应用: QQ.exe,2025-05-28 10:21:13,process_start,QQ.exe,2025-05-28 10:21:12,process_start,QQ.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:21:57 - 切换到窗口: Booth算法与Wallace树 和另外 6 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:21:57 - 使用应用: Typora.exe (时长: 24.78秒)
+2025-05-28 10:21:58 - 启动应用: msedge.exe
+2025-05-28 10:22:00 - 启动应用: msedge.exe
+2025-05-28 10:22:02 - 切换到窗口: 新建标签页 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 10:22:03 - 启动应用: msedge.exe,2025-05-28 10:22:02 - 关闭应用: msedge.exe,2025-05-28 10:22:03,process_start,msedge.exe,2025-05-28 10:22:02,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:21:57 - 使用应用: Typora.exe (时长: 24.78秒)
+2025-05-28 10:21:58 - 启动应用: msedge.exe
+2025-05-28 10:22:00 - 启动应用: msedge.exe
+2025-05-28 10:22:02 - 切换到窗口: 新建标签页 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:22:03 - 启动应用: msedge.exe",2025-05-28 10:22:08 - 切换到窗口: RV32M - 搜索 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:22:03 - 启动应用: msedge.exe,2025-05-28 10:22:08,window_focus,RV32M - 搜索 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:22:03,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:21:58 - 启动应用: msedge.exe
+2025-05-28 10:22:00 - 启动应用: msedge.exe
+2025-05-28 10:22:02 - 切换到窗口: 新建标签页 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:22:03 - 启动应用: msedge.exe
+2025-05-28 10:22:08 - 切换到窗口: RV32M - 搜索 和另外 7 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 10:22:08 - 启动应用: msedge.exe,2025-05-28 10:22:09 - 启动应用: msedge.exe,2025-05-28 10:22:08,process_start,msedge.exe,2025-05-28 10:22:09,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:25:19 - 启动应用: msedge.exe
+2025-05-28 10:25:19 - 切换到窗口: RV32F - 搜索 和另外 9 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:25:27 - 启动应用: msedge.exe
+2025-05-28 10:25:31 - 切换到窗口: RV32F 和 RV32D单精度和双精度浮点数，乘法和除法指令分析 - 吴建明wujianming - 博客园 和另外 10 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:25:36 - 切换到窗口: Lab6 - CODH 2025 和另外 10 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)",2025-05-28 10:25:53 - 切换到窗口: RV32F 和 RV32D单精度和双精度浮点数，乘法和除法指令分析 - 吴建明wujianming - 博客园 和另外 10 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:25:37 - 启动应用: msedge.exe,2025-05-28 10:25:53,window_focus,RV32F 和 RV32D单精度和双精度浮点数，乘法和除法指令分析 - 吴建明wujianming - 博客园 和另外 10 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:25:37,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:26:09 - 切换到窗口: RV32M - 搜索 和另外 10 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe)
+2025-05-28 10:26:13 - 关闭应用: msedge.exe
+2025-05-28 10:26:13 - 关闭应用: msedge.exe
+2025-05-28 10:26:13 - 关闭应用: msedge.exe
+2025-05-28 10:26:14 - 启动应用: msedge.exe",2025-05-28 10:26:14 - 切换到窗口: 无标题 和另外 9 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:26:15 - 关闭应用: msedge.exe,2025-05-28 10:26:14,window_focus,无标题 和另外 9 个页面 - CeceliaYu - Microsoft​ Edge (应用: msedge.exe),2025-05-28 10:26:15,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:28:13 - 切换到窗口: Lab6_report.md - Typora (应用: Typora.exe)
+2025-05-28 10:28:13 - 使用应用: msedge.exe (时长: 10.67秒)
+2025-05-28 10:28:24 - 切换到窗口: 复制并更新图片路径到… (应用: Typora.exe)
+2025-05-28 10:28:31 - 访问文件: RV32F.png (位于 D:\25 spring\CODH\labH6\assets)
+2025-05-28 10:28:31 - 访问文件: assets (位于 D:\25 spring\CODH\labH6)",2025-05-28 10:28:33 - 切换到窗口: Lab6_report.md - Typora (应用: Typora.exe),2025-05-28 10:28:31 - 访问文件: labH6 (位于 D:\25 spring\CODH),2025-05-28 10:28:33,window_focus,Lab6_report.md - Typora (应用: Typora.exe),2025-05-28 10:28:31,file_access,labH6 (位于 D:\25 spring\CODH),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:35:16 - 启动应用: LenovoPcManager.exe
+2025-05-28 10:35:17 - 启动应用: LenovoPcManager.exe
+2025-05-28 10:35:17 - 启动应用: LenovoPcManager.exe
+2025-05-28 10:35:17 - 启动应用: LenovoPcManager.exe
+2025-05-28 10:35:17 - 启动应用: LenovoPcManager.exe",2025-05-28 10:35:18 - 关闭应用: vvgl.exe,2025-05-28 10:35:17 - 切换到窗口: 2025.5.28 10:35:17 视频播放 - 发展对象在线培训 - Google Chrome (应用: Google Chrome),2025-05-28 10:35:18,process_end,vvgl.exe,2025-05-28 10:35:17,window_focus,2025.5.28 10:35:17 视频播放 - 发展对象在线培训 - Google Chrome (应用: Google Chrome),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:37:00 - 切换到窗口: Visual Studio Code (应用: Code.exe)
+2025-05-28 10:37:00 - 使用应用: ShellExperienceHost.exe (时长: 5.37秒)
+2025-05-28 10:37:06 - 切换到窗口: 打开文件夹 (应用: Code.exe)
+2025-05-28 10:37:15 - 访问文件: CPU (位于 D:\25 spring\CODH\CPU)
+2025-05-28 10:37:16 - 启动应用: Code.exe",2025-05-28 10:37:16 - 启动应用: Code.exe,2025-05-28 10:37:16 - 启动应用: Code.exe,2025-05-28 10:37:16,process_start,Code.exe,2025-05-28 10:37:16,process_start,Code.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 10:44:38 - 切换到窗口: Mul_wallace.v - CPU - Visual Studio Code (应用: Code.exe)
+2025-05-28 10:44:43 - 切换到窗口: ALU.v - CPU - Visual Studio Code (应用: Code.exe)
+2025-05-28 10:44:53 - 切换到窗口: CSA.v - CPU - Visual Studio Code (应用: Code.exe)
+2025-05-28 10:44:59 - 切换到窗口: Mul_wallace.v - CPU - Visual Studio Code (应用: Code.exe)
+2025-05-28 10:45:04 - 切换到窗口: ALU.v - CPU - Visual Studio Code (应用: Code.exe)",2025-05-28 10:45:51 - 切换到窗口: Decoder.v - CPU - Visual Studio Code (应用: Code.exe),2025-05-28 10:45:05 - 切换到窗口: Mul_wallace.v - CPU - Visual Studio Code (应用: Code.exe),2025-05-28 10:45:51,window_focus,Decoder.v - CPU - Visual Studio Code (应用: Code.exe),2025-05-28 10:45:05,window_focus,Mul_wallace.v - CPU - Visual Studio Code (应用: Code.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 11:19:16 - 启动应用: msedge.exe
+2025-05-28 11:19:16 - 启动应用: msedge.exe
+2025-05-28 11:19:16 - 启动应用: msedge.exe
+2025-05-28 11:19:16 - 启动应用: msedge.exe
+2025-05-28 11:19:16 - 启动应用: msedge.exe",2025-05-28 11:19:16 - 启动应用: msedge.exe,2025-05-28 11:19:17 - 关闭应用: msedge.exe,2025-05-28 11:19:16,process_start,msedge.exe,2025-05-28 11:19:17,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 11:19:17 - 启动应用: msedge.exe
+2025-05-28 11:19:17 - 启动应用: msedge.exe
+2025-05-28 11:19:23 - 关闭应用: msedge.exe
+2025-05-28 11:19:23 - 关闭应用: msedge.exe
+2025-05-28 11:19:23 - 关闭应用: msedge.exe",2025-05-28 11:19:23 - 关闭应用: msedge.exe,2025-05-28 11:19:23 - 关闭应用: msedge.exe,2025-05-28 11:19:23,process_end,msedge.exe,2025-05-28 11:19:23,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:11:17 - 启动应用: msedge.exe
+2025-05-28 16:11:23 - 关闭应用: msedge.exe
+2025-05-28 16:12:48 - 关闭应用: msedge.exe
+2025-05-28 16:13:17 - 启动应用: msedge.exe
+2025-05-28 16:13:52 - 关闭应用: msedge.exe",2025-05-28 16:14:17 - 启动应用: msedge.exe,2025-05-28 16:14:17 - 启动应用: msedge.exe,2025-05-28 16:14:17,process_start,msedge.exe,2025-05-28 16:14:17,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:19:17 - 启动应用: msedge.exe
+2025-05-28 16:19:54 - 关闭应用: msedge.exe
+2025-05-28 16:20:17 - 启动应用: msedge.exe
+2025-05-28 16:21:17 - 启动应用: msedge.exe
+2025-05-28 16:21:24 - 关闭应用: msedge.exe",2025-05-28 16:21:53 - 关闭应用: msedge.exe,2025-05-28 16:22:17 - 启动应用: msedge.exe,2025-05-28 16:21:53,process_end,msedge.exe,2025-05-28 16:22:17,process_start,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-28 16:56:42 - 启动应用: git-remote-https.exe
+2025-05-28 16:56:57 - 关闭应用: msedge.exe
+2025-05-28 16:57:05 - 关闭应用: git.exe
+2025-05-28 16:57:05 - 关闭应用: git-remote-https.exe
+2025-05-28 16:57:05 - 关闭应用: git.exe",2025-05-28 16:57:14 - 关闭应用: git.exe,2025-05-28 16:57:05 - 关闭应用: git.exe,2025-05-28 16:57:14,process_end,git.exe,2025-05-28 16:57:05,process_end,git.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 08:24:41 - 访问网站 www.bing.com
+2025-05-27 08:24:41 - 访问网站 www.bing.com 的页面 '希林音源 - 搜索'
+2025-05-27 08:24:42 - 访问网站 www.douban.com 的页面 '希林娜依高 | 音源/舞台记录等数据汇总'
+2025-05-27 08:24:43 - 访问网站 www.douban.com 的页面 '希林娜依高 | 音源/舞台记录等数据汇总'
+2025-05-27 08:24:48 - 访问网站 www.douban.com 的页面 'tuletule，音源数据网站希林版'",2025-05-27 08:24:49 - 访问网站 www.douban.com 的页面 'tuletule，音源数据网站希林版',2025-05-27 08:24:50 - 访问网站 www.douban.com 的页面 '希林娜依高 - 我的小组 - Douban',2025-05-27 08:24:49,browser_history,www.douban.com,2025-05-27 08:24:50,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 09:10:00 - 访问网站 github.com 的页面 'LindiaC/music163-mining: 网易云音乐数据挖掘全家桶2024焕然一新版（含爬虫代码、爬完的数据集、推荐系统构建、用户界面代码）'
+2025-05-27 09:10:14 - 访问网站 github.com 的页面 'LindiaC/music163-mining: 网易云音乐数据挖掘全家桶2024焕然一新版（含爬虫代码、爬完的数据集、推荐系统构建、用户界面代码）'
+2025-05-27 09:10:14 - 访问网站 binaryify.github.io 的页面 '网易云音乐 NodeJS 版 API'
+2025-05-27 09:10:39 - 访问网站 github.com 的页面 'Issues · Binaryify/NeteaseCloudMusicApi'
+2025-05-27 09:10:43 - 访问网站 github.com 的页面 '不再维护，那之前那些接口还能调用吗 · Issue #1877 · Binaryify/NeteaseCloudMusicApi'",2025-05-27 09:10:45 - 访问网站 github.com 的页面 'Repo Issues',2025-05-27 09:10:45 - 访问网站 github.com 的页面 'Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service',2025-05-27 09:10:45,browser_history,github.com,2025-05-27 09:10:45,browser_history,github.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:31:00 - 切换到窗口: 歌手唱完怎么还差别待遇 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:31:02 - 启动应用: node.exe
+2025-05-27 19:31:03 - 关闭应用: msedge.exe
+2025-05-27 19:31:06 - 启动应用: chrome.exe
+2025-05-27 19:31:06 - 关闭应用: chrome.exe",2025-05-27 19:31:07 - 启动应用: chrome.exe,2025-05-27 19:31:06 - 启动应用: chrome.exe,2025-05-27 19:31:07,process_start,chrome.exe,2025-05-27 19:31:06,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:57:45 - 关闭应用: chrome.exe
+2025-05-27 20:57:45 - 关闭应用: msedge.exe
+2025-05-27 20:58:15 - 启动应用: chrome.exe
+2025-05-27 20:58:17 - 关闭应用: chrome.exe
+2025-05-27 20:58:31 - 启动应用: msedge.exe",2025-05-27 20:58:34 - 关闭应用: msedge.exe,2025-05-27 20:58:33 - 关闭应用: msedge.exe,2025-05-27 20:58:34,process_end,msedge.exe,2025-05-27 20:58:33,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 08:21:34 - 访问网站 www.douban.com 的页面 '【盘个剧本押个C】【Game of Thrones】2nd episode 《兵临城下》捉对厮杀【第二局已开押，杀人夜还是平安夜?】'
+2025-05-27 08:21:34 - 访问网站 www.douban.com 的页面 '【盘个剧本押个C】【Game of Thrones】2nd episode 《兵临城下》捉对厮杀【第二局已开押，杀人夜还是平安夜?】'
+2025-05-27 08:21:39 - 访问网站 www.douban.com 的页面 '【盘个剧本押个C】【Game of Thrones】2nd episode 《兵临城下》捉对厮杀【第二局已开押，杀人夜还是平安夜?】'
+2025-05-27 08:21:39 - 访问网站 www.douban.com 的页面 '【盘个剧本押个C】【Game of Thrones】2nd episode 《兵临城下》捉对厮杀【第二局已开押，杀人夜还是平安夜?】'
+2025-05-27 08:22:24 - 访问网站 www.douban.com 的页面 '持续跟踪歌手音源退水数据'",2025-05-27 08:22:24 - 访问网站 www.douban.com 的页面 '持续跟踪歌手音源退水数据',2025-05-27 08:22:24 - 访问网站 www.douban.com 的页面 '持续跟踪歌手音源退水数据',2025-05-27 08:22:24,browser_history,www.douban.com,2025-05-27 08:22:24,browser_history,www.douban.com,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 08:41:15 - 访问网站 github.com 的页面 'ChenZixinn/spider-qqmusic: 爬取qq音乐歌单信息，进行可视化分析'
+2025-05-27 08:42:01 - 访问网站 github.com 的页面 'jsososo/QQMusicApi: 基于 Express + Axios 的 QQ音乐接口 nodejs 版'
+2025-05-27 08:42:07 - 访问网站 github.com 的页面 'Repository search results'
+2025-05-27 08:42:12 - 访问网站 github.com 的页面 'Repository search results'
+2025-05-27 08:42:29 - 访问网站 github.com 的页面 'Repository search results'",2025-05-27 08:42:37 - 访问网站 github.com 的页面 'BeanWei/MusicSpider: :trollface: Music Spider. Go 👾 Music Spider 是使用Golang写的音乐聚合爬虫，目前支持的站点包括 网易、QQ、虾米、酷狗、百度。',2025-05-27 08:42:32 - 访问网站 github.com 的页面 'Repository search results',2025-05-27 08:42:37,browser_history,github.com,2025-05-27 08:42:32,browser_history,github.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 09:02:42 - 访问网站 gitlab.com 的页面 'Just a moment...'
+2025-05-27 09:02:45 - 访问网站 gitlab.com 的页面 '请稍候…'
+2025-05-27 09:02:45 - 访问网站 gitlab.com 的页面 'Sign in · GitLab'
+2025-05-27 09:03:03 - 访问网站 gitlab.com 的页面 'Help us keep GitLab secure · GitLab'
+2025-05-27 09:03:07 - 访问网站 gitlab.com 的页面 'Help us keep GitLab secure · GitLab'",2025-05-27 09:03:28 - 访问网站 gitlab.com 的页面 'GitLab',2025-05-27 09:03:07 - 访问网站 gitlab.com 的页面 'Help us keep GitLab secure · GitLab',2025-05-27 09:03:28,browser_history,gitlab.com,2025-05-27 09:03:07,browser_history,gitlab.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 11:15:46 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:18:45 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:18:45 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'",2025-05-27 11:19:51 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0',2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0',2025-05-27 11:19:51,browser_history,www.douban.com,2025-05-27 11:19:48,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 11:18:45 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:51 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:51 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'",2025-05-27 11:20:16 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0',2025-05-27 11:19:53 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0',2025-05-27 11:20:16,browser_history,www.douban.com,2025-05-27 11:19:53,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:48 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:51 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:19:51 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'
+2025-05-27 11:20:16 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0'",2025-05-27 11:20:24 - 访问网站 www.douban.com 的页面 '☀️玄学记录·三',2025-05-27 11:20:16 - 访问网站 www.douban.com 的页面 '再就业自来水楼4.0',2025-05-27 11:20:24,browser_history,www.douban.com,2025-05-27 11:20:16,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 11:29:29 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:29:30 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:29:59 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:30:00 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 11:30:29 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'",2025-05-27 11:30:42 - 访问网站 www.douban.com 的页面 '我的小组讨论',2025-05-27 11:30:30 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 11:30:42,browser_history,www.douban.com,2025-05-27 11:30:30,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 12:09:26 - 访问网站 www.douban.com 的页面 '李宗盛大佬这说的就是《歌手2025》吧'
+2025-05-27 12:09:31 - 访问网站 www.douban.com 的页面 '李宗盛大佬这说的就是《歌手2025》吧'
+2025-05-27 12:09:31 - 访问网站 www.douban.com 的页面 '李宗盛大佬这说的就是《歌手2025》吧'
+2025-05-27 12:17:11 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 12:18:38 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'",2025-05-27 12:18:38 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 12:18:38 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 12:18:38,browser_history,www.douban.com,2025-05-27 12:18:38,browser_history,www.douban.com,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 12:33:41 - 访问网站 www.douban.com 的页面 '最近谁卖票！👉🏻糊坛歌手（尤其老叔们）ych售🎫审判专楼'
+2025-05-27 12:33:41 - 访问网站 www.douban.com 的页面 '最近谁卖票！👉🏻糊坛歌手（尤其老叔们）ych售🎫审判专楼'
+2025-05-27 12:33:58 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 12:33:58 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 12:34:01 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'",2025-05-27 12:41:53 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 12:34:01 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 12:41:53,browser_history,www.douban.com,2025-05-27 12:34:01,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 12:57:30 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 12:57:42 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 12:58:50 - 访问网站 www.douban.com 的页面 'p大点事都要塔罗一下'
+2025-05-27 12:58:50 - 访问网站 www.douban.com 的页面 'p大点事都要塔罗一下'
+2025-05-27 12:58:53 - 访问网站 www.douban.com 的页面 'p大点事都要塔罗一下'",2025-05-27 12:58:53 - 访问网站 www.douban.com 的页面 'p大点事都要塔罗一下',2025-05-27 12:58:53 - 访问网站 www.douban.com 的页面 'p大点事都要塔罗一下',2025-05-27 12:58:53,browser_history,www.douban.com,2025-05-27 12:58:53,browser_history,www.douban.com,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 13:13:08 - 访问网站 www.douban.com 的页面 '听前奏猜歌名'
+2025-05-27 13:13:08 - 访问网站 www.douban.com 的页面 '听前奏猜歌名'
+2025-05-27 13:13:40 - 访问网站 www.douban.com 的页面 '外卖大战买到最划算的东西是什么?'
+2025-05-27 13:13:40 - 访问网站 www.douban.com 的页面 '外卖大战买到最划算的东西是什么?'
+2025-05-27 13:13:58 - 访问网站 www.douban.com 的页面 '抛开一切，大家觉得谁来歌手，节目热度会飙升？'",2025-05-27 13:13:59 - 访问网站 www.douban.com 的页面 '抛开一切，大家觉得谁来歌手，节目热度会飙升？',2025-05-27 13:13:58 - 访问网站 www.douban.com 的页面 '抛开一切，大家觉得谁来歌手，节目热度会飙升？',2025-05-27 13:13:59,browser_history,www.douban.com,2025-05-27 13:13:58,browser_history,www.douban.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 13:31:31 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 13:31:31 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 13:32:04 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 13:32:07 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'
+2025-05-27 13:32:08 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念'",2025-05-27 13:32:10 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 13:32:10 - 访问网站 www.douban.com 的页面 '歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念',2025-05-27 13:32:10,browser_history,www.douban.com,2025-05-27 13:32:10,browser_history,www.douban.com,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 14:03:41 - 访问网站 poe.com 的页面 'GPT-4o - Poe'
+2025-05-27 14:04:00 - 访问网站 poe.com 的页面 'GPT-4o - Poe'
+2025-05-27 14:04:00 - 访问网站 poe.com 的页面 '换源问题 - Poe'
+2025-05-27 14:06:07 - 访问网站 poe.com 的页面 'Claude-Sonnet-4 - Poe'
+2025-05-27 14:06:17 - 访问网站 poe.com 的页面 'Claude-3.7-Sonnet - Poe'",2025-05-27 14:06:29 - 访问网站 poe.com 的页面 'Claude-3.5-Sonnet - Poe',2025-05-27 14:06:17 - 访问网站 poe.com 的页面 'Claude-3.7-Sonnet - Poe',2025-05-27 14:06:29,browser_history,poe.com,2025-05-27 14:06:17,browser_history,poe.com,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:21:20 - 使用应用: chrome.exe (时长: 42.79秒)
+2025-05-27 16:21:21 - 启动应用: msedge.exe
+2025-05-27 16:21:22 - 关闭应用: msedge.exe
+2025-05-27 16:21:23 - 切换到窗口: 歌手2025小组 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:21:28 - 关闭应用: msedge.exe",2025-05-27 16:21:30 - 启动应用: msedge.exe,2025-05-27 16:21:28 - 关闭应用: msedge.exe,2025-05-27 16:21:30,process_start,msedge.exe,2025-05-27 16:21:28,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:23:34 - 启动应用: msedge.exe
+2025-05-27 16:23:34 - 关闭应用: msedge.exe
+2025-05-27 16:23:35 - 切换到窗口: 我的小组讨论 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:23:37 - 启动应用: msedge.exe
+2025-05-27 16:23:41 - 关闭应用: msedge.exe",2025-05-27 16:23:42 - 切换到窗口: 快乐再就业小组 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:23:42 - 启动应用: msedge.exe,2025-05-27 16:23:42,window_focus,快乐再就业小组 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:23:42,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:24:15 - 切换到窗口: 新建标签页 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:24:29 - 启动应用: msedge.exe
+2025-05-27 16:24:33 - 切换到窗口: 希林 - 搜索 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:24:39 - 切换到窗口: 希林音源 - 搜索 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:24:41 - 启动应用: msedge.exe",2025-05-27 16:24:42 - 切换到窗口: bing.com/ck/a?!&&p=321047ad5c9fda1e47d97d59aa67b4726acdcfb4e57a4c31d0cf858ad5c025fbJmltdHM9MTc0ODMwNDAwMA&ptn=3&ver=2&hsh=4&fclid=3648943b-3d0f-6992-02e7-815d3c2168b0&psq=希林音源&u=a1aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9ncm91cC90b3BpYy8yMzE1NDE4NjEvP19zcG1faWQ9TVRJek16YzBNQQ&ntb=1 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:24:41 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:24:42,window_focus,bing.com/ck/a?!&&p=321047ad5c9fda1e47d97d59aa67b4726acdcfb4e57a4c31d0cf858ad5c025fbJmltdHM9MTc0ODMwNDAwMA&ptn=3&ver=2&hsh=4&fclid=3648943b-3d0f-6992-02e7-815d3c2168b0&psq=希林音源&u=a1aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9ncm91cC90b3BpYy8yMzE1NDE4NjEvP19zcG1faWQ9TVRJek16YzBNQQ&ntb=1 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:24:41,window_focus,无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:24:50 - 启动应用: msedge.exe
+2025-05-27 16:24:51 - 切换到窗口: tuletule，音源数据网站希林版 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:24:53 - 启动应用: msedge.exe
+2025-05-27 16:24:54 - 切换到窗口: 希林娜依高 | 音源/舞台记录等数据汇总 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:24:56 - 关闭应用: msedge.exe",2025-05-27 16:24:56 - 关闭应用: msedge.exe,2025-05-27 16:24:56 - 关闭应用: msedge.exe,2025-05-27 16:24:56,process_end,msedge.exe,2025-05-27 16:24:56,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:25:21 - 启动应用: msedge.exe
+2025-05-27 16:25:23 - 关闭应用: msedge.exe
+2025-05-27 16:25:24 - 启动应用: msedge.exe
+2025-05-27 16:25:24 - 切换到窗口: tuletule，音源数据网站希林版 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:25:27 - 启动应用: msedge.exe",2025-05-27 16:25:27 - 切换到窗口: 正在跳转至第三方网页 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:25:27 - 启动应用: msedge.exe,2025-05-27 16:25:27,window_focus,正在跳转至第三方网页 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:25:27,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:25:24 - 切换到窗口: tuletule，音源数据网站希林版 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:25:27 - 启动应用: msedge.exe
+2025-05-27 16:25:27 - 切换到窗口: 正在跳转至第三方网页 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:25:29 - 启动应用: msedge.exe
+2025-05-27 16:25:29 - 启动应用: msedge.exe",2025-05-27 16:25:39 - 切换到窗口: tuletule，音源数据网站希林版 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:25:31 - 切换到窗口: 无标题 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:25:39,window_focus,tuletule，音源数据网站希林版 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:25:31,window_focus,无标题 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:26:00 - 切换到窗口: 新建标签页 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:26:02 - 关闭应用: updater.exe
+2025-05-27 16:26:02 - 关闭应用: updater.exe
+2025-05-27 16:26:02 - 关闭应用: updater.exe
+2025-05-27 16:26:02 - 关闭应用: updater.exe",2025-05-27 16:26:02 - 关闭应用: msedge.exe,2025-05-27 16:26:02 - 关闭应用: updater.exe,2025-05-27 16:26:02,process_end,msedge.exe,2025-05-27 16:26:02,process_end,updater.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:26:02 - 关闭应用: updater.exe
+2025-05-27 16:26:02 - 关闭应用: updater.exe
+2025-05-27 16:26:02 - 关闭应用: msedge.exe
+2025-05-27 16:26:03 - 切换到窗口: tuletule，音源数据网站希林版 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:26:05 - 关闭应用: msedge.exe",2025-05-27 16:26:05 - 关闭应用: msedge.exe,2025-05-27 16:26:05 - 关闭应用: msedge.exe,2025-05-27 16:26:05,process_end,msedge.exe,2025-05-27 16:26:05,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:26:24 - 关闭应用: chrome.exe
+2025-05-27 16:26:25 - 启动应用: msedge.exe
+2025-05-27 16:26:25 - 切换到窗口: 网络通 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:26:27 - 关闭应用: msedge.exe
+2025-05-27 16:26:28 - 切换到窗口: 搜索:希林音源 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 16:26:30 - 关闭应用: msedge.exe,2025-05-27 16:26:29 - 关闭应用: msedge.exe,2025-05-27 16:26:30,process_end,msedge.exe,2025-05-27 16:26:29,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:26:25 - 启动应用: msedge.exe
+2025-05-27 16:26:25 - 切换到窗口: 网络通 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:26:27 - 关闭应用: msedge.exe
+2025-05-27 16:26:28 - 切换到窗口: 搜索:希林音源 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:26:30 - 关闭应用: msedge.exe",2025-05-27 16:26:31 - 切换到窗口: curley-g.com | 522: Connection timed out 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:26:30 - 启动应用: msedge.exe,2025-05-27 16:26:31,window_focus,curley-g.com | 522: Connection timed out 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:26:30,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:29:20 - 关闭应用: msedge.exe
+2025-05-27 16:29:21 - 切换到窗口: Python爬虫实战：高效获取QQ音乐数据与解析技巧 - 云原生实践 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:29:22 - 启动应用: msedge.exe
+2025-05-27 16:29:25 - 关闭应用: msedge.exe
+2025-05-27 16:29:26 - 切换到窗口: qq音乐音源数据在听人数爬虫网站 - 搜索 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 16:29:28 - 关闭应用: chrome.exe,2025-05-27 16:29:27 - 启动应用: msedge.exe,2025-05-27 16:29:28,process_end,chrome.exe,2025-05-27 16:29:27,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:31:10 - 关闭应用: msedge.exe
+2025-05-27 16:31:22 - 切换到窗口: qq音乐数据汇总网站 - 搜索 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:31:27 - 关闭应用: msedge.exe
+2025-05-27 16:31:30 - 关闭应用: msedge.exe
+2025-05-27 16:31:31 - 切换到窗口: manuscript-f… (2) - JupyterLab 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 16:31:32 - 启动应用: msedge.exe,2025-05-27 16:31:31 - 启动应用: msedge.exe,2025-05-27 16:31:32,process_start,msedge.exe,2025-05-27 16:31:31,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:31:27 - 关闭应用: msedge.exe
+2025-05-27 16:31:30 - 关闭应用: msedge.exe
+2025-05-27 16:31:31 - 切换到窗口: manuscript-f… (2) - JupyterLab 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:31:32 - 启动应用: msedge.exe
+2025-05-27 16:31:33 - 关闭应用: chrome.exe",2025-05-27 16:31:34 - 切换到窗口: 新建标签页 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:31:33 - 切换到窗口: manuscript-f… (2) - JupyterLab 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:31:34,window_focus,新建标签页 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:31:33,window_focus,manuscript-f… (2) - JupyterLab 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:32:50 - 关闭应用: cmd.exe
+2025-05-27 16:32:50 - 关闭应用: cmd.exe
+2025-05-27 16:32:51 - 启动应用: Code.exe
+2025-05-27 16:32:53 - 启动应用: Code.exe
+2025-05-27 16:32:53 - 关闭应用: Code.exe",2025-05-27 16:32:53 - 关闭应用: Code.exe,2025-05-27 16:32:53 - 关闭应用: Code.exe,2025-05-27 16:32:53,process_end,Code.exe,2025-05-27 16:32:53,process_end,Code.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:33:47 - 切换到窗口: 智星云 AI Galaxy | GPU云服务器 GPU服务器租用 远程GPU租用 深度学习服务器 | 免费GPU 便宜GPU 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:33:47 - 使用应用: Code.exe (时长: 33.75秒)
+2025-05-27 16:33:50 - 切换到窗口: 探索 - Poe 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:33:53 - 启动应用: msedge.exe
+2025-05-27 16:33:56 - 切换到窗口: 新建标签页 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 16:34:02 - 启动应用: msedge.exe,2025-05-27 16:33:56 - 关闭应用: msedge.exe,2025-05-27 16:34:02,process_start,msedge.exe,2025-05-27 16:33:56,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:48:08 - 启动应用: chrome.exe
+2025-05-27 16:48:13 - 启动应用: chrome.exe
+2025-05-27 16:48:13 - 切换到窗口: 新标签页 - Google Chrome (应用: chrome.exe)
+2025-05-27 16:48:15 - 关闭应用: chrome.exe
+2025-05-27 16:48:15 - 关闭应用: chrome.exe",2025-05-27 16:48:16 - 切换到窗口: - - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe),2025-05-27 16:48:17 - 关闭应用: chrome.exe,2025-05-27 16:48:16,window_focus,- - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe),2025-05-27 16:48:17,process_end,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:50:49 - 启动应用: chrome.exe
+2025-05-27 16:50:49 - 启动应用: chrome.exe
+2025-05-27 16:50:49 - 启动应用: chrome.exe
+2025-05-27 16:50:50 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 16:50:50 - 使用应用: msedge.exe (时长: 17.79秒)",2025-05-27 16:50:54 - 启动应用: chrome.exe,2025-05-27 16:50:50 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 16:50:54,process_start,chrome.exe,2025-05-27 16:50:50,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:51:07 - 启动应用: chrome.exe
+2025-05-27 16:51:08 - 切换到窗口: 新标签页 - Google Chrome (应用: chrome.exe)
+2025-05-27 16:51:09 - 启动应用: chrome.exe
+2025-05-27 16:51:10 - 关闭应用: chrome.exe
+2025-05-27 16:51:10 - 关闭应用: chrome.exe",2025-05-27 16:51:10 - 关闭应用: chrome.exe,2025-05-27 16:51:11 - 切换到窗口: 无标题 - Google Chrome (应用: chrome.exe),2025-05-27 16:51:10,process_end,chrome.exe,2025-05-27 16:51:11,window_focus,无标题 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:51:13 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 16:51:26 - 启动应用: chrome.exe
+2025-05-27 16:51:29 - 切换到窗口: GitHub - cyhleo/QQ_music: 该项目用来爬取qq音乐 流行音乐排行榜中各音乐的数据。 - Google Chrome (应用: chrome.exe)
+2025-05-27 16:51:33 - 关闭应用: chrome.exe
+2025-05-27 16:51:34 - 切换到窗口: qq音乐爬取在听人数 - Google Search - Google Chrome (应用: chrome.exe)",2025-05-27 16:51:49 - 切换到窗口: qq音乐官方接口 - Google Search - Google Chrome (应用: chrome.exe),2025-05-27 16:51:37 - 切换到窗口: 网络爬虫技术与实践（qq音乐爬虫实战）_哔哔哇学网 - Google Chrome (应用: chrome.exe),2025-05-27 16:51:49,window_focus,qq音乐官方接口 - Google Search - Google Chrome (应用: chrome.exe),2025-05-27 16:51:37,window_focus,网络爬虫技术与实践（qq音乐爬虫实战）_哔哔哇学网 - Google Chrome (应用: chrome.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:54:32 - 切换到窗口: 新建标签页 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:54:32 - 启动应用: msedge.exe
+2025-05-27 16:54:34 - 启动应用: msedge.exe
+2025-05-27 16:54:37 - 切换到窗口: Tool 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:54:38 - 启动应用: msedge.exe",2025-05-27 16:54:40 - 切换到窗口: Python爬虫 - Poe 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:54:40 - 切换到窗口: 视频播放 - 发展对象在线培训 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:54:40,window_focus,Python爬虫 - Poe 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:54:40,window_focus,视频播放 - 发展对象在线培训 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 16:56:10 - 关闭应用: msedge.exe
+2025-05-27 16:56:10 - 关闭应用: msedge.exe
+2025-05-27 16:56:11 - 切换到窗口: 爬虫程序 - Poe 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 16:56:23 - 启动应用: msedge.exe
+2025-05-27 16:56:23 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 16:56:26 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:56:24 - 启动应用: msedge.exe,2025-05-27 16:56:26,window_focus,Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 16:56:24,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:01:56 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:01:57 - 启动应用: msedge.exe
+2025-05-27 17:02:03 - 启动应用: msedge.exe
+2025-05-27 17:02:06 - 切换到窗口: 开源网易云音乐API收到法律通知 网易要求开发者立即停止侵权并删除内容 – 蓝点网 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:02:08 - 关闭应用: msedge.exe",2025-05-27 17:02:12 - 启动应用: msedge.exe,2025-05-27 17:02:08 - 关闭应用: msedge.exe,2025-05-27 17:02:12,process_start,msedge.exe,2025-05-27 17:02:08,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:02:33 - 关闭应用: msedge.exe
+2025-05-27 17:02:33 - 关闭应用: msedge.exe
+2025-05-27 17:02:33 - 关闭应用: msedge.exe
+2025-05-27 17:02:33 - 关闭应用: msedge.exe
+2025-05-27 17:02:33 - 启动应用: msedge.exe",2025-05-27 17:02:34 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:02:33 - 启动应用: msedge.exe,2025-05-27 17:02:34,window_focus,无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:02:33,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:02:36 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:02:37 - 启动应用: msedge.exe
+2025-05-27 17:02:40 - 启动应用: msedge.exe
+2025-05-27 17:02:42 - 启动应用: msedge.exe
+2025-05-27 17:02:42 - 切换到窗口: 无标题 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 17:02:42 - 启动应用: msedge.exe,2025-05-27 17:02:45 - 关闭应用: msedge.exe,2025-05-27 17:02:42,process_start,msedge.exe,2025-05-27 17:02:45,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:04:05 - 切换到窗口: Projects · GitLab 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:10 - 启动应用: msedge.exe
+2025-05-27 17:04:11 - 切换到窗口: 无标题 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:14 - 切换到窗口: Not Found 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:16 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 17:04:18 - 启动应用: msedge.exe,2025-05-27 17:04:19 - 启动应用: msedge.exe,2025-05-27 17:04:18,process_start,msedge.exe,2025-05-27 17:04:19,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:04:11 - 切换到窗口: 无标题 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:14 - 切换到窗口: Not Found 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:16 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:04:18 - 启动应用: msedge.exe
+2025-05-27 17:04:18 - 关闭应用: msedge.exe",2025-05-27 17:04:18 - 关闭应用: msedge.exe,2025-05-27 17:04:18 - 关闭应用: msedge.exe,2025-05-27 17:04:18,process_end,msedge.exe,2025-05-27 17:04:18,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:05:03 - 启动应用: chrome.exe
+2025-05-27 17:05:04 - 关闭应用: chrome.exe
+2025-05-27 17:05:15 - 关闭应用: msedge.exe
+2025-05-27 17:05:34 - 启动应用: chrome.exe
+2025-05-27 17:05:36 - 关闭应用: chrome.exe",2025-05-27 17:06:05 - 启动应用: chrome.exe,2025-05-27 17:05:45 - 启动应用: chrome.exe,2025-05-27 17:06:05,process_start,chrome.exe,2025-05-27 17:05:45,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:05:04 - 关闭应用: chrome.exe
+2025-05-27 17:05:15 - 关闭应用: msedge.exe
+2025-05-27 17:05:34 - 启动应用: chrome.exe
+2025-05-27 17:05:36 - 关闭应用: chrome.exe
+2025-05-27 17:06:05 - 启动应用: chrome.exe",2025-05-27 17:06:05 - 关闭应用: chrome.exe,2025-05-27 17:06:08 - 关闭应用: chrome.exe,2025-05-27 17:06:05,process_end,chrome.exe,2025-05-27 17:06:08,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:09:00 - 切换到窗口: 网易云爬虫 - 搜索 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:09:02 - 关闭应用: updater.exe
+2025-05-27 17:09:02 - 关闭应用: chrome.exe
+2025-05-27 17:09:02 - 关闭应用: msedge.exe
+2025-05-27 17:09:04 - 关闭应用: updater.exe",2025-05-27 17:09:07 - 关闭应用: msedge.exe,2025-05-27 17:09:04 - 关闭应用: msedge.exe,2025-05-27 17:09:07,process_end,msedge.exe,2025-05-27 17:09:04,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:09:02 - 关闭应用: chrome.exe
+2025-05-27 17:09:02 - 关闭应用: msedge.exe
+2025-05-27 17:09:04 - 关闭应用: updater.exe
+2025-05-27 17:09:07 - 关闭应用: msedge.exe
+2025-05-27 17:09:17 - 关闭应用: msedge.exe",2025-05-27 17:09:23 - 切换到窗口: 网易云爬虫在听人数 - 搜索 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:09:19 - 关闭应用: msedge.exe,2025-05-27 17:09:23,window_focus,网易云爬虫在听人数 - 搜索 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:09:19,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:09:34 - 启动应用: msedge.exe
+2025-05-27 17:09:35 - 启动应用: msedge.exe
+2025-05-27 17:09:36 - 切换到窗口: bing.com/ck/a?!&&p=666f91f777f454ca26a8164fe56848c53acbd93870ee30bb04b1f1a787011247JmltdHM9MTc0ODMwNDAwMA&ptn=3&ver=2&hsh=4&fclid=3648943b-3d0f-6992-02e7-815d3c2168b0&psq=网易云爬虫在听人数&u=a1aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0hlbGxvV29ybGRPbmx5L2FydGljbGUvZGV0YWlscy84MzYyNzQyMA&ntb=1 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:09:36 - 启动应用: msedge.exe
+2025-05-27 17:09:39 - 启动应用: msedge.exe",2025-05-27 17:09:39 - 切换到窗口: 网易云音乐听歌量爬虫(免登陆版)_网易云刷听歌量-CSDN博客 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:09:40 - 启动应用: msedge.exe,2025-05-27 17:09:39,window_focus,网易云音乐听歌量爬虫(免登陆版)_网易云刷听歌量-CSDN博客 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:09:40,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:12:15 - 切换到窗口: NeteaseCloudMusicApi - 搜索 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:12:17 - 启动应用: msedge.exe
+2025-05-27 17:12:17 - 启动应用: msedge.exe
+2025-05-27 17:12:22 - 启动应用: msedge.exe
+2025-05-27 17:12:22 - 启动应用: msedge.exe",2025-05-27 17:12:23 - 切换到窗口: bing.com/ck/a?!&&p=2b3f956cb78f7b772aee78df0fa7623c0751664b08d51c74135b67cfd993ba75JmltdHM9MTc0ODMwNDAwMA&ptn=3&ver=2&hsh=4&fclid=3648943b-3d0f-6992-02e7-815d3c2168b0&psq=NeteaseCloudMusicApi&u=a1aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC83MDQ2NjI4OTY&ntb=1 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:12:23 - 启动应用: msedge.exe,2025-05-27 17:12:23,window_focus,bing.com/ck/a?!&&p=2b3f956cb78f7b772aee78df0fa7623c0751664b08d51c74135b67cfd993ba75JmltdHM9MTc0ODMwNDAwMA&ptn=3&ver=2&hsh=4&fclid=3648943b-3d0f-6992-02e7-815d3c2168b0&psq=NeteaseCloudMusicApi&u=a1aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC83MDQ2NjI4OTY&ntb=1 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:12:23,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:17:18 - 切换到窗口: py - 文件资源管理器 (应用: explorer.exe)
+2025-05-27 17:17:34 - 关闭应用: chrome.exe
+2025-05-27 17:17:37 - 切换到窗口: 文件夹正在使用 (应用: explorer.exe)
+2025-05-27 17:17:40 - 切换到窗口: 2025.5 qq_crawler - 文件资源管理器 (应用: explorer.exe)
+2025-05-27 17:17:43 - 切换到窗口: 提取压缩(Zipped)文件夹 (应用: explorer.exe)",2025-05-27 17:17:46 - 切换到窗口: 进度 (应用: explorer.exe),2025-05-27 17:17:46 - 切换到窗口: 无标题 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:17:46,window_focus,进度 (应用: explorer.exe),2025-05-27 17:17:46,window_focus,无标题 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:20:29 - 切换到窗口: 爬虫程序 - Poe 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:20:51 - 关闭应用: chrome.exe
+2025-05-27 17:20:52 - 启动应用: msedge.exe
+2025-05-27 17:20:55 - 关闭应用: msedge.exe
+2025-05-27 17:20:55 - 启动应用: msedge.exe",2025-05-27 17:20:56 - 切换到窗口: Node.js — 在任何地方运行 JavaScript 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:20:57 - 切换到窗口: 网络通 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:20:56,window_focus,Node.js — 在任何地方运行 JavaScript 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:20:57,window_focus,网络通 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:20:51 - 关闭应用: chrome.exe
+2025-05-27 17:20:52 - 启动应用: msedge.exe
+2025-05-27 17:20:55 - 关闭应用: msedge.exe
+2025-05-27 17:20:55 - 启动应用: msedge.exe
+2025-05-27 17:20:56 - 切换到窗口: Node.js — 在任何地方运行 JavaScript 和另外 34 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 17:20:58 - 启动应用: msedge.exe,2025-05-27 17:20:58 - 启动应用: msedge.exe,2025-05-27 17:20:58,process_start,msedge.exe,2025-05-27 17:20:58,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:21:34 - 启动应用: msedge.exe
+2025-05-27 17:21:36 - 切换到窗口: Node.js安装及环境配置超详细教程【Windows系统】_windows 安装nodejs-CSDN博客 和另外 36 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:21:36 - 使用应用: chrome.exe (时长: 9.76秒)
+2025-05-27 17:21:42 - 关闭应用: msedge.exe
+2025-05-27 17:21:42 - 启动应用: msedge.exe",2025-05-27 17:21:43 - 启动应用: msedge.exe,2025-05-27 17:21:43 - 启动应用: msedge.exe,2025-05-27 17:21:43,process_start,msedge.exe,2025-05-27 17:21:43,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:34:52 - 使用应用: Code.exe (时长: 13.68秒)
+2025-05-27 17:35:09 - 启动应用: msedge.exe
+2025-05-27 17:35:10 - 切换到窗口: 无标题 和另外 37 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:35:13 - 启动应用: msedge.exe
+2025-05-27 17:35:13 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 37 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 17:35:17 - 切换到窗口: 爬虫程序 - Poe 和另外 36 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:35:14 - 关闭应用: msedge.exe,2025-05-27 17:35:17,window_focus,爬虫程序 - Poe 和另外 36 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:35:14,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:35:09 - 启动应用: msedge.exe
+2025-05-27 17:35:10 - 切换到窗口: 无标题 和另外 37 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:35:13 - 启动应用: msedge.exe
+2025-05-27 17:35:13 - 切换到窗口: Binaryify/NeteaseCloudMusicApi: 网易云音乐 Node.js API service 和另外 37 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:35:17 - 切换到窗口: 爬虫程序 - Poe 和另外 36 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 17:35:17 - 启动应用: msedge.exe,2025-05-27 17:35:18 - 启动应用: msedge.exe,2025-05-27 17:35:17,process_start,msedge.exe,2025-05-27 17:35:18,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:41:33 - 使用应用: msedge.exe (时长: 20.5秒)
+2025-05-27 17:41:39 - 切换到窗口: 任务管理器 - Google Chrome (应用: chrome.exe)
+2025-05-27 17:41:45 - 切换到窗口: 我用什么把你留住 (Live) - 陈楚生 - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe)
+2025-05-27 17:41:46 - 关闭应用: msedge.exe
+2025-05-27 17:41:47 - 启动应用: chrome.exe",2025-05-27 17:41:49 - 关闭应用: msedge.exe,2025-05-27 17:41:47 - 关闭应用: chrome.exe,2025-05-27 17:41:49,process_end,msedge.exe,2025-05-27 17:41:47,process_end,chrome.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:41:45 - 切换到窗口: 我用什么把你留住 (Live) - 陈楚生 - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe)
+2025-05-27 17:41:46 - 关闭应用: msedge.exe
+2025-05-27 17:41:47 - 启动应用: chrome.exe
+2025-05-27 17:41:49 - 关闭应用: msedge.exe
+2025-05-27 17:41:49 - 关闭应用: msedge.exe",2025-05-27 17:42:04 - 启动应用: chrome.exe,2025-05-27 17:41:50 - 启动应用: chrome.exe,2025-05-27 17:42:04,process_start,chrome.exe,2025-05-27 17:41:50,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:42:38 - 使用应用: chrome.exe (时长: 53.57秒)
+2025-05-27 17:42:39 - 启动应用: msedge.exe
+2025-05-27 17:42:44 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=578965941&songType=2&isShare=1&enc_uin=7ivAoioloioi 和另外 41 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 17:42:46 - 关闭应用: msedge.exe
+2025-05-27 17:42:52 - 关闭应用: msedge.exe",2025-05-27 17:42:53 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=002b8cCd0JN8Sc&songType=2&isShare=1&enc_uin=7ivAoioloioi 和另外 40 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:42:52 - 关闭应用: msedge.exe,2025-05-27 17:42:53,window_focus,y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=002b8cCd0JN8Sc&songType=2&isShare=1&enc_uin=7ivAoioloioi 和另外 40 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 17:42:52,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:43:35 - 启动应用: chrome.exe
+2025-05-27 17:43:37 - 关闭应用: chrome.exe
+2025-05-27 17:43:40 - 关闭应用: msedge.exe
+2025-05-27 17:43:46 - 关闭应用: msedge.exe
+2025-05-27 17:44:08 - 关闭应用: chrome.exe",2025-05-27 17:44:17 - 启动应用: chrome.exe,2025-05-27 17:44:11 - 启动应用: chrome.exe,2025-05-27 17:44:17,process_start,chrome.exe,2025-05-27 17:44:11,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:48:18 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=411693303&songType=2&isShare=1&enc_uin=7ivAoioloioi - Google Chrome (应用: chrome.exe)
+2025-05-27 17:48:20 - 关闭应用: chrome.exe
+2025-05-27 17:48:21 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 17:48:26 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=411693303&songType=2&isShare=1&enc_uin=7ivAoioloioi - Google Chrome (应用: chrome.exe)
+2025-05-27 17:48:51 - 启动应用: chrome.exe",2025-05-27 17:48:53 - 关闭应用: chrome.exe,2025-05-27 17:48:51 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 17:48:53,process_end,chrome.exe,2025-05-27 17:48:51,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:55:33 - 启动应用: chrome.exe
+2025-05-27 17:55:33 - 启动应用: chrome.exe
+2025-05-27 17:55:33 - 启动应用: chrome.exe
+2025-05-27 17:55:33 - 启动应用: chrome.exe
+2025-05-27 17:55:33 - 启动应用: chrome.exe",2025-05-27 17:55:33 - 启动应用: chrome.exe,2025-05-27 17:55:33 - 启动应用: chrome.exe,2025-05-27 17:55:33,process_start,chrome.exe,2025-05-27 17:55:33,process_start,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:57:58 - 启动应用: chrome.exe
+2025-05-27 17:57:58 - 启动应用: chrome.exe
+2025-05-27 17:57:59 - 启动应用: chrome.exe
+2025-05-27 17:57:59 - 启动应用: chrome.exe
+2025-05-27 17:57:59 - 启动应用: chrome.exe",2025-05-27 17:57:59 - 启动应用: chrome.exe,2025-05-27 17:58:01 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 17:57:59,process_start,chrome.exe,2025-05-27 17:58:01,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:58:12 - 切换到窗口: 截图工具覆盖 (应用: SnippingTool.exe)
+2025-05-27 17:58:12 - 使用应用: chrome.exe (时长: 6.36秒)
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe",2025-05-27 17:58:15 - 关闭应用: chrome.exe,2025-05-27 17:58:15 - 关闭应用: chrome.exe,2025-05-27 17:58:15,process_end,chrome.exe,2025-05-27 17:58:15,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe
+2025-05-27 17:58:15 - 关闭应用: chrome.exe",2025-05-27 17:58:15 - 关闭应用: chrome.exe,2025-05-27 17:58:15 - 关闭应用: chrome.exe,2025-05-27 17:58:15,process_end,chrome.exe,2025-05-27 17:58:15,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:06:08 - 启动应用: chrome.exe
+2025-05-27 18:06:08 - 启动应用: chrome.exe
+2025-05-27 18:06:08 - 启动应用: chrome.exe
+2025-05-27 18:06:09 - 启动应用: chrome.exe
+2025-05-27 18:06:09 - 启动应用: chrome.exe",2025-05-27 18:06:12 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn - Chromium (应用: chrome.exe),2025-05-27 18:06:09 - 关闭应用: chrome.exe,2025-05-27 18:06:12,window_focus,y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn - Chromium (应用: chrome.exe),2025-05-27 18:06:09,process_end,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:10:02 - 关闭应用: chrome.exe
+2025-05-27 18:10:02 - 启动应用: chrome.exe
+2025-05-27 18:10:03 - 切换到窗口: 新标签页 - Google Chrome (应用: chrome.exe)
+2025-05-27 18:10:05 - 关闭应用: chrome.exe
+2025-05-27 18:10:05 - 关闭应用: chrome.exe",2025-05-27 18:10:06 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn** - Google Chrome (应用: chrome.exe),2025-05-27 18:10:05 - 启动应用: chrome.exe,2025-05-27 18:10:06,window_focus,y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn** - Google Chrome (应用: chrome.exe),2025-05-27 18:10:05,process_start,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:10:14 - 切换到窗口: 我用什么把你留住 (Live) - 陈楚生 - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe)
+2025-05-27 18:10:17 - 切换到窗口: - - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe)
+2025-05-27 18:10:46 - 启动应用: chrome.exe
+2025-05-27 18:10:48 - 关闭应用: chrome.exe
+2025-05-27 18:10:49 - 切换到窗口: 我用什么把你留住 (Live) - 陈楚生 - QQ音乐-千万正版音乐海量无损曲库新歌热歌天天畅听的高品质音乐平台！ - Google Chrome (应用: chrome.exe)",2025-05-27 18:10:51 - 启动应用: chrome.exe,2025-05-27 18:10:51 - 启动应用: chrome.exe,2025-05-27 18:10:51,process_start,chrome.exe,2025-05-27 18:10:51,process_start,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:12:26 - 关闭应用: headless_shell.exe
+2025-05-27 18:12:26 - 关闭应用: headless_shell.exe
+2025-05-27 18:12:26 - 关闭应用: headless_shell.exe
+2025-05-27 18:12:26 - 关闭应用: headless_shell.exe
+2025-05-27 18:12:26 - 关闭应用: node.exe",2025-05-27 18:12:27 - 切换到窗口: crawler.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),2025-05-27 18:12:26 - 关闭应用: node.exe,2025-05-27 18:12:27,window_focus,crawler.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),2025-05-27 18:12:26,process_end,node.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:16:37 - 使用应用: Code.exe (时长: 5.98秒)
+2025-05-27 18:16:39 - 关闭应用: headless_shell.exe
+2025-05-27 18:16:39 - 关闭应用: node.exe
+2025-05-27 18:16:39 - 关闭应用: headless_shell.exe
+2025-05-27 18:16:42 - 关闭应用: headless_shell.exe",2025-05-27 18:16:42 - 关闭应用: headless_shell.exe,2025-05-27 18:16:42 - 关闭应用: node.exe,2025-05-27 18:16:42,process_end,headless_shell.exe,2025-05-27 18:16:42,process_end,node.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:26:54 - 使用应用: msedge.exe (时长: 13.17秒)
+2025-05-27 18:27:03 - 切换到窗口: crawler.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe)
+2025-05-27 18:27:06 - 切换到窗口: try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe)
+2025-05-27 18:27:09 - 切换到窗口: ● try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe)
+2025-05-27 18:27:12 - 切换到窗口: crawler.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe)",2025-05-27 18:27:15 - 切换到窗口: try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),2025-05-27 18:27:14 - 切换到窗口: try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),2025-05-27 18:27:15,window_focus,try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),2025-05-27 18:27:14,window_focus,try.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe),False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:27:33 - 启动应用: chrome.exe
+2025-05-27 18:27:34 - 启动应用: chrome.exe
+2025-05-27 18:27:35 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn - Chromium (应用: chrome.exe)
+2025-05-27 18:27:35 - 使用应用: Code.exe (时长: 6.08秒)
+2025-05-27 18:27:40 - 关闭应用: chrome.exe",2025-05-27 18:27:40 - 关闭应用: chrome.exe,2025-05-27 18:27:40 - 关闭应用: chrome.exe,2025-05-27 18:27:40,process_end,chrome.exe,2025-05-27 18:27:40,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:29:38 - 启动应用: chrome.exe
+2025-05-27 18:29:39 - 启动应用: chrome.exe
+2025-05-27 18:29:39 - 启动应用: chrome.exe
+2025-05-27 18:29:39 - 启动应用: chrome.exe
+2025-05-27 18:29:40 - 切换到窗口: y.qq.com/m/client/listening/index.html?_hidehd=1&_miniplayer=1&_hdct=2&songID=580287586&songType=2&isShare=1&enc_uin=oK6kowEAoK4z7K-l7KokoeEsNn - Chromium (应用: chrome.exe)",2025-05-27 18:29:40 - 使用应用: Code.exe (时长: 14.43秒),2025-05-27 18:29:40 - 启动应用: chrome.exe,2025-05-27 18:29:40,app_usage,Code.exe (时长: 14.43秒),2025-05-27 18:29:40,process_start,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:29:43 - 切换到窗口: crawler.py - 2025.5 qq_crawler - Visual Studio Code (应用: Code.exe)
+2025-05-27 18:29:45 - 关闭应用: chrome.exe
+2025-05-27 18:29:45 - 关闭应用: chrome.exe
+2025-05-27 18:29:45 - 关闭应用: chrome.exe
+2025-05-27 18:29:45 - 关闭应用: chrome.exe",2025-05-27 18:29:45 - 关闭应用: chrome.exe,2025-05-27 18:29:45 - 关闭应用: chrome.exe,2025-05-27 18:29:45,process_end,chrome.exe,2025-05-27 18:29:45,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:30:12 - 使用应用: Code.exe (时长: 16.97秒)
+2025-05-27 18:30:15 - 切换到窗口: 爬虫程序 - Poe 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 关闭应用: msedge.exe",2025-05-27 18:30:17 - 关闭应用: msedge.exe,2025-05-27 18:30:17 - 关闭应用: msedge.exe,2025-05-27 18:30:17,process_end,msedge.exe,2025-05-27 18:30:17,process_end,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 关闭应用: msedge.exe
+2025-05-27 18:30:17 - 启动应用: msedge.exe",2025-05-27 18:30:18 - 切换到窗口: 腾讯元宝 - 轻松工作 多点生活 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 18:30:17 - 切换到窗口: 无标题 - Google Chrome (应用: msedge.exe),2025-05-27 18:30:18,window_focus,腾讯元宝 - 轻松工作 多点生活 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 18:30:17,window_focus,无标题 - Google Chrome (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:31:05 - 启动应用: chrome.exe
+2025-05-27 18:31:06 - 关闭应用: chrome.exe
+2025-05-27 18:31:36 - 关闭应用: chrome.exe
+2025-05-27 18:31:41 - 启动应用: chrome.exe
+2025-05-27 18:32:13 - 关闭应用: chrome.exe",2025-05-27 18:32:18 - 启动应用: chrome.exe,2025-05-27 18:32:41 - 启动应用: chrome.exe,2025-05-27 18:32:18,process_start,chrome.exe,2025-05-27 18:32:41,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:32:22 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 18:32:22 - 使用应用: Code.exe (时长: 94.12秒)
+2025-05-27 18:32:51 - 启动应用: chrome.exe
+2025-05-27 18:32:54 - 关闭应用: chrome.exe
+2025-05-27 18:33:22 - 启动应用: chrome.exe",2025-05-27 18:33:24 - 关闭应用: chrome.exe,2025-05-27 18:33:25 - 关闭应用: chrome.exe,2025-05-27 18:33:24,process_end,chrome.exe,2025-05-27 18:33:25,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:32:54 - 关闭应用: chrome.exe
+2025-05-27 18:33:22 - 启动应用: chrome.exe
+2025-05-27 18:33:24 - 关闭应用: chrome.exe
+2025-05-27 18:33:54 - 关闭应用: chrome.exe
+2025-05-27 18:33:57 - 启动应用: chrome.exe",2025-05-27 18:34:28 - 启动应用: chrome.exe,2025-05-27 18:34:00 - 关闭应用: chrome.exe,2025-05-27 18:34:28,process_start,chrome.exe,2025-05-27 18:34:00,process_end,chrome.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:38:17 - 关闭应用: WeChatAppEx.exe
+2025-05-27 18:38:29 - 启动应用: chrome.exe
+2025-05-27 18:38:30 - 关闭应用: chrome.exe
+2025-05-27 18:39:00 - 启动应用: chrome.exe
+2025-05-27 18:39:01 - 关闭应用: chrome.exe",2025-05-27 18:39:02 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 18:39:29 - 启动应用: chrome.exe,2025-05-27 18:39:02,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 18:39:29,process_start,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:41:06 - 关闭应用: chrome.exe
+2025-05-27 18:41:35 - 关闭应用: chrome.exe
+2025-05-27 18:41:37 - 启动应用: chrome.exe
+2025-05-27 18:42:10 - 关闭应用: chrome.exe
+2025-05-27 18:42:25 - 启动应用: chrome.exe",2025-05-27 18:42:57 - 关闭应用: chrome.exe,2025-05-27 18:42:55 - 关闭应用: chrome.exe,2025-05-27 18:42:57,process_end,chrome.exe,2025-05-27 18:42:55,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:51:42 - 启动应用: chrome.exe
+2025-05-27 18:51:44 - 关闭应用: chrome.exe
+2025-05-27 18:52:12 - 关闭应用: chrome.exe
+2025-05-27 18:52:12 - 启动应用: chrome.exe
+2025-05-27 18:52:43 - 启动应用: chrome.exe",2025-05-27 18:52:43 - 关闭应用: chrome.exe,2025-05-27 18:52:44 - 关闭应用: chrome.exe,2025-05-27 18:52:43,process_end,chrome.exe,2025-05-27 18:52:44,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:59:24 - 启动应用: updater.exe
+2025-05-27 18:59:24 - 启动应用: updater.exe
+2025-05-27 18:59:24 - 启动应用: updater.exe
+2025-05-27 18:59:24 - 启动应用: updater.exe
+2025-05-27 18:59:24 - 启动应用: updater.exe",2025-05-27 18:59:24 - 启动应用: updater.exe,2025-05-27 18:59:24 - 关闭应用: updater.exe,2025-05-27 18:59:24,process_start,updater.exe,2025-05-27 18:59:24,process_end,updater.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 18:59:58 - 启动应用: chrome.exe
+2025-05-27 18:59:58 - 启动应用: chrome.exe
+2025-05-27 18:59:58 - 启动应用: chrome.exe
+2025-05-27 18:59:58 - 启动应用: chrome.exe
+2025-05-27 18:59:58 - 启动应用: chrome.exe",2025-05-27 19:00:04 - 关闭应用: chrome.exe,2025-05-27 18:59:58 - 关闭应用: chrome.exe,2025-05-27 19:00:04,process_end,chrome.exe,2025-05-27 18:59:58,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:04:28 - 启动应用: msedge.exe
+2025-05-27 19:04:29 - 切换到窗口: 新建标签页 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:04:30 - 启动应用: msedge.exe
+2025-05-27 19:04:32 - 切换到窗口: USTC邮件服务 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:04:36 - 切换到窗口: USTC邮件系统 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 19:04:40 - 启动应用: msedge.exe,2025-05-27 19:04:36 - 关闭应用: msedge.exe,2025-05-27 19:04:40,process_start,msedge.exe,2025-05-27 19:04:36,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:07:01 - 关闭应用: chrome.exe
+2025-05-27 19:07:01 - 启动应用: chrome.exe
+2025-05-27 19:07:32 - 关闭应用: chrome.exe
+2025-05-27 19:07:34 - 启动应用: chrome.exe
+2025-05-27 19:08:04 - 启动应用: chrome.exe",2025-05-27 19:08:06 - 关闭应用: chrome.exe,2025-05-27 19:08:05 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 19:08:06,process_end,chrome.exe,2025-05-27 19:08:05,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:24:01 - 切换到窗口: 快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:24:02 - 启动应用: msedge.exe
+2025-05-27 19:24:03 - 关闭应用: msedge.exe
+2025-05-27 19:24:08 - 启动应用: msedge.exe
+2025-05-27 19:24:08 - 切换到窗口: 再就业自来水楼4.0 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 19:24:11 - 关闭应用: msedge.exe,2025-05-27 19:24:09 - 关闭应用: msedge.exe,2025-05-27 19:24:11,process_end,msedge.exe,2025-05-27 19:24:09,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:24:02 - 启动应用: msedge.exe
+2025-05-27 19:24:03 - 关闭应用: msedge.exe
+2025-05-27 19:24:08 - 启动应用: msedge.exe
+2025-05-27 19:24:08 - 切换到窗口: 再就业自来水楼4.0 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:24:11 - 关闭应用: msedge.exe",2025-05-27 19:24:16 - 切换到窗口: 快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:24:12 - 启动应用: msedge.exe,2025-05-27 19:24:16,window_focus,快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:24:12,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:24:08 - 切换到窗口: 再就业自来水楼4.0 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:24:11 - 关闭应用: msedge.exe
+2025-05-27 19:24:16 - 切换到窗口: 快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:24:16 - 启动应用: msedge.exe
+2025-05-27 19:24:18 - 关闭应用: msedge.exe",2025-05-27 19:24:19 - 切换到窗口: 同担 - 首页 - 微博 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:24:18 - 切换到窗口: 切换到窗口: 吴老师碎碎念 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:24:19,window_focus,同担 - 首页 - 微博 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:24:18,window_focus,切换到窗口: 吴老师碎碎念 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:26:01 - 启动应用: chrome.exe
+2025-05-27 19:26:03 - 关闭应用: chrome.exe
+2025-05-27 19:26:32 - 启动应用: chrome.exe
+2025-05-27 19:26:33 - 关闭应用: chrome.exe
+2025-05-27 19:27:02 - 启动应用: chrome.exe",2025-05-27 19:27:02 - 关闭应用: chrome.exe,2025-05-27 19:27:04 - 关闭应用: chrome.exe,2025-05-27 19:27:02,process_end,chrome.exe,2025-05-27 19:27:04,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:26:03 - 关闭应用: chrome.exe
+2025-05-27 19:26:32 - 启动应用: chrome.exe
+2025-05-27 19:26:33 - 关闭应用: chrome.exe
+2025-05-27 19:27:02 - 启动应用: chrome.exe
+2025-05-27 19:27:02 - 关闭应用: chrome.exe",2025-05-27 19:27:33 - 启动应用: chrome.exe,2025-05-27 19:27:32 - 启动应用: chrome.exe,2025-05-27 19:27:33,process_start,chrome.exe,2025-05-27 19:27:32,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:26:32 - 启动应用: chrome.exe
+2025-05-27 19:26:33 - 关闭应用: chrome.exe
+2025-05-27 19:27:02 - 启动应用: chrome.exe
+2025-05-27 19:27:02 - 关闭应用: chrome.exe
+2025-05-27 19:27:33 - 启动应用: chrome.exe",2025-05-27 19:27:36 - 关闭应用: chrome.exe,2025-05-27 19:27:33 - 关闭应用: chrome.exe,2025-05-27 19:27:36,process_end,chrome.exe,2025-05-27 19:27:33,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:28:11 - 切换到窗口: 快乐再就业小组 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:28:11 - 使用应用: chrome.exe (时长: 6.95秒)
+2025-05-27 19:28:14 - 切换到窗口: ☀️玄学记录·三 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:28:16 - 关闭应用: msedge.exe
+2025-05-27 19:28:18 - 启动应用: msedge.exe",2025-05-27 19:28:28 - 启动应用: msedge.exe,2025-05-27 19:28:18 - 启动应用: msedge.exe,2025-05-27 19:28:28,process_start,msedge.exe,2025-05-27 19:28:18,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:29:23 - 启动应用: msedge.exe
+2025-05-27 19:29:24 - 切换到窗口: 快乐再就业小组 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:29:25 - 启动应用: msedge.exe
+2025-05-27 19:29:26 - 关闭应用: msedge.exe
+2025-05-27 19:29:30 - 启动应用: msedge.exe",2025-05-27 19:29:30 - 关闭应用: msedge.exe,2025-05-27 19:29:31 - 切换到窗口: 微博 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:29:30,process_end,msedge.exe,2025-05-27 19:29:31,window_focus,微博 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:30:25 - 关闭应用: msedge.exe
+2025-05-27 19:30:29 - 启动应用: msedge.exe
+2025-05-27 19:30:31 - 关闭应用: msedge.exe
+2025-05-27 19:30:32 - 切换到窗口: 快乐再就业小组 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:30:33 - 启动应用: msedge.exe",2025-05-27 19:30:35 - 关闭应用: msedge.exe,2025-05-27 19:30:33 - 启动应用: msedge.exe,2025-05-27 19:30:35,process_end,msedge.exe,2025-05-27 19:30:33,process_start,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:30:43 - 切换到窗口: 我的小组讨论 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:30:45 - 启动应用: msedge.exe
+2025-05-27 19:30:45 - 关闭应用: msedge.exe
+2025-05-27 19:30:46 - 切换到窗口: 歌手2025小组 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:30:49 - 启动应用: msedge.exe",2025-05-27 19:30:50 - 切换到窗口: 陈楚生选曲🍉(不保真) 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:30:50 - 关闭应用: msedge.exe,2025-05-27 19:30:50,window_focus,陈楚生选曲🍉(不保真) 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:30:50,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:30:45 - 启动应用: msedge.exe
+2025-05-27 19:30:45 - 关闭应用: msedge.exe
+2025-05-27 19:30:46 - 切换到窗口: 歌手2025小组 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:30:49 - 启动应用: msedge.exe
+2025-05-27 19:30:50 - 切换到窗口: 陈楚生选曲🍉(不保真) 和另外 27 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 19:30:52 - 关闭应用: msedge.exe,2025-05-27 19:30:53 - 启动应用: msedge.exe,2025-05-27 19:30:52,process_end,msedge.exe,2025-05-27 19:30:53,process_start,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:31:14 - 关闭应用: chrome.exe
+2025-05-27 19:31:14 - 关闭应用: node.exe
+2025-05-27 19:31:14 - 关闭应用: chrome.exe
+2025-05-27 19:31:14 - 关闭应用: chrome.exe
+2025-05-27 19:31:14 - 关闭应用: chrome.exe",2025-05-27 19:31:14 - 关闭应用: chrome.exe,2025-05-27 19:31:14 - 关闭应用: chrome.exe,2025-05-27 19:31:14,process_end,chrome.exe,2025-05-27 19:31:14,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:31:53 - 关闭应用: msedge.exe
+2025-05-27 19:31:58 - 启动应用: msedge.exe
+2025-05-27 19:31:59 - 启动应用: msedge.exe
+2025-05-27 19:32:01 - 启动应用: msedge.exe
+2025-05-27 19:32:01 - 切换到窗口: 微博 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 19:32:02 - 启动应用: msedge.exe,2025-05-27 19:32:02 - 启动应用: msedge.exe,2025-05-27 19:32:02,process_start,msedge.exe,2025-05-27 19:32:02,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:38:36 - 切换到窗口: 歌手2025小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:38:37 - 启动应用: msedge.exe
+2025-05-27 19:38:39 - 关闭应用: msedge.exe
+2025-05-27 19:38:45 - 启动应用: msedge.exe
+2025-05-27 19:38:46 - 关闭应用: msedge.exe",2025-05-27 19:38:49 - 关闭应用: chrome.exe,2025-05-27 19:38:47 - 启动应用: msedge.exe,2025-05-27 19:38:49,process_end,chrome.exe,2025-05-27 19:38:47,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:38:37 - 启动应用: msedge.exe
+2025-05-27 19:38:39 - 关闭应用: msedge.exe
+2025-05-27 19:38:45 - 启动应用: msedge.exe
+2025-05-27 19:38:46 - 关闭应用: msedge.exe
+2025-05-27 19:38:49 - 关闭应用: chrome.exe",2025-05-27 19:38:49 - 启动应用: msedge.exe,2025-05-27 19:38:49 - 启动应用: msedge.exe,2025-05-27 19:38:49,process_start,msedge.exe,2025-05-27 19:38:49,process_start,msedge.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:40:50 - 启动应用: msedge.exe
+2025-05-27 19:40:50 - 切换到窗口: 歌手-哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:40:50 - 使用应用: chrome.exe (时长: 14.4秒)
+2025-05-27 19:40:53 - 关闭应用: msedge.exe
+2025-05-27 19:40:57 - 关闭应用: msedge.exe",2025-05-27 19:40:57 - 关闭应用: chrome.exe,2025-05-27 19:40:57 - 切换到窗口: 无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:40:57,process_end,chrome.exe,2025-05-27 19:40:57,window_focus,无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:41:09 - 切换到窗口: 【陈楚生】Sophia｜20250413西安“荒芜之境”Day2｜4K｜Hi-Res_哔哩哔哩_bilibili 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:41:11 - 启动应用: msedge.exe
+2025-05-27 19:41:12 - 关闭应用: msedge.exe
+2025-05-27 19:41:13 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:41:25 - 启动应用: msedge.exe",2025-05-27 19:41:25 - 启动应用: msedge.exe,2025-05-27 19:41:27 - 关闭应用: msedge.exe,2025-05-27 19:41:25,process_start,msedge.exe,2025-05-27 19:41:27,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:43:33 - 启动应用: msedge.exe
+2025-05-27 19:43:36 - 关闭应用: msedge.exe
+2025-05-27 19:43:38 - 启动应用: msedge.exe
+2025-05-27 19:43:39 - 关闭应用: msedge.exe
+2025-05-27 19:43:43 - 启动应用: msedge.exe",2025-05-27 19:43:44 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:43:43 - 关闭应用: msedge.exe,2025-05-27 19:43:44,window_focus,歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:43:43,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:43:43 - 启动应用: msedge.exe
+2025-05-27 19:43:44 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:43:47 - 关闭应用: msedge.exe
+2025-05-27 19:43:47 - 关闭应用: WeChatAppEx.exe
+2025-05-27 19:43:48 - 切换到窗口: 快乐再就业小组 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 19:43:50 - 关闭应用: msedge.exe,2025-05-27 19:43:50 - 启动应用: msedge.exe,2025-05-27 19:43:50,process_end,msedge.exe,2025-05-27 19:43:50,process_start,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:45:37 - 关闭应用: chrome.exe
+2025-05-27 19:45:38 - 启动应用: chrome.exe
+2025-05-27 19:46:15 - 启动应用: chrome.exe
+2025-05-27 19:46:16 - 关闭应用: chrome.exe
+2025-05-27 19:46:46 - 启动应用: chrome.exe",2025-05-27 19:46:48 - 关闭应用: chrome.exe,2025-05-27 19:46:47 - 关闭应用: chrome.exe,2025-05-27 19:46:48,process_end,chrome.exe,2025-05-27 19:46:47,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:58:10 - 切换到窗口: 热门 - 热门推荐 - 微博 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:58:12 - 关闭应用: chrome.exe
+2025-05-27 19:58:13 - 切换到窗口: 热搜 - 微博 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:58:21 - 切换到窗口: 微博 – 随时随地发现新鲜事 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:58:24 - 关闭应用: msedge.exe",2025-05-27 19:58:25 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:58:25 - 切换到窗口: 微博 – 随时随地发现新鲜事 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:58:25,window_focus,歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:58:25,window_focus,微博 – 随时随地发现新鲜事 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 19:58:24 - 关闭应用: msedge.exe
+2025-05-27 19:58:25 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 19:58:27 - 关闭应用: msedge.exe
+2025-05-27 19:58:27 - 关闭应用: msedge.exe
+2025-05-27 19:58:28 - 启动应用: msedge.exe",2025-05-27 19:58:37 - 启动应用: msedge.exe,2025-05-27 19:58:30 - 切换到窗口: 无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 19:58:37,process_start,msedge.exe,2025-05-27 19:58:30,window_focus,无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:01:26 - 关闭应用: chrome.exe
+2025-05-27 20:01:26 - 关闭应用: chrome.exe
+2025-05-27 20:01:26 - 关闭应用: chrome.exe
+2025-05-27 20:01:26 - 关闭应用: chrome.exe
+2025-05-27 20:01:26 - 关闭应用: node.exe",2025-05-27 20:01:26 - 关闭应用: python.exe,2025-05-27 20:01:26 - 关闭应用: node.exe,2025-05-27 20:01:26,process_end,python.exe,2025-05-27 20:01:26,process_end,node.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:04:16 - 切换到窗口: 所以ck来长沙嗦个粉就走了？？？ 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:04:19 - 切换到窗口: 歌手2025小组 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:04:29 - 关闭应用: msedge.exe
+2025-05-27 20:04:29 - 启动应用: msedge.exe
+2025-05-27 20:04:30 - 切换到窗口: 我的小组讨论 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 20:04:33 - 启动应用: msedge.exe,2025-05-27 20:04:33 - 切换到窗口: 歌手2025小组 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:04:33,process_start,msedge.exe,2025-05-27 20:04:33,window_focus,歌手2025小组 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:07:18 - 启动应用: chrome.exe
+2025-05-27 20:07:19 - 关闭应用: chrome.exe
+2025-05-27 20:07:53 - 关闭应用: chrome.exe
+2025-05-27 20:07:54 - 启动应用: chrome.exe
+2025-05-27 20:08:26 - 关闭应用: chrome.exe",2025-05-27 20:08:38 - 启动应用: chrome.exe,2025-05-27 20:08:54 - 启动应用: chrome.exe,2025-05-27 20:08:38,process_start,chrome.exe,2025-05-27 20:08:54,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:12:34 - 启动应用: chrome.exe
+2025-05-27 20:13:04 - 启动应用: chrome.exe
+2025-05-27 20:13:07 - 关闭应用: chrome.exe
+2025-05-27 20:13:37 - 启动应用: chrome.exe
+2025-05-27 20:13:37 - 关闭应用: chrome.exe",2025-05-27 20:14:07 - 启动应用: chrome.exe,2025-05-27 20:14:06 - 启动应用: chrome.exe,2025-05-27 20:14:07,process_start,chrome.exe,2025-05-27 20:14:06,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:13:04 - 启动应用: chrome.exe
+2025-05-27 20:13:07 - 关闭应用: chrome.exe
+2025-05-27 20:13:37 - 启动应用: chrome.exe
+2025-05-27 20:13:37 - 关闭应用: chrome.exe
+2025-05-27 20:14:07 - 启动应用: chrome.exe",2025-05-27 20:14:10 - 关闭应用: chrome.exe,2025-05-27 20:14:08 - 关闭应用: chrome.exe,2025-05-27 20:14:10,process_end,chrome.exe,2025-05-27 20:14:08,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:16:32 - 切换到窗口: 李宗盛大佬这说的就是《歌手2025》吧 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:16:32 - 使用应用: chrome.exe (时长: 121.21秒)
+2025-05-27 20:16:35 - 关闭应用: chrome.exe
+2025-05-27 20:16:59 - 切换到窗口: 歌手2025小组 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:17:01 - 关闭应用: msedge.exe",2025-05-27 20:17:02 - 启动应用: msedge.exe,2025-05-27 20:17:01 - 切换到窗口: 无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:17:02,process_start,msedge.exe,2025-05-27 20:17:01,window_focus,无标题 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:19:44 - 启动应用: msedge.exe
+2025-05-27 20:19:44 - 关闭应用: msedge.exe
+2025-05-27 20:19:46 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:19:46 - 使用应用: chrome.exe (时长: 7.26秒)
+2025-05-27 20:19:51 - 启动应用: msedge.exe",2025-05-27 20:19:51 - 关闭应用: msedge.exe,2025-05-27 20:19:51 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:19:51,process_end,msedge.exe,2025-05-27 20:19:51,window_focus,无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:20:08 - 启动应用: chrome.exe
+2025-05-27 20:20:10 - 关闭应用: chrome.exe
+2025-05-27 20:20:38 - 启动应用: chrome.exe
+2025-05-27 20:20:40 - 关闭应用: chrome.exe
+2025-05-27 20:21:09 - 启动应用: chrome.exe",2025-05-27 20:21:11 - 关闭应用: chrome.exe,2025-05-27 20:21:09 - 启动应用: chrome.exe,2025-05-27 20:21:11,process_end,chrome.exe,2025-05-27 20:21:09,process_start,chrome.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:20:38 - 启动应用: chrome.exe
+2025-05-27 20:20:40 - 关闭应用: chrome.exe
+2025-05-27 20:21:09 - 启动应用: chrome.exe
+2025-05-27 20:21:11 - 关闭应用: chrome.exe
+2025-05-27 20:21:40 - 启动应用: chrome.exe",2025-05-27 20:21:41 - 关闭应用: chrome.exe,2025-05-27 20:21:41 - 关闭应用: chrome.exe,2025-05-27 20:21:41,process_end,chrome.exe,2025-05-27 20:21:41,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:21:09 - 启动应用: chrome.exe
+2025-05-27 20:21:11 - 关闭应用: chrome.exe
+2025-05-27 20:21:40 - 启动应用: chrome.exe
+2025-05-27 20:21:41 - 关闭应用: chrome.exe
+2025-05-27 20:22:11 - 启动应用: chrome.exe",2025-05-27 20:22:12 - 关闭应用: chrome.exe,2025-05-27 20:22:12 - 关闭应用: chrome.exe,2025-05-27 20:22:12,process_end,chrome.exe,2025-05-27 20:22:12,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:21:40 - 启动应用: chrome.exe
+2025-05-27 20:21:41 - 关闭应用: chrome.exe
+2025-05-27 20:22:11 - 启动应用: chrome.exe
+2025-05-27 20:22:12 - 关闭应用: chrome.exe
+2025-05-27 20:22:41 - 启动应用: chrome.exe",2025-05-27 20:22:46 - 关闭应用: chrome.exe,2025-05-27 20:22:42 - 关闭应用: chrome.exe,2025-05-27 20:22:46,process_end,chrome.exe,2025-05-27 20:22:42,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:22:11 - 启动应用: chrome.exe
+2025-05-27 20:22:12 - 关闭应用: chrome.exe
+2025-05-27 20:22:41 - 启动应用: chrome.exe
+2025-05-27 20:22:46 - 关闭应用: chrome.exe
+2025-05-27 20:23:11 - 启动应用: chrome.exe",2025-05-27 20:23:12 - 关闭应用: chrome.exe,2025-05-27 20:23:13 - 关闭应用: chrome.exe,2025-05-27 20:23:12,process_end,chrome.exe,2025-05-27 20:23:13,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:25:17 - 切换到窗口: 新建标签页 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:25:18 - 启动应用: msedge.exe
+2025-05-27 20:25:19 - 关闭应用: msedge.exe
+2025-05-27 20:25:20 - 启动应用: msedge.exe
+2025-05-27 20:25:20 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 20:25:24 - 切换到窗口: 登入页面 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:25:23 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 20:25:24,window_focus,登入页面 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:25:23,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:25:18 - 启动应用: msedge.exe
+2025-05-27 20:25:19 - 关闭应用: msedge.exe
+2025-05-27 20:25:20 - 启动应用: msedge.exe
+2025-05-27 20:25:20 - 切换到窗口: 无标题 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:25:24 - 切换到窗口: 登入页面 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 20:25:28 - 切换到窗口: 中国科学技术大学综合教务系统 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:25:25 - 启动应用: msedge.exe,2025-05-27 20:25:28,window_focus,中国科学技术大学综合教务系统 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:25:25,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:25:45 - 关闭应用: chrome.exe
+2025-05-27 20:25:46 - 切换到窗口: USTC邮件系统 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:25:52 - 关闭应用: msedge.exe
+2025-05-27 20:25:53 - 切换到窗口: 中国科学技术大学 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:25:56 - 关闭应用: msedge.exe",2025-05-27 20:25:56 - 关闭应用: msedge.exe,2025-05-27 20:25:56 - 切换到窗口: USTC邮件系统 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:25:56,process_end,msedge.exe,2025-05-27 20:25:56,window_focus,USTC邮件系统 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:30:26 - 关闭应用: msedge.exe
+2025-05-27 20:30:27 - 切换到窗口: 微博聊天网页版 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:30:30 - 关闭应用: msedge.exe
+2025-05-27 20:30:30 - 启动应用: msedge.exe
+2025-05-27 20:30:31 - 切换到窗口: 无标题 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 20:30:34 - 切换到窗口: 微博聊天网页版 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:30:32 - 关闭应用: msedge.exe,2025-05-27 20:30:34,window_focus,微博聊天网页版 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:30:32,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:32:37 - 切换到窗口: 微博聊天网页版 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:32:38 - 启动应用: msedge.exe
+2025-05-27 20:32:39 - 关闭应用: msedge.exe
+2025-05-27 20:32:40 - 切换到窗口: 这季唱商最高的是谁？ 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 20:32:44 - 启动应用: msedge.exe",2025-05-27 20:32:46 - 关闭应用: msedge.exe,2025-05-27 20:32:45 - 切换到窗口: 无标题 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 20:32:46,process_end,msedge.exe,2025-05-27 20:32:45,window_focus,无标题 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:37:52 - 启动应用: chrome.exe
+2025-05-27 20:37:54 - 关闭应用: chrome.exe
+2025-05-27 20:38:23 - 启动应用: chrome.exe
+2025-05-27 20:38:26 - 关闭应用: chrome.exe
+2025-05-27 20:38:53 - 启动应用: chrome.exe",2025-05-27 20:38:57 - 关闭应用: chrome.exe,2025-05-27 20:38:54 - 关闭应用: chrome.exe,2025-05-27 20:38:57,process_end,chrome.exe,2025-05-27 20:38:54,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:38:23 - 启动应用: chrome.exe
+2025-05-27 20:38:26 - 关闭应用: chrome.exe
+2025-05-27 20:38:53 - 启动应用: chrome.exe
+2025-05-27 20:38:57 - 关闭应用: chrome.exe
+2025-05-27 20:39:25 - 启动应用: chrome.exe",2025-05-27 20:39:26 - 关闭应用: chrome.exe,2025-05-27 20:39:26 - 关闭应用: chrome.exe,2025-05-27 20:39:26,process_end,chrome.exe,2025-05-27 20:39:26,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:48:11 - 启动应用: chrome.exe
+2025-05-27 20:48:14 - 关闭应用: chrome.exe
+2025-05-27 20:48:42 - 启动应用: chrome.exe
+2025-05-27 20:48:43 - 关闭应用: chrome.exe
+2025-05-27 20:49:12 - 启动应用: chrome.exe",2025-05-27 20:49:12 - 关闭应用: chrome.exe,2025-05-27 20:49:12 - 关闭应用: chrome.exe,2025-05-27 20:49:12,process_end,chrome.exe,2025-05-27 20:49:12,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:48:42 - 启动应用: chrome.exe
+2025-05-27 20:48:43 - 关闭应用: chrome.exe
+2025-05-27 20:49:12 - 启动应用: chrome.exe
+2025-05-27 20:49:12 - 关闭应用: chrome.exe
+2025-05-27 20:49:43 - 启动应用: chrome.exe",2025-05-27 20:49:45 - 关闭应用: chrome.exe,2025-05-27 20:49:45 - 关闭应用: chrome.exe,2025-05-27 20:49:45,process_end,chrome.exe,2025-05-27 20:49:45,process_end,chrome.exe,True,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:49:12 - 启动应用: chrome.exe
+2025-05-27 20:49:12 - 关闭应用: chrome.exe
+2025-05-27 20:49:43 - 启动应用: chrome.exe
+2025-05-27 20:49:45 - 关闭应用: chrome.exe
+2025-05-27 20:50:13 - 启动应用: chrome.exe",2025-05-27 20:50:17 - 关闭应用: chrome.exe,2025-05-27 20:50:15 - 关闭应用: chrome.exe,2025-05-27 20:50:17,process_end,chrome.exe,2025-05-27 20:50:15,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:53:15 - 启动应用: chrome.exe
+2025-05-27 20:53:15 - 关闭应用: chrome.exe
+2025-05-27 20:53:47 - 启动应用: chrome.exe
+2025-05-27 20:53:48 - 关闭应用: chrome.exe
+2025-05-27 20:54:19 - 启动应用: chrome.exe",2025-05-27 20:54:20 - 关闭应用: chrome.exe,2025-05-27 20:54:19 - 关闭应用: chrome.exe,2025-05-27 20:54:20,process_end,chrome.exe,2025-05-27 20:54:19,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 20:54:19 - 启动应用: chrome.exe
+2025-05-27 20:54:20 - 关闭应用: chrome.exe
+2025-05-27 20:54:51 - 启动应用: chrome.exe
+2025-05-27 20:54:53 - 关闭应用: chrome.exe
+2025-05-27 20:55:22 - 启动应用: chrome.exe",2025-05-27 20:55:23 - 关闭应用: chrome.exe,2025-05-27 20:55:24 - 关闭应用: chrome.exe,2025-05-27 20:55:23,process_end,chrome.exe,2025-05-27 20:55:24,process_end,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:06:45 - 启动应用: chrome.exe
+2025-05-27 21:06:49 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:06:49 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:07:04 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:07:15 - 关闭应用: chrome.exe",2025-05-27 21:07:45 - 启动应用: chrome.exe,2025-05-27 21:07:15 - 启动应用: chrome.exe,2025-05-27 21:07:45,process_start,chrome.exe,2025-05-27 21:07:15,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:06:49 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:06:49 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:07:04 - 关闭应用: MpCmdRun.exe
+2025-05-27 21:07:15 - 关闭应用: chrome.exe
+2025-05-27 21:07:45 - 启动应用: chrome.exe",2025-05-27 21:07:54 - 关闭应用: BackgroundDownload.exe,2025-05-27 21:07:48 - 关闭应用: chrome.exe,2025-05-27 21:07:54,process_end,BackgroundDownload.exe,2025-05-27 21:07:48,process_end,chrome.exe,False,True,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:11:13 - 启动应用: msedge.exe
+2025-05-27 21:11:18 - 启动应用: msedge.exe
+2025-05-27 21:11:19 - 关闭应用: msedge.exe
+2025-05-27 21:11:20 - 切换到窗口: 快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:11:22 - 关闭应用: msedge.exe",2025-05-27 21:11:26 - 关闭应用: msedge.exe,2025-05-27 21:11:22 - 关闭应用: msedge.exe,2025-05-27 21:11:26,process_end,msedge.exe,2025-05-27 21:11:22,process_end,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:11:19 - 关闭应用: msedge.exe
+2025-05-27 21:11:20 - 切换到窗口: 快乐再就业小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:11:22 - 关闭应用: msedge.exe
+2025-05-27 21:11:26 - 关闭应用: msedge.exe
+2025-05-27 21:11:27 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 21:11:30 - 启动应用: msedge.exe,2025-05-27 21:11:30 - 关闭应用: msedge.exe,2025-05-27 21:11:30,process_start,msedge.exe,2025-05-27 21:11:30,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:12:54 - 关闭应用: msedge.exe
+2025-05-27 21:12:54 - 启动应用: msedge.exe
+2025-05-27 21:12:55 - 切换到窗口: 我的小组讨论 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:13:00 - 启动应用: msedge.exe
+2025-05-27 21:13:01 - 关闭应用: msedge.exe",2025-05-27 21:13:02 - 切换到窗口: 歌手2025小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:13:01 - 启动应用: msedge.exe,2025-05-27 21:13:02,window_focus,歌手2025小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:13:01,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:13:01 - 关闭应用: msedge.exe
+2025-05-27 21:13:02 - 切换到窗口: 歌手2025小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:13:05 - 启动应用: msedge.exe
+2025-05-27 21:13:08 - 关闭应用: msedge.exe
+2025-05-27 21:13:08 - 启动应用: msedge.exe",2025-05-27 21:13:09 - 切换到窗口: 听前奏猜歌名 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:13:10 - 关闭应用: msedge.exe,2025-05-27 21:13:09,window_focus,听前奏猜歌名 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:13:10,process_end,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:14:07 - 切换到窗口: 歌手2025小组 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:14:10 - 关闭应用: msedge.exe
+2025-05-27 21:14:11 - 切换到窗口: 我的小组讨论 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:14:17 - 启动应用: msedge.exe
+2025-05-27 21:14:18 - 切换到窗口: 新建标签页 和另外 29 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 21:14:22 - 切换到窗口: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:14:19 - 启动应用: msedge.exe,2025-05-27 21:14:22,window_focus,哔哩哔哩 (゜-゜)つロ 干杯~-bilibili 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:14:19,process_start,msedge.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:22:39 - 切换到窗口: 陈楚生现场-哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:22:46 - 切换到窗口: 外国人反应＋解读｜陈楚生《我用什么把你留住》歌手2025 第二期｜太戳心了_哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:22:49 - 关闭应用: msedge.exe
+2025-05-27 21:22:54 - 切换到窗口: 陈楚生现场-哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:22:56 - 关闭应用: msedge.exe",2025-05-27 21:22:59 - 启动应用: msedge.exe,2025-05-27 21:22:57 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会🎉升学宴🎉梨汁赛高版升学宴会-哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),2025-05-27 21:22:59,process_start,msedge.exe,2025-05-27 21:22:57,window_focus,歌手暴打芒果汁🍀梨汁赛高版升学考试宴会🎉升学宴🎉梨汁赛高版升学宴会-哔哩哔哩_bilibili 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:23:36 - 启动应用: chrome.exe
+2025-05-27 21:23:36 - 关闭应用: chrome.exe
+2025-05-27 21:23:36 - 关闭应用: msedge.exe
+2025-05-27 21:24:08 - 关闭应用: chrome.exe
+2025-05-27 21:24:26 - 启动应用: chrome.exe",2025-05-27 21:25:00 - 关闭应用: chrome.exe,2025-05-27 21:24:28 - 启动应用: chrome.exe,2025-05-27 21:25:00,process_end,chrome.exe,2025-05-27 21:24:28,process_start,chrome.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:31:59 - 启动应用: msedge.exe
+2025-05-27 21:32:00 - 切换到窗口: 歌手暴打芒果汁🍀梨汁赛高版升学考试宴会碎碎念 和另外 28 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 21:32:00 - 使用应用: chrome.exe (时长: 6.71秒)
+2025-05-27 21:32:02 - 关闭应用: msedge.exe
+2025-05-27 21:32:06 - 关闭应用: msedge.exe",2025-05-27 21:32:10 - 启动应用: msedge.exe,2025-05-27 21:32:06 - 关闭应用: msedge.exe,2025-05-27 21:32:10,process_start,msedge.exe,2025-05-27 21:32:06,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:36:02 - 关闭应用: chrome.exe
+2025-05-27 21:36:09 - 关闭应用: msedge.exe
+2025-05-27 21:36:32 - 关闭应用: chrome.exe
+2025-05-27 21:36:33 - 启动应用: chrome.exe
+2025-05-27 21:36:58 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)",2025-05-27 21:36:58 - 使用应用: msedge.exe (时长: 82.49秒),2025-05-27 21:37:00 - 启动应用: chrome.exe,2025-05-27 21:36:58,app_usage,msedge.exe (时长: 82.49秒),2025-05-27 21:37:00,process_start,chrome.exe,False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:36:09 - 关闭应用: msedge.exe
+2025-05-27 21:36:32 - 关闭应用: chrome.exe
+2025-05-27 21:36:33 - 启动应用: chrome.exe
+2025-05-27 21:36:58 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 21:36:58 - 使用应用: msedge.exe (时长: 82.49秒)",2025-05-27 21:37:27 - 启动应用: chrome.exe,2025-05-27 21:36:58 - 启动应用: chrome.exe,2025-05-27 21:37:27,process_start,chrome.exe,2025-05-27 21:36:58,process_start,chrome.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 21:36:32 - 关闭应用: chrome.exe
+2025-05-27 21:36:33 - 启动应用: chrome.exe
+2025-05-27 21:36:58 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe)
+2025-05-27 21:36:58 - 使用应用: msedge.exe (时长: 82.49秒)
+2025-05-27 21:37:27 - 启动应用: chrome.exe",2025-05-27 21:37:29 - 关闭应用: chrome.exe,2025-05-27 21:37:27 - 切换到窗口: 视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),2025-05-27 21:37:29,process_end,chrome.exe,2025-05-27 21:37:27,window_focus,视频播放 - 发展对象在线培训 - Google Chrome (应用: chrome.exe),False,False,False
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 22:09:23 - 启动应用: msedge.exe
+2025-05-27 22:09:24 - 启动应用: msedge.exe
+2025-05-27 22:09:25 - 关闭应用: chrome.exe
+2025-05-27 22:09:25 - 启动应用: msedge.exe
+2025-05-27 22:09:26 - 切换到窗口: 新建标签页 和另外 30 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 22:09:43 - 启动应用: msedge.exe,2025-05-27 22:09:26 - 启动应用: msedge.exe,2025-05-27 22:09:43,process_start,msedge.exe,2025-05-27 22:09:26,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 22:13:31 - 切换到窗口: 智星云服务器之云主机使用教程简记_智星云怎么用-CSDN博客 和另外 31 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 22:13:31 - 使用应用: mstsc.exe (时长: 9.03秒)
+2025-05-27 22:13:34 - 启动应用: msedge.exe
+2025-05-27 22:13:45 - 启动应用: msedge.exe
+2025-05-27 22:13:46 - 切换到窗口: 新建标签页 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 22:13:50 - 启动应用: msedge.exe,2025-05-27 22:13:48 - 启动应用: msedge.exe,2025-05-27 22:13:50,process_start,msedge.exe,2025-05-27 22:13:48,process_start,msedge.exe,False,True,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 22:13:31 - 使用应用: mstsc.exe (时长: 9.03秒)
+2025-05-27 22:13:34 - 启动应用: msedge.exe
+2025-05-27 22:13:45 - 启动应用: msedge.exe
+2025-05-27 22:13:46 - 切换到窗口: 新建标签页 和另外 32 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 22:13:50 - 启动应用: msedge.exe",2025-05-27 22:13:51 - 启动应用: msedge.exe,2025-05-27 22:13:50 - 关闭应用: msedge.exe,2025-05-27 22:13:51,process_start,msedge.exe,2025-05-27 22:13:50,process_end,msedge.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 22:29:53 - 启动应用: chrome.exe
+2025-05-27 22:30:23 - 关闭应用: chrome.exe
+2025-05-27 22:30:53 - 启动应用: chrome.exe
+2025-05-27 22:31:23 - 启动应用: chrome.exe
+2025-05-27 22:31:25 - 关闭应用: chrome.exe",2025-05-27 22:31:54 - 关闭应用: chrome.exe,2025-05-27 22:31:26 - 启动应用: chrome.exe,2025-05-27 22:31:54,process_end,chrome.exe,2025-05-27 22:31:26,process_start,chrome.exe,False,False,True
+根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
+2025-05-27 22:34:08 - 使用应用: mstsc.exe (时长: 324.35秒)
+2025-05-27 22:34:09 - 启动应用: msedge.exe
+2025-05-27 22:34:11 - 启动应用: msedge.exe
+2025-05-27 22:34:11 - 切换到窗口: 新建标签页 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)
+2025-05-27 22:34:14 - 切换到窗口: 网络通 和另外 33 个页面 - 个人 - Microsoft​ Edge (应用: msedge.exe)",2025-05-27 22:34:17 - 关闭应用: msedge.exe,2025-05-27 22:34:14 - 关闭应用: msedge.exe,2025-05-27 22:34:17,process_end,msedge.exe,2025-05-27 22:34:14,process_end,msedge.exe,False,True,True
