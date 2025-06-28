@@ -1,0 +1,541 @@
+[
+  {
+    "type": "window_focus",
+    "window_title": "OSH-MEMO地下版",
+    "process_name": "QQ.exe",
+    "process_id": 14460,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T16:13:13.524666"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Welcome - MEMO - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:13:21.783915"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "QQ.exe",
+    "duration": 8.26,
+    "timestamp": "2025-06-28T16:13:21.783915"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Extension: Remote - SSH - MEMO - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:13:29.940760"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 30932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=renderer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-user-model-id=Microsoft.VisualStudioCode --app-path=C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1749794626592364 --launch-time-ticks=1303780276928 --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=5684 --vscode-window-config=vscode:0c39d0a7-4dbf-4a1f-b261-fc594ad77fb0 /prefetch:1",
+    "timestamp": "2025-06-28T16:13:26.725555"
+  },
+  {
+    "type": "process_end",
+    "process_id": 37076,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:13:37.909317"
+  },
+  {
+    "type": "process_end",
+    "process_id": 24692,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:13:37.909317"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 12260,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=152 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303789179890 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9928 /prefetch:9",
+    "timestamp": "2025-06-28T16:13:35.627858"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:13:48.013727"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 2356,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=renderer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-user-model-id=Microsoft.VisualStudioCode --app-path=C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=13 --time-ticks-at-unix-epoch=-1749794626592364 --launch-time-ticks=1303797129332 --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=5212 --vscode-window-config=vscode:dbc8d8d7-fc13-4925-822c-490f912ca0ac /prefetch:1",
+    "timestamp": "2025-06-28T16:13:43.581881"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 16192,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --video-capture-use-gpu-memory-buffer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=7160 /prefetch:14",
+    "timestamp": "2025-06-28T16:13:44.271932"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 42132,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --video-capture-use-gpu-memory-buffer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=6244 /prefetch:14",
+    "timestamp": "2025-06-28T16:13:44.202054"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 58788,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=153 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303794979665 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7520 /prefetch:9",
+    "timestamp": "2025-06-28T16:13:41.424996"
+  },
+  {
+    "type": "process_end",
+    "process_id": 54040,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:13:55.305389"
+  },
+  {
+    "type": "process_end",
+    "process_id": 45348,
+    "process_name": "msrdc.exe",
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "timestamp": "2025-06-28T16:13:55.305389"
+  },
+  {
+    "type": "process_end",
+    "process_id": 40436,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:13:55.305389"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "OSH-MEMO地下版",
+    "process_name": "QQ.exe",
+    "process_id": 14460,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T16:13:56.312496"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Code.exe",
+    "duration": 8.3,
+    "timestamp": "2025-06-28T16:13:56.312496"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 16100,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2120",
+    "timestamp": "2025-06-28T16:13:48.332891"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msrdc.exe",
+    "process_id": 16812,
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "command_line": "msrdc.exe /wslg /silent /v:79674A85-F58E-4534-A022-0D0D58109EEC /hvsocketserviceid:00000001-FACB-11E6-BD58-64006A7986D3 /plugin:WSLDVC_PACKAGE /wslgsharedmemorypath:WSL\\79674A85-F58E-4534-A022-0D0D58109EEC\\wslg C:\\Program Files\\WSL\\wslg.rdp",
+    "timestamp": "2025-06-28T16:13:55.872030"
+  },
+  {
+    "type": "process_start",
+    "process_name": "cmd.exe",
+    "process_id": 17708,
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "command_line": "C:\\Windows\\System32\\cmd.exe /c (type C:\\Users\\yuwy\\AppData\\Local\\Temp\\vscode-linux-multi-line-command-js1.blockelite.cn-699835313.sh | C:\\Windows\\System32\\OpenSSH\\ssh.exe -T -D 60128 js1.blockelite.cn sh) & exit /b 0",
+    "timestamp": "2025-06-28T16:13:48.309245"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 26828,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2052",
+    "timestamp": "2025-06-28T16:13:48.592375"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:05.159426"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "QQ.exe",
+    "duration": 8.85,
+    "timestamp": "2025-06-28T16:14:05.159426"
+  },
+  {
+    "type": "process_end",
+    "process_id": 12260,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:14:12.228351"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Welcome - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:13.357827"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 51696,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=154 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303819604786 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9860 /prefetch:9",
+    "timestamp": "2025-06-28T16:14:06.050428"
+  },
+  {
+    "type": "process_end",
+    "process_id": 42132,
+    "process_name": "Code.exe",
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:20.458981"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:21.468051"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 9964,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --video-capture-use-gpu-memory-buffer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=5260 /prefetch:14",
+    "timestamp": "2025-06-28T16:14:19.666294"
+  },
+  {
+    "type": "process_start",
+    "process_name": "cmd.exe",
+    "process_id": 46980,
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "command_line": "C:\\Windows\\System32\\cmd.exe /c (type C:\\Users\\yuwy\\AppData\\Local\\Temp\\vscode-linux-multi-line-command-js1.blockelite.cn-407735675.sh | C:\\Windows\\System32\\OpenSSH\\ssh.exe -T -D 60217 js1.blockelite.cn sh) & exit /b 0",
+    "timestamp": "2025-06-28T16:14:20.841702"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Code.exe",
+    "process_id": 51140,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --video-capture-use-gpu-memory-buffer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --field-trial-handle=1756,i,15697974727058722676,16130670597458308710,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit --variations-seed-version --mojo-platform-channel-handle=4768 /prefetch:14",
+    "timestamp": "2025-06-28T16:14:19.615728"
+  },
+  {
+    "type": "process_end",
+    "process_id": 16192,
+    "process_name": "Code.exe",
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:28.238827"
+  },
+  {
+    "type": "process_end",
+    "process_id": 17708,
+    "process_name": "cmd.exe",
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "timestamp": "2025-06-28T16:14:28.238827"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Welcome - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:29.251766"
+  },
+  {
+    "type": "process_end",
+    "process_id": 51696,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:14:37.038954"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 49460,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=155 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303849947893 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9384 /prefetch:9",
+    "timestamp": "2025-06-28T16:14:36.393126"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "windows_client.py - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:46.661240"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "config.example.json - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:14:55.078885"
+  },
+  {
+    "type": "process_end",
+    "process_id": 49460,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:15:11.265699"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 12604,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=156 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303880366463 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9440 /prefetch:9",
+    "timestamp": "2025-06-28T16:15:06.811794"
+  },
+  {
+    "type": "process_end",
+    "process_id": 58788,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:15:20.026791"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 37652,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=157 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303910850130 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3532 /prefetch:9",
+    "timestamp": "2025-06-28T16:15:37.295635"
+  },
+  {
+    "type": "process_end",
+    "process_id": 12604,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:15:46.232780"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "23级计科二班通知群",
+    "process_name": "QQ.exe",
+    "process_id": 14460,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T16:15:47.239258"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Code.exe",
+    "duration": 52.16,
+    "timestamp": "2025-06-28T16:15:47.239258"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 41036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=158 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303914991878 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5964 /prefetch:9",
+    "timestamp": "2025-06-28T16:15:41.438205"
+  },
+  {
+    "type": "process_start",
+    "process_name": "QQ.exe",
+    "process_id": 49200,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "command_line": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe --type=renderer --user-data-dir=C:\\Users\\yuwy\\AppData\\Roaming\\QQ --standard-schemes=app --secure-schemes=app,appimg --bypasscsp-schemes=appimg --fetch-schemes=app,appimg --service-worker-schemes=appimg --app-user-model-id=QQ --app-path=C:\\Program Files\\Tencent\\QQNT\\versions\\9.9.20-36330\\resources\\app --enable-sandbox --allow-command-line-plugins --force-color-profile=srgb --register-pepper-plugins=C:\\Program Files\\Tencent\\QQNT\\versions\\9.9.20-36330\\resources\\app\\ppapi_player.plugin;application/x-ppapi-player,C:\\Program Files\\Tencent\\QQNT\\versions\\9.9.20-36330\\resources\\app\\avsdk\\AVSDKPlugin.dll;application/x-ppapi-avSDK,C:\\Program Files\\Tencent\\QQNT\\versions\\9.9.20-36330\\resources\\app\\libremoting.dll;application/x-ppapi-remoteSDK --js-flags=--expose-gc --video-capture-use-gpu-memory-buffer --lang=zh-CN --touch-selection-strategy=direction --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=53 --time-ticks-at-unix-epoch=-1749794640600076 --launch-time-ticks=1303919677088 --field-trial-handle=14084,i,13366502109753438141,15866156629751118981,262144 --enable-features=SchedulerYield --disable-features=SpareRendererForSitePerProcess,WinDelaySpellcheckServiceInit,WinRetrieveSuggestionsOnlyOnDemand --variations-seed-version --mojo-platform-channel-handle=11340 /prefetch:1",
+    "timestamp": "2025-06-28T16:15:46.118999"
+  },
+  {
+    "type": "process_end",
+    "process_id": 28140,
+    "process_name": "QQ.exe",
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T16:15:54.827793"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "config.example.json - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T16:15:55.938874"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "QQ.exe",
+    "duration": 8.7,
+    "timestamp": "2025-06-28T16:15:55.938874"
+  },
+  {
+    "type": "process_end",
+    "process_id": 16812,
+    "process_name": "msrdc.exe",
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "timestamp": "2025-06-28T16:16:12.319003"
+  },
+  {
+    "type": "process_end",
+    "process_id": 26828,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:16:12.319003"
+  },
+  {
+    "type": "process_end",
+    "process_id": 16100,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:16:12.319003"
+  },
+  {
+    "type": "process_end",
+    "process_id": 37652,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:16:12.319003"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 37268,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2876",
+    "timestamp": "2025-06-28T16:16:04.810647"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 44068,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2340",
+    "timestamp": "2025-06-28T16:16:05.041992"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 44776,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=159 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303941185030 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9480 /prefetch:9",
+    "timestamp": "2025-06-28T16:16:07.630653"
+  },
+  {
+    "type": "process_end",
+    "process_id": 41036,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:16:21.027040"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msrdc.exe",
+    "process_id": 34016,
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "command_line": "msrdc.exe /wslg /silent /v:79674A85-F58E-4534-A022-0D0D58109EEC /hvsocketserviceid:00000001-FACB-11E6-BD58-64006A7986D3 /plugin:WSLDVC_PACKAGE /wslgsharedmemorypath:WSL\\79674A85-F58E-4534-A022-0D0D58109EEC\\wslg C:\\Program Files\\WSL\\wslg.rdp",
+    "timestamp": "2025-06-28T16:16:15.094329"
+  },
+  {
+    "type": "process_end",
+    "process_id": 44776,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:16:38.729859"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 31456,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=160 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303971505678 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8892 /prefetch:9",
+    "timestamp": "2025-06-28T16:16:37.951112"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 52296,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=161 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303974990058 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=2772 /prefetch:9",
+    "timestamp": "2025-06-28T16:16:41.434348"
+  },
+  {
+    "type": "process_end",
+    "process_id": 31456,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:17:12.971927"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 3584,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=162 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1304001893194 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7272 /prefetch:9",
+    "timestamp": "2025-06-28T16:17:08.340670"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 29004,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=163 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1304032258612 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8752 /prefetch:9",
+    "timestamp": "2025-06-28T16:17:38.704088"
+  },
+  {
+    "type": "process_end",
+    "process_id": 3584,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:17:47.817278"
+  },
+  {
+    "type": "process_end",
+    "process_id": 34016,
+    "process_name": "msrdc.exe",
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "timestamp": "2025-06-28T16:18:13.844860"
+  },
+  {
+    "type": "process_end",
+    "process_id": 44068,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:18:13.844860"
+  },
+  {
+    "type": "process_end",
+    "process_id": 52296,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:18:13.844860"
+  },
+  {
+    "type": "process_end",
+    "process_id": 29004,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:18:13.844860"
+  },
+  {
+    "type": "process_end",
+    "process_id": 37268,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T16:18:13.844860"
+  }
+]

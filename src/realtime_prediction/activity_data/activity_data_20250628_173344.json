@@ -1,0 +1,566 @@
+[
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 35716,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=350 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308308264595 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5548 /prefetch:9",
+    "timestamp": "2025-06-28T17:28:54.715776"
+  },
+  {
+    "type": "process_end",
+    "process_id": 37992,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:28:57.935839"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 16904,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=351 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308335826915 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9936 /prefetch:9",
+    "timestamp": "2025-06-28T17:29:22.273485"
+  },
+  {
+    "type": "process_end",
+    "process_id": 15764,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:29:26.748517"
+  },
+  {
+    "type": "process_end",
+    "process_id": 35716,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:29:26.748517"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 52996,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=352 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308338659612 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9400 /prefetch:9",
+    "timestamp": "2025-06-28T17:29:25.105466"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "OSH-MEMO地下版",
+    "process_name": "QQ.exe",
+    "process_id": 14460,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T17:29:31.971961"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 3080.42,
+    "timestamp": "2025-06-28T17:29:31.971961"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "QQ",
+    "process_name": "QQ.exe",
+    "process_id": 14460,
+    "executable_path": "C:\\Program Files\\Tencent\\QQNT\\QQ.exe",
+    "timestamp": "2025-06-28T17:29:36.506292"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Appvant.exe",
+    "process_id": 34068,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe -TenMinutesWork",
+    "timestamp": "2025-06-28T17:29:34.973984"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBAgent.exe",
+    "process_id": 43460,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T17:29:35.158474"
+  },
+  {
+    "type": "process_end",
+    "process_id": 43460,
+    "process_name": "SLBAgent.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T17:29:44.787493"
+  },
+  {
+    "type": "process_end",
+    "process_id": 34068,
+    "process_name": "Appvant.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "timestamp": "2025-06-28T17:29:44.787493"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "deployment_guide.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:29:45.839727"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "QQ.exe",
+    "duration": 9.33,
+    "timestamp": "2025-06-28T17:29:45.839727"
+  },
+  {
+    "type": "process_end",
+    "process_id": 52996,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:29:57.883664"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "server_config.json - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:29:58.885442"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 13.05,
+    "timestamp": "2025-06-28T17:29:58.885442"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 18600,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=353 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308369042926 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=2772 /prefetch:9",
+    "timestamp": "2025-06-28T17:29:55.489152"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "GitHub Desktop",
+    "process_name": "GitHubDesktop.exe",
+    "process_id": 41788,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\GitHubDesktop\\app-3.4.21\\GitHubDesktop.exe",
+    "timestamp": "2025-06-28T17:30:08.158288"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Code.exe",
+    "duration": 9.27,
+    "timestamp": "2025-06-28T17:30:08.158288"
+  },
+  {
+    "type": "process_end",
+    "process_id": 16904,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:30:25.010876"
+  },
+  {
+    "type": "process_end",
+    "process_id": 30932,
+    "process_name": "Code.exe",
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:30:25.010876"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 30748,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=355 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308399417569 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5004 /prefetch:9",
+    "timestamp": "2025-06-28T17:30:25.863200"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 44204,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=354 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308396232511 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=1712 /prefetch:9",
+    "timestamp": "2025-06-28T17:30:22.677769"
+  },
+  {
+    "type": "process_end",
+    "process_id": 18600,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:30:29.114173"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "server_config.json - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:30:30.115464"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "GitHubDesktop.exe",
+    "duration": 21.96,
+    "timestamp": "2025-06-28T17:30:30.115464"
+  },
+  {
+    "type": "process_start",
+    "process_name": "LeASPac.exe",
+    "process_id": 24484,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe -timer",
+    "timestamp": "2025-06-28T17:30:29.773032"
+  },
+  {
+    "type": "file_access",
+    "path": "C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\activity_data\\activity_data_20250628_171336.json",
+    "timestamp": "2025-06-28T17:30:21.820514"
+  },
+  {
+    "type": "file_access",
+    "path": "C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\activity_data",
+    "timestamp": "2025-06-28T17:30:21.842824"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "deployment_guide.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:30:34.988001"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBUpdate.exe",
+    "process_id": 20660,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBUpdate.exe",
+    "command_line": "SLBUpdate.exe",
+    "timestamp": "2025-06-28T17:30:31.580326"
+  },
+  {
+    "type": "process_end",
+    "process_id": 24484,
+    "process_name": "LeASPac.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe",
+    "timestamp": "2025-06-28T17:30:38.427077"
+  },
+  {
+    "type": "process_start",
+    "process_name": "aipictool.exe",
+    "process_id": 52872,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe /auto_update /slbAdmin",
+    "timestamp": "2025-06-28T17:30:37.197886"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "server_config.json - vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:30:43.423880"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 8.44,
+    "timestamp": "2025-06-28T17:30:43.423880"
+  },
+  {
+    "type": "process_end",
+    "process_id": 52872,
+    "process_name": "aipictool.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "timestamp": "2025-06-28T17:30:50.177057"
+  },
+  {
+    "type": "process_end",
+    "process_id": 30748,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:30:58.050336"
+  },
+  {
+    "type": "process_start",
+    "process_name": "aipictool.exe",
+    "process_id": 15840,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe /register_preview",
+    "timestamp": "2025-06-28T17:30:57.846548"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 19320,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=356 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308429744336 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8700 /prefetch:9",
+    "timestamp": "2025-06-28T17:30:56.188940"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBStrategy.exe",
+    "process_id": 41956,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "timestamp": "2025-06-28T17:30:55.758777"
+  },
+  {
+    "type": "process_end",
+    "process_id": 20660,
+    "process_name": "SLBUpdate.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBUpdate.exe",
+    "timestamp": "2025-06-28T17:31:01.909854"
+  },
+  {
+    "type": "process_end",
+    "process_id": 15840,
+    "process_name": "aipictool.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "timestamp": "2025-06-28T17:31:05.781562"
+  },
+  {
+    "type": "process_end",
+    "process_id": 41956,
+    "process_name": "SLBStrategy.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "timestamp": "2025-06-28T17:31:09.597557"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:31:18.444453"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:31:22.521117"
+  },
+  {
+    "type": "process_end",
+    "process_id": 44204,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:31:25.573116"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 23548,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=358 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308460051945 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5264 /prefetch:9",
+    "timestamp": "2025-06-28T17:31:26.496138"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 27852,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=357 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308456477614 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7372 /prefetch:9",
+    "timestamp": "2025-06-28T17:31:22.924413"
+  },
+  {
+    "type": "process_end",
+    "process_id": 19320,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:31:29.599402"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "test.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:31:30.599716"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Code.exe",
+    "duration": 8.08,
+    "timestamp": "2025-06-28T17:31:30.599716"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "src - 文件资源管理器",
+    "process_name": "explorer.exe",
+    "process_id": 2168,
+    "executable_path": "C:\\Windows\\explorer.exe",
+    "timestamp": "2025-06-28T17:31:42.782038"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 12.18,
+    "timestamp": "2025-06-28T17:31:42.782038"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "vipuser [SSH: js1.blockelite.cn] - Visual Studio Code",
+    "process_name": "Code.exe",
+    "process_id": 18932,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "timestamp": "2025-06-28T17:31:49.945706"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "explorer.exe",
+    "duration": 7.16,
+    "timestamp": "2025-06-28T17:31:49.945706"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 41588,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=359 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308490324179 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=6976 /prefetch:9",
+    "timestamp": "2025-06-28T17:31:56.770711"
+  },
+  {
+    "type": "process_end",
+    "process_id": 23548,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:32:05.225195"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "微信",
+    "process_name": "WeChat.exe",
+    "process_id": 18400,
+    "executable_path": "D:\\WeChat\\WeChat.exe",
+    "timestamp": "2025-06-28T17:32:23.707427"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Code.exe",
+    "duration": 33.76,
+    "timestamp": "2025-06-28T17:32:23.707427"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 55292,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=360 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308516781533 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5264 /prefetch:9",
+    "timestamp": "2025-06-28T17:32:23.227218"
+  },
+  {
+    "type": "process_end",
+    "process_id": 27852,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:32:31.558384"
+  },
+  {
+    "type": "process_end",
+    "process_id": 41588,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:32:31.558384"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 40556,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=361 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308520693596 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7416 /prefetch:9",
+    "timestamp": "2025-06-28T17:32:27.139116"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "EmotionView",
+    "process_name": "WeChat.exe",
+    "process_id": 18400,
+    "executable_path": "D:\\WeChat\\WeChat.exe",
+    "timestamp": "2025-06-28T17:32:41.012128"
+  },
+  {
+    "type": "process_start",
+    "process_name": "WeChatAppEx.exe",
+    "process_id": 41992,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Roaming\\Tencent\\WeChat\\XPlugin\\Plugins\\RadiumWMPF\\13639\\extracted\\runtime\\WeChatAppEx.exe",
+    "command_line": "C:\\Users\\yuwy\\AppData\\Roaming\\Tencent\\WeChat\\XPlugin\\Plugins\\RadiumWMPF\\13639\\extracted\\runtime\\WeChatAppEx.exe --type=renderer --client_version=1661537331 --enable-crash-reporter --wmpf-render-type=0 --product-id=1000 --disable-notifications --lang=zh-CN --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=21 --time-ticks-at-unix-epoch=-1749794632830441 --disable-mojo-broker --launch-time-ticks=1308533533852 --field-trial-handle=5880,i,14523468365788862781,7455776197901171042,262144 --enable-features=NetworkServiceMemoryCache,OverlayScrollbar,XWorker --disable-features=AudioServiceOutOfProcess,AutoupgradeMixedContent,BackForwardCache,DigitalGoodsApi,NotificationTriggers,PeriodicBackgroundSync,TFLiteLanguageDetectionEnabled,Vulkan,WebOTP --variations-seed-version --log-level=2 --mojo-platform-channel-handle=3784 /prefetch:1",
+    "timestamp": "2025-06-28T17:32:39.976272"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "微信",
+    "process_name": "WeChat.exe",
+    "process_id": 18400,
+    "executable_path": "D:\\WeChat\\WeChat.exe",
+    "timestamp": "2025-06-28T17:32:49.903798"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 28168,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=362 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308550993711 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7900 /prefetch:9",
+    "timestamp": "2025-06-28T17:32:57.438996"
+  },
+  {
+    "type": "process_end",
+    "process_id": 40556,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:33:05.712644"
+  },
+  {
+    "type": "process_end",
+    "process_id": 55292,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:33:23.461738"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 27160,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=363 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308577135168 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=6480 /prefetch:9",
+    "timestamp": "2025-06-28T17:33:23.581112"
+  },
+  {
+    "type": "process_end",
+    "process_id": 28168,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:33:32.460676"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "test.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:33:33.572079"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WeChat.exe",
+    "duration": 43.67,
+    "timestamp": "2025-06-28T17:33:33.572079"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 34888,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=364 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1308581734984 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=880 /prefetch:9",
+    "timestamp": "2025-06-28T17:33:28.181480"
+  },
+  {
+    "type": "process_end",
+    "process_id": 41992,
+    "process_name": "WeChatAppEx.exe",
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Roaming\\Tencent\\WeChat\\XPlugin\\Plugins\\RadiumWMPF\\13639\\extracted\\runtime\\WeChatAppEx.exe",
+    "timestamp": "2025-06-28T17:33:44.813067"
+  }
+]

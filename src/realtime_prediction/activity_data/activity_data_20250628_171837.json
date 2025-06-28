@@ -1,0 +1,242 @@
+[
+  {
+    "type": "process_end",
+    "process_id": 25232,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:13:40.648348"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 60276,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=307 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307393420506 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9516 /prefetch:9",
+    "timestamp": "2025-06-28T17:13:39.867231"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 61424,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=308 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307394980756 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9708 /prefetch:9",
+    "timestamp": "2025-06-28T17:13:41.424283"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 26004,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=309 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307423791122 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=4912 /prefetch:9",
+    "timestamp": "2025-06-28T17:14:10.236991"
+  },
+  {
+    "type": "process_end",
+    "process_id": 60276,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:14:13.649622"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Appvant.exe",
+    "process_id": 12820,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe -TenMinutesWork",
+    "timestamp": "2025-06-28T17:14:34.904475"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBAgent.exe",
+    "process_id": 23392,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T17:14:35.038679"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 26036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=310 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307454208682 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7880 /prefetch:9",
+    "timestamp": "2025-06-28T17:14:40.654887"
+  },
+  {
+    "type": "process_end",
+    "process_id": 23392,
+    "process_name": "SLBAgent.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T17:14:44.880466"
+  },
+  {
+    "type": "process_end",
+    "process_id": 26004,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:14:44.880466"
+  },
+  {
+    "type": "process_end",
+    "process_id": 12820,
+    "process_name": "Appvant.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "timestamp": "2025-06-28T17:14:44.880466"
+  },
+  {
+    "type": "process_end",
+    "process_id": 61424,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:15:12.332921"
+  },
+  {
+    "type": "process_end",
+    "process_id": 26036,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:15:12.332921"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 4352,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=311 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307484596195 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8908 /prefetch:9",
+    "timestamp": "2025-06-28T17:15:11.041900"
+  },
+  {
+    "type": "process_start",
+    "process_name": "LeASPac.exe",
+    "process_id": 33236,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe -timer",
+    "timestamp": "2025-06-28T17:15:29.783436"
+  },
+  {
+    "type": "process_end",
+    "process_id": 33236,
+    "process_name": "LeASPac.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LeAppStore\\LeASPac.exe",
+    "timestamp": "2025-06-28T17:15:40.203763"
+  },
+  {
+    "type": "process_end",
+    "process_id": 4352,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:15:44.234165"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 14268,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=313 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307514985504 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9192 /prefetch:9",
+    "timestamp": "2025-06-28T17:15:41.430882"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 23632,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=312 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307514979747 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9660 /prefetch:9",
+    "timestamp": "2025-06-28T17:15:41.425183"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 7644,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=314 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307545320386 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9420 /prefetch:9",
+    "timestamp": "2025-06-28T17:16:11.765926"
+  },
+  {
+    "type": "process_end",
+    "process_id": 23632,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:16:16.364928"
+  },
+  {
+    "type": "process_end",
+    "process_id": 14268,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:16:16.364928"
+  },
+  {
+    "type": "process_end",
+    "process_id": 7644,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:16:43.821616"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 20372,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=316 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307575670682 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=4968 /prefetch:9",
+    "timestamp": "2025-06-28T17:16:42.115802"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 26824,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=315 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307574983071 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3788 /prefetch:9",
+    "timestamp": "2025-06-28T17:16:41.430175"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 31556,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=317 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307605953060 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9688 /prefetch:9",
+    "timestamp": "2025-06-28T17:17:12.398549"
+  },
+  {
+    "type": "process_end",
+    "process_id": 20372,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:17:15.429720"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 36404,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=318 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307636356687 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5388 /prefetch:9",
+    "timestamp": "2025-06-28T17:17:42.802082"
+  },
+  {
+    "type": "process_end",
+    "process_id": 31556,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:17:47.035040"
+  },
+  {
+    "type": "process_end",
+    "process_id": 26824,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:18:14.713389"
+  },
+  {
+    "type": "process_end",
+    "process_id": 36404,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:18:14.713389"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 42256,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=319 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1307666631284 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9632 /prefetch:9",
+    "timestamp": "2025-06-28T17:18:13.077135"
+  }
+]

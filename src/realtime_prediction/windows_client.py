@@ -216,14 +216,29 @@ class WindowsActivityClient:
     async def start_monitoring(self):
         """启动活动监控"""
         try:
-            # 替换monitor的activities列表为我们的hook
-            original_activities = self.monitor.activities
+            # 使用装饰器模式替代直接替换append方法
+            # 保存原始activities引用
+            self.original_activities = self.monitor.activities
             
-            def modified_append(item):
-                original_activities.append(item)
-                self._activity_monitor_hook(item)
+            # 替换整个activities列表为自定义列表
+            class MonitoredList(list):
+                def __init__(self, parent_client):
+                    super().__init__()
+                    self.client = parent_client
+                
+                def append(self, item):
+                    super().append(item)
+                    # 调用hook函数
+                    self.client._activity_monitor_hook(item)
             
-            self.monitor.activities.append = modified_append
+            # 创建新的监控列表
+            monitored_list = MonitoredList(self)
+            
+            # 复制现有数据
+            monitored_list.extend(self.monitor.activities)
+            
+            # 替换monitor的activities列表
+            self.monitor.activities = monitored_list
             
             # 在线程中启动监控
             monitor_thread = threading.Thread(target=self.monitor.start, daemon=True)
@@ -233,6 +248,9 @@ class WindowsActivityClient:
             
         except Exception as e:
             logger.error(f"❌ 启动活动监控失败: {e}")
+            # 如果出错，恢复原始activities
+            if hasattr(self, 'original_activities'):
+                self.monitor.activities = self.original_activities
     
     async def start_communication(self):
         """启动与服务器的通信"""
@@ -392,6 +410,7 @@ async def main():
     parser.add_argument("--config", "-c", help="配置文件路径")
     parser.add_argument("--server", "-s", help="服务器地址 (host:port)")
     parser.add_argument("--test", "-t", action="store_true", help="测试模式")
+    parser.add_argument("--demo", "-d", action="store_true", help="演示模式")
     
     args = parser.parse_args()
     
@@ -407,7 +426,49 @@ async def main():
         else:
             client.config.server_host = args.server
     
-    if args.test:
+    if args.demo:
+        logger.info("🎬 演示模式：使用预设活动数据")
+        # 在演示模式下添加一系列模拟数据
+        demo_activities = [
+            {
+                'type': 'browser_history',
+                'domain': 'www.douban.com',
+                'title': '【盘个剧本押个C】【Game of Thrones】1st episode 《All men must die》',
+                'timestamp': datetime.now().isoformat()
+            },
+            {
+                'type': 'browser_history',
+                'domain': 'github.com',
+                'title': 'self-llm/examples/AMchat-高等数学 at master · datawhalechina/self-llm',
+                'timestamp': datetime.now().isoformat()
+            },
+            {
+                'type': 'browser_history',
+                'domain': 'github.com',
+                'title': 'MEMO/feasibility_report/Fine-tuning of LLM.md at main · OSH-2025/MEMO',
+                'timestamp': datetime.now().isoformat()
+            },
+            {
+                'type': 'browser_history',
+                'domain': 'github.com',
+                'title': 'MEMO/src at main · OSH-2025/MEMO',
+                'timestamp': datetime.now().isoformat()
+            },
+            {
+                'type': 'window_focus',
+                'process_name': 'Code.exe',
+                'window_title': 'windows_client.py - Visual Studio Code',
+                'timestamp': datetime.now().isoformat()
+            }
+        ]
+        
+        # 添加演示数据到缓冲区
+        for activity_data in demo_activities:
+            client._activity_monitor_hook(activity_data)
+        
+        print(f"\n📊 已添加 {len(demo_activities)} 条演示活动数据")
+        
+    elif args.test:
         logger.info("🧪 测试模式：模拟活动数据")
         # 在测试模式下添加一些模拟数据
         test_activities = [
@@ -434,11 +495,16 @@ async def main():
         if not started:
             return
         
-        print("\n🔄 客户端运行中... 按 Ctrl+C 停止")
-        
-        # 保持运行直到中断
-        while True:
-            await asyncio.sleep(1)
+        if args.demo or args.test:
+            print(f"\n🔄 {'演示' if args.demo else '测试'}模式运行中... 按 Ctrl+C 停止")
+            # 在演示/测试模式下运行较短时间
+            await asyncio.sleep(30)  # 运行30秒用于演示
+            print(f"\n✅ {'演示' if args.demo else '测试'}模式完成")
+        else:
+            print("\n🔄 客户端运行中... 按 Ctrl+C 停止")
+            # 保持运行直到中断
+            while True:
+                await asyncio.sleep(1)
             
     except KeyboardInterrupt:
         print("\n👋 用户中断")

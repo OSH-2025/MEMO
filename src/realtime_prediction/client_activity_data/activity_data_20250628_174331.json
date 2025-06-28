@@ -1,0 +1,65 @@
+[
+  {
+    "type": "session_start",
+    "timestamp": "2025-06-28T17:43:00.181648"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "无标题 和另外 5 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:43:11.115282"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 46568,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=374 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309163770497 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5548 /prefetch:9",
+    "timestamp": "2025-06-28T17:43:10.212569"
+  },
+  {
+    "type": "file_access",
+    "path": "C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\activity_data",
+    "timestamp": "2025-06-28T17:30:21.842824"
+  },
+  {
+    "type": "file_access",
+    "path": "C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\activity_data\\activity_data_20250628_171336.json",
+    "timestamp": "2025-06-28T17:30:21.820514"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "活动预测客户端",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 36168,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:43:19.967951"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "msedge.exe",
+    "duration": 8.85,
+    "timestamp": "2025-06-28T17:43:19.967951"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Cursor - The AI Code Editor 和另外 5 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:43:27.821764"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WindowsTerminal.exe",
+    "duration": 7.85,
+    "timestamp": "2025-06-28T17:43:27.821764"
+  },
+  {
+    "type": "session_end",
+    "session_duration": 31.172224283218384,
+    "timestamp": "2025-06-28T17:43:31.353872"
+  }
+]

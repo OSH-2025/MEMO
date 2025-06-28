@@ -2,8 +2,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 from peft import PeftModel
 
-mode_path = './LLM-Research/Meta-Llama-3___1-8B-Instruct'
-lora_path = './output/llama3_1_instruct_lora/checkpoint-138' # 换成你自己的路径
+mode_path = '/home/vipuser/llm/LLM-Research'
+lora_path = '/home/vipuser/llm/output/exp16_lr0.0003_bs2_r32_a128_ep4_d0.05/checkpoint-356' # 换成你自己的路径
 
 # 加载tokenizer
 tokenizer = AutoTokenizer.from_pretrained(mode_path, trust_remote_code=True)
@@ -23,7 +23,7 @@ model = PeftModel.from_pretrained(model, model_id=lora_path)
 # 构造与训练一致的prompt
 system_prompt = (
     "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\n"
-    "你是一个智能助手，请根据用户最近的活动序列，预测下一个最有可能的用户活动。输出格式类似“2025-05-22 08:30:38 - 访问网站 github.com 的页面 'README.md at main · OSH-2025/MEMO'”，注意这里的网页或应用只考虑已知确定的网页和应用。\n"
+    "你是一个智能助手，请根据用户最近的活动序列，预测下一个最有可能的用户活动。输出格式类似\"2025-05-22 08:30:38 - 访问网站 github.com 的页面 'README.md at main · OSH-2025/MEMO'\"，注意这里的网页或应用只考虑已知确定的网页和应用。\n"
     "<|eot_id|>"
 )
 

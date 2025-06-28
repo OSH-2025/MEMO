@@ -1,0 +1,454 @@
+[
+  {
+    "type": "process_end",
+    "process_id": 54348,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:50:14.877709"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Clash Verge",
+    "process_name": "clash-verge.exe",
+    "process_id": 11916,
+    "executable_path": "D:\\Clash\\clash-verge.exe",
+    "timestamp": "2025-06-28T17:50:20.023237"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 193.68,
+    "timestamp": "2025-06-28T17:50:20.023237"
+  },
+  {
+    "type": "process_end",
+    "process_id": 46980,
+    "process_name": "cmd.exe",
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "timestamp": "2025-06-28T17:50:24.024512"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "prediction_executor.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:50:25.027063"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "clash-verge.exe",
+    "duration": 5.0,
+    "timestamp": "2025-06-28T17:50:25.027063"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "start_client_safe.bat - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T17:50:29.322595"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 31468,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=381 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309614984665 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3148 /prefetch:9",
+    "timestamp": "2025-06-28T17:50:41.429426"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "活动预测客户端",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 4536,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:50:48.442647"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "Cursor.exe",
+    "duration": 19.12,
+    "timestamp": "2025-06-28T17:50:48.442647"
+  },
+  {
+    "type": "process_start",
+    "process_name": "OpenConsole.exe",
+    "process_id": 3712,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+    "command_line": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\OpenConsole.exe -Embedding",
+    "timestamp": "2025-06-28T17:51:00.618050"
+  },
+  {
+    "type": "process_start",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 50460,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "command_line": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe -Embedding",
+    "timestamp": "2025-06-28T17:51:00.801535"
+  },
+  {
+    "type": "process_start",
+    "process_name": "cmd.exe",
+    "process_id": 55656,
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "command_line": "C:\\Windows\\system32\\cmd.exe /c C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\start_client_safe.bat ",
+    "timestamp": "2025-06-28T17:51:00.579356"
+  },
+  {
+    "type": "process_start",
+    "process_name": "python.exe",
+    "process_id": 2076,
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "command_line": "python enhanced_demo.py --interactive",
+    "timestamp": "2025-06-28T17:51:07.557604"
+  },
+  {
+    "type": "process_end",
+    "process_id": 31468,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:51:23.764323"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "新建标签页 和另外 3 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:51:24.776083"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WindowsTerminal.exe",
+    "duration": 36.33,
+    "timestamp": "2025-06-28T17:51:24.776083"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 3116,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=382 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309653625355 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9908 /prefetch:9",
+    "timestamp": "2025-06-28T17:51:20.070848"
+  },
+  {
+    "type": "process_start",
+    "process_name": "LZStrategy.exe",
+    "process_id": 3276,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LegionZone\\LZStrategy.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\LegionZone\\LZStrategy.exe",
+    "timestamp": "2025-06-28T17:51:23.487257"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 25180,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=383 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309653629464 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9372 /prefetch:9",
+    "timestamp": "2025-06-28T17:51:20.073429"
+  },
+  {
+    "type": "process_end",
+    "process_id": 8672,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:51:32.735283"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "活动预测客户端",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 50460,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:51:33.738138"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "msedge.exe",
+    "duration": 8.96,
+    "timestamp": "2025-06-28T17:51:33.738138"
+  },
+  {
+    "type": "process_end",
+    "process_id": 3276,
+    "process_name": "LZStrategy.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\LegionZone\\LZStrategy.exe",
+    "timestamp": "2025-06-28T17:51:42.842388"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "无标题 和另外 4 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:51:43.959179"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WindowsTerminal.exe",
+    "duration": 10.22,
+    "timestamp": "2025-06-28T17:51:43.959179"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 55592,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=385 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309676668276 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8164 /prefetch:1",
+    "timestamp": "2025-06-28T17:51:43.111542"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "活动预测客户端",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 50460,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:51:54.869924"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "msedge.exe",
+    "duration": 10.91,
+    "timestamp": "2025-06-28T17:51:54.869924"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 29848,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=utility --utility-sub-type=edge_xpay_wallet.mojom.EdgeXPayWalletService --lang=zh-CN --service-sandbox-type=utility --video-capture-use-gpu-memory-buffer --no-pre-read-main-dll --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=4820 /prefetch:14",
+    "timestamp": "2025-06-28T17:51:44.853984"
+  },
+  {
+    "type": "process_end",
+    "process_id": 50356,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T17:52:03.813722"
+  },
+  {
+    "type": "process_end",
+    "process_id": 27780,
+    "process_name": "wslhost.exe",
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "timestamp": "2025-06-28T17:52:03.813722"
+  },
+  {
+    "type": "process_end",
+    "process_id": 7484,
+    "process_name": "msrdc.exe",
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "timestamp": "2025-06-28T17:52:03.813722"
+  },
+  {
+    "type": "browser_history",
+    "browser": "edge",
+    "url": "https://github.com/OSH-2025/MEMO",
+    "title": "OSH-2025/MEMO: MEMOr(gan)ize in a smart way !",
+    "domain": "github.com",
+    "timestamp": "2025-06-28T09:51:44.520717"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 17304,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2208",
+    "timestamp": "2025-06-28T17:52:05.891997"
+  },
+  {
+    "type": "process_start",
+    "process_name": "wslhost.exe",
+    "process_id": 30320,
+    "executable_path": "C:\\Program Files\\WSL\\wslhost.exe",
+    "command_line": " --vm-id {79674a85-f58e-4534-a022-0d0d58109eec} --handle 2644",
+    "timestamp": "2025-06-28T17:52:06.233249"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 18288,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=387 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309716433366 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3212 /prefetch:9",
+    "timestamp": "2025-06-28T17:52:22.878619"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msrdc.exe",
+    "process_id": 56116,
+    "executable_path": "C:\\Program Files\\WSL\\msrdc.exe",
+    "command_line": "msrdc.exe /wslg /silent /v:79674A85-F58E-4534-A022-0D0D58109EEC /hvsocketserviceid:00000001-FACB-11E6-BD58-64006A7986D3 /plugin:WSLDVC_PACKAGE /wslgsharedmemorypath:WSL\\79674A85-F58E-4534-A022-0D0D58109EEC\\wslg C:\\Program Files\\WSL\\wslg.rdp",
+    "timestamp": "2025-06-28T17:52:21.616296"
+  },
+  {
+    "type": "process_end",
+    "process_id": 3116,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:52:33.132643"
+  },
+  {
+    "type": "process_end",
+    "process_id": 25180,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:52:33.132643"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 32604,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=388 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309734980027 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8808 /prefetch:9",
+    "timestamp": "2025-06-28T17:52:41.425105"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "豆瓣 和另外 5 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:52:54.305655"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WindowsTerminal.exe",
+    "duration": 59.44,
+    "timestamp": "2025-06-28T17:52:54.305655"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 57004,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=390 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309745046166 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7992 /prefetch:1",
+    "timestamp": "2025-06-28T17:52:51.490960"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "活动预测客户端",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 50460,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:53:04.449498"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "msedge.exe",
+    "duration": 10.14,
+    "timestamp": "2025-06-28T17:53:04.449498"
+  },
+  {
+    "type": "process_end",
+    "process_id": 32604,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:53:33.564100"
+  },
+  {
+    "type": "process_end",
+    "process_id": 55656,
+    "process_name": "cmd.exe",
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "timestamp": "2025-06-28T17:53:33.564100"
+  },
+  {
+    "type": "process_end",
+    "process_id": 18288,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:53:33.564100"
+  },
+  {
+    "type": "process_end",
+    "process_id": 50460,
+    "process_name": "WindowsTerminal.exe",
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "timestamp": "2025-06-28T17:53:33.564100"
+  },
+  {
+    "type": "process_end",
+    "process_id": 2076,
+    "process_name": "python.exe",
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "timestamp": "2025-06-28T17:53:33.564100"
+  },
+  {
+    "type": "browser_history",
+    "browser": "edge",
+    "url": "https://www.douban.com/",
+    "title": "豆瓣",
+    "domain": "www.douban.com",
+    "timestamp": "2025-06-28T09:52:50.443396"
+  },
+  {
+    "type": "process_start",
+    "process_name": "WindowsTerminal.exe",
+    "process_id": 11436,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe",
+    "command_line": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\WindowsTerminal.exe -Embedding",
+    "timestamp": "2025-06-28T17:53:32.237342"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 29472,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=391 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309781578125 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7952 /prefetch:9",
+    "timestamp": "2025-06-28T17:53:28.023224"
+  },
+  {
+    "type": "process_start",
+    "process_name": "OpenConsole.exe",
+    "process_id": 39064,
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+    "command_line": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\OpenConsole.exe -Embedding",
+    "timestamp": "2025-06-28T17:53:32.065349"
+  },
+  {
+    "type": "process_start",
+    "process_name": "cmd.exe",
+    "process_id": 41316,
+    "executable_path": "C:\\Windows\\System32\\cmd.exe",
+    "command_line": "C:\\Windows\\system32\\cmd.exe /c C:\\Users\\yuwy\\OneDrive\\文档\\GitHub\\MEMO\\src\\realtime_prediction\\start_client_safe.bat ",
+    "timestamp": "2025-06-28T17:53:32.002496"
+  },
+  {
+    "type": "process_end",
+    "process_id": 3712,
+    "process_name": "OpenConsole.exe",
+    "executable_path": "C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe\\OpenConsole.exe",
+    "timestamp": "2025-06-28T17:53:43.901479"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "OSH-2025/MEMO: MEMOr(gan)ize in a smart way ! 和另外 6 个页面 - 个人 - Microsoft​ Edge",
+    "process_name": "msedge.exe",
+    "process_id": 3036,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T17:53:44.912477"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WindowsTerminal.exe",
+    "duration": 40.46,
+    "timestamp": "2025-06-28T17:53:44.912477"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 9256,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=393 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309794005316 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9476 /prefetch:9",
+    "timestamp": "2025-06-28T17:53:40.448394"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 31116,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=392 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1309793912795 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8592 /prefetch:1",
+    "timestamp": "2025-06-28T17:53:40.355057"
+  }
+]
