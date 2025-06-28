@@ -1,12 +1,7 @@
-instruction,input,reference,prediction,ref_time,ref_operation,ref_target,pred_time,pred_operation,pred_target,exact_match,operation_match,target_match
-根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
-2025-05-28 00:07:34 - 访问网站 aizex.me 的页面 'Aizex Panel'
-2025-05-28 00:07:42 - 访问网站 stug-x.memofun.net 的页面 'ChatGPT'
-2025-05-28 00:08:01 - 访问网站 stug-x.memofun.net 的页面 'SRE模块不匹配解决方案'
-2025-05-28 00:14:03 - 访问网站 www.google.com 的页面 '菜鸟教程 - Google 搜索'
-2025-05-28 00:14:06 - 访问网站 www.runoob.com 的页面 '菜鸟教程 - 学的不仅是技术，更是梦想！'",2025-05-28 00:14:06 - 访问网站 www.runoob.com 的页面 '菜鸟教程 - 学的不仅是技术，更是梦想！',2025-05-28 00:14:10 - 访问网站 www.runoob.com 的页面 'Python 网络编程 - 菜鸟教程',2025-05-28 00:14:06,browser_history,www.runoob.com,2025-05-28 00:14:10,browser_history,www.runoob.com,False,True,True
-根据用户之前的活动序列，预测下一个可能的活动。,"用户活动序列:
-2025-05-28 16:01:45 - 启动应用: msedge.exe
+urls Friday 00:07:34 - https://aizex.me/plusPool
+urls Friday 00:14:03 - https://www.google.com/
+urls Friday 00:14:06 - https://www.runoob.com/
+apps Friday 16:01:45 - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 2025-05-28 16:02:19 - 关闭应用: msedge.exe
 2025-05-28 16:02:45 - 启动应用: msedge.exe
 2025-05-28 16:02:48 - 启动应用: SDXHelper.exe
