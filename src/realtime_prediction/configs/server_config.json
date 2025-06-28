@@ -1,0 +1,11 @@
+{
+  "host": "0.0.0.0",
+  "port": 8888,
+  "model_path": "./models/llama3-instruct",
+  "lora_path": "./models/lora-checkpoint-138",
+  "max_clients": 50,
+  "activity_history_size": 200,
+  "prediction_batch_size": 20,
+  "enable_gpu": true,
+  "model_cache_size": 2
+} 

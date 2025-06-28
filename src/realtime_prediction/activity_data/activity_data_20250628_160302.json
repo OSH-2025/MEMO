@@ -1,0 +1,566 @@
+[
+  {
+    "type": "process_end",
+    "process_id": 15816,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:58:13.258019"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 37344,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=112 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302866594207 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=7284 /prefetch:9",
+    "timestamp": "2025-06-28T15:58:13.041801"
+  },
+  {
+    "type": "process_end",
+    "process_id": 45876,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:58:17.254371"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 26704,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=113 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302894991688 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=10012 /prefetch:9",
+    "timestamp": "2025-06-28T15:58:41.438401"
+  },
+  {
+    "type": "process_end",
+    "process_id": 37344,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:58:45.597483"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 49892,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=114 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302896896936 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=8696 /prefetch:9",
+    "timestamp": "2025-06-28T15:58:43.344075"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "client_server_architecture.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T15:58:59.318122"
+  },
+  {
+    "type": "app_usage",
+    "process_name": "WeChat.exe",
+    "duration": 148.28,
+    "timestamp": "2025-06-28T15:58:59.318122"
+  },
+  {
+    "type": "process_end",
+    "process_id": 26704,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:59:14.776238"
+  },
+  {
+    "type": "process_end",
+    "process_id": 49892,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:59:14.776238"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 5428,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=115 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302927174503 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=4824 /prefetch:9",
+    "timestamp": "2025-06-28T15:59:13.619150"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBAgent.exe",
+    "process_id": 19872,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T15:59:34.736470"
+  },
+  {
+    "type": "process_start",
+    "process_name": "Appvant.exe",
+    "process_id": 25320,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe -TenMinutesWork",
+    "timestamp": "2025-06-28T15:59:34.599641"
+  },
+  {
+    "type": "process_end",
+    "process_id": 25320,
+    "process_name": "Appvant.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Appvant.exe",
+    "timestamp": "2025-06-28T15:59:41.587668"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "activity_data_20250628_154756.json - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T15:59:42.596396"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 15672,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=116 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302954953448 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9388 /prefetch:9",
+    "timestamp": "2025-06-28T15:59:41.398273"
+  },
+  {
+    "type": "process_end",
+    "process_id": 19872,
+    "process_name": "SLBAgent.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\Modules\\SLBAgent.exe",
+    "timestamp": "2025-06-28T15:59:45.316727"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "unified_workflow.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T15:59:46.319725"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 4520,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=117 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302957528540 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=4076 /prefetch:9",
+    "timestamp": "2025-06-28T15:59:43.976125"
+  },
+  {
+    "type": "process_end",
+    "process_id": 5428,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T15:59:49.215169"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "requirements.txt - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T15:59:50.224621"
+  },
+  {
+    "type": "process_start",
+    "process_name": "LenovoAppupdate.exe",
+    "process_id": 27060,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\LenovoAppupdate.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\LenovoAppupdate.exe /silence",
+    "timestamp": "2025-06-28T15:59:49.861918"
+  },
+  {
+    "type": "process_start",
+    "process_name": "python.exe",
+    "process_id": 4884,
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "command_line": "C:\\Program Files\\Python310\\python.exe C:\\Program Files\\Python310\\Scripts\\pip.exe install aiohttp aiohttp-cors",
+    "timestamp": "2025-06-28T15:59:51.299629"
+  },
+  {
+    "type": "process_start",
+    "process_name": "pip.exe",
+    "process_id": 58040,
+    "executable_path": "C:\\Program Files\\Python310\\Scripts\\pip.exe",
+    "command_line": "C:\\Program Files\\Python310\\Scripts\\pip.exe install aiohttp aiohttp-cors",
+    "timestamp": "2025-06-28T15:59:51.286451"
+  },
+  {
+    "type": "process_end",
+    "process_id": 27060,
+    "process_name": "LenovoAppupdate.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\PCManager\\5.1.110.5203\\LenovoAppupdate.exe",
+    "timestamp": "2025-06-28T15:59:57.162875"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "README.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T15:59:58.205618"
+  },
+  {
+    "type": "process_end",
+    "process_id": 58040,
+    "process_name": "pip.exe",
+    "executable_path": "C:\\Program Files\\Python310\\Scripts\\pip.exe",
+    "timestamp": "2025-06-28T16:00:01.053920"
+  },
+  {
+    "type": "process_end",
+    "process_id": 4884,
+    "process_name": "python.exe",
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "timestamp": "2025-06-28T16:00:01.053920"
+  },
+  {
+    "type": "process_start",
+    "process_name": "python.exe",
+    "process_id": 50504,
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "command_line": "C:\\Program Files\\Python310\\python.exe demo_client_server.py --info",
+    "timestamp": "2025-06-28T16:00:08.892561"
+  },
+  {
+    "type": "process_end",
+    "process_id": 4520,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:00:16.679545"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 48732,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=118 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1302987840877 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=1508 /prefetch:9",
+    "timestamp": "2025-06-28T16:00:14.286402"
+  },
+  {
+    "type": "process_end",
+    "process_id": 50504,
+    "process_name": "python.exe",
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "timestamp": "2025-06-28T16:00:20.367221"
+  },
+  {
+    "type": "process_end",
+    "process_id": 29092,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:00:32.023409"
+  },
+  {
+    "type": "process_start",
+    "process_name": "pdftool.exe",
+    "process_id": 13692,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pdf\\pdftool.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pdf\\pdftool.exe /auto_update /slbAdmin",
+    "timestamp": "2025-06-28T16:00:30.677891"
+  },
+  {
+    "type": "process_start",
+    "process_name": "python.exe",
+    "process_id": 38452,
+    "executable_path": "C:\\Program Files\\Python310\\python.exe",
+    "command_line": "C:\\Program Files\\Python310\\python.exe demo_client_server.py --demo",
+    "timestamp": "2025-06-28T16:00:29.545562"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBUpdate.exe",
+    "process_id": 59888,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBUpdate.exe",
+    "command_line": "SLBUpdate.exe",
+    "timestamp": "2025-06-28T16:00:30.560138"
+  },
+  {
+    "type": "process_start",
+    "process_name": "aipictool.exe",
+    "process_id": 48196,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe /auto_update /slbAdmin",
+    "timestamp": "2025-06-28T16:00:36.344075"
+  },
+  {
+    "type": "process_end",
+    "process_id": 13692,
+    "process_name": "pdftool.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pdf\\pdftool.exe",
+    "timestamp": "2025-06-28T16:00:39.283515"
+  },
+  {
+    "type": "process_end",
+    "process_id": 15672,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:00:43.038665"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 4816,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=119 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303015010371 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9588 /prefetch:9",
+    "timestamp": "2025-06-28T16:00:41.456767"
+  },
+  {
+    "type": "process_end",
+    "process_id": 48732,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:00:46.794062"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 29652,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=120 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303018194159 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=5408 /prefetch:9",
+    "timestamp": "2025-06-28T16:00:44.638925"
+  },
+  {
+    "type": "process_end",
+    "process_id": 48196,
+    "process_name": "aipictool.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "timestamp": "2025-06-28T16:00:50.439163"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "● README.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:00:58.992678"
+  },
+  {
+    "type": "process_start",
+    "process_name": "aipictool.exe",
+    "process_id": 8916,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe /register_preview",
+    "timestamp": "2025-06-28T16:00:57.977972"
+  },
+  {
+    "type": "process_start",
+    "process_name": "SLBStrategy.exe",
+    "process_id": 33876,
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "command_line": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "timestamp": "2025-06-28T16:00:55.894178"
+  },
+  {
+    "type": "process_end",
+    "process_id": 59888,
+    "process_name": "SLBUpdate.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBUpdate.exe",
+    "timestamp": "2025-06-28T16:01:01.757643"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "README.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:01:02.770552"
+  },
+  {
+    "type": "process_end",
+    "process_id": 8916,
+    "process_name": "aipictool.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\pic\\aipictool.exe",
+    "timestamp": "2025-06-28T16:01:05.409606"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "● README.md - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:01:06.423433"
+  },
+  {
+    "type": "process_end",
+    "process_id": 33876,
+    "process_name": "SLBStrategy.exe",
+    "executable_path": "C:\\Program Files (x86)\\Lenovo\\SLBrowser\\SLBStrategy.exe",
+    "timestamp": "2025-06-28T16:01:09.235459"
+  },
+  {
+    "type": "process_end",
+    "process_id": 4816,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:01:16.800046"
+  },
+  {
+    "type": "process_end",
+    "process_id": 29652,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:01:16.800046"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 54492,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=121 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303048576867 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3340 /prefetch:9",
+    "timestamp": "2025-06-28T16:01:15.023106"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 50056,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=122 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303074979602 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9384 /prefetch:9",
+    "timestamp": "2025-06-28T16:01:41.425912"
+  },
+  {
+    "type": "process_end",
+    "process_id": 54492,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:01:47.078526"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "client_config.json - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:01:48.079816"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 51292,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=123 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303078894705 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9292 /prefetch:9",
+    "timestamp": "2025-06-28T16:01:45.340427"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "server_config.json - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:01:51.947064"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "activity_monitor.log - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:01:55.973673"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:07.361266"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "activity_monitor.log - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:14.707532"
+  },
+  {
+    "type": "process_end",
+    "process_id": 51292,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:02:17.511324"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:18.523831"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 49280,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=124 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303109225014 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=3284 /prefetch:9",
+    "timestamp": "2025-06-28T16:02:15.671265"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "activity_monitor.log - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:22.211519"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "config.example.json - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:26.302003"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "windows_client.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:30.026571"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "realtime_test.py - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:33.928729"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "client_config.json - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:37.625212"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "activity_monitor.log - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:41.460145"
+  },
+  {
+    "type": "window_focus",
+    "window_title": "linux_server.cpython-310.pyc - MEMO - Cursor",
+    "process_name": "Cursor.exe",
+    "process_id": 1728,
+    "executable_path": "C:\\Users\\yuwy\\AppData\\Local\\Programs\\cursor\\Cursor.exe",
+    "timestamp": "2025-06-28T16:02:45.182804"
+  },
+  {
+    "type": "process_end",
+    "process_id": 49280,
+    "process_name": "msedge.exe",
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "timestamp": "2025-06-28T16:02:47.783696"
+  },
+  {
+    "type": "process_start",
+    "process_name": "msedge.exe",
+    "process_id": 5196,
+    "executable_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "command_line": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe --type=renderer --extension-process --renderer-sub-type=extension --pdf-upsell-enabled --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=zh-CN --js-flags=--ms-user-locale= --device-scale-factor=1.5 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=125 --time-ticks-at-unix-epoch=-1749794626440662 --launch-time-ticks=1303139632089 --always-read-main-dll --field-trial-handle=2408,i,190787146257617024,3102830445832319338,262144 --variations-seed-version --mojo-platform-channel-handle=9256 /prefetch:9",
+    "timestamp": "2025-06-28T16:02:46.080428"
+  }
+]

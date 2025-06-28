@@ -1,0 +1,11 @@
+{
+  "server_host": "your-linux-server.com",
+  "server_port": 8888,
+  "client_id": "windows_client_001",
+  "heartbeat_interval": 30,
+  "batch_send_interval": 10,
+  "retry_attempts": 3,
+  "retry_delay": 5,
+  "buffer_size": 100,
+  "prediction_interval": 60
+} 
