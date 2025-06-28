@@ -1,0 +1,21 @@
+{
+  "system": {
+    "queue_size": 10,
+    "prediction_window": 5,
+    "prediction_cooldown": 30,
+    "confidence_threshold": 0.6
+  },
+  "llm": {
+    "use_ssh_tunnel": true,
+    "server_host": "js2.blockelite.cn",
+    "server_port": 8000,
+    "timeout": 15
+  },
+  "ssh": {
+    "host": "js2.blockelite.cn",
+    "port": 10116,
+    "username": "root",
+    "tunnel_local_port": 8000,
+    "tunnel_remote_port": 8000
+  }
+}

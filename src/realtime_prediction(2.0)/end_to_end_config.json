@@ -1,0 +1,22 @@
+{
+  "system": {
+    "queue_size": 10,
+    "prediction_window": 5,
+    "prediction_cooldown": 30,
+    "confidence_threshold": 0.6
+  },
+  "llm": {
+    "api_url": "http://your-linux-server:8000/predict",
+    "timeout": 10,
+    "use_local_backup": true
+  },
+  "applications": {
+    "preload_time_minutes": 3,
+    "cleanup_time_minutes": 5,
+    "monitor_interval_seconds": 2
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "end_to_end_system.log"
+  }
+}
