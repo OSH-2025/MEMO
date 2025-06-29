@@ -37,7 +37,7 @@
 
 
 ## 项目总体架构
-![architecture](/final_report/asset/parse.png)
+![architecture](/final_report/asset/architecture.png)
 
 
 ## 各模块技术细节
