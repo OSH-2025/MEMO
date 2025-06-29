@@ -414,6 +414,25 @@ ssh -L 127.0.0.1:8000:localhost:8000 root@js2.blockelite.cn -p 17012
 
 
 ## 实验结果
+### 端到端用户行为预测和应用优化系统成果展示
+![alt text](/final_report/asset/result1.png)
+
+如上图所示，该系统能够实现实时端到端用户行为预测和应用优化系统成果展示。
+
+根据用户当前的应用使用情况，该系统能够预测5分钟后用户的使用需求，并进行系统调用。这一预测内容在云服务器上完成，并将预测结果通过SSH接口返回给用户。
+
+### 模拟强化学习调度展示
+#### 实现流程
+
+5.29 我们准备以一星期为周期进行软件预测，我们打算收集一星期之内的用户软件使用情况，并按照这一星期之内的用户数据使用情况预测下一星期的用户软件使用情况。<span style="color:red;">目前，我们已经实现了在给定时间下实现软件的成功预测和互联网网站的成功预测!</span>
+![成功启用](/final_report/asset/image.png)
+
+6.28 我们实现了从prediction_buffer.csv中读取条目的程序，并且能够根据用户需求重写prediction_buffer.csv，并绘制相应的图形界面。
+1. 启动应用程序
+![alt text](/final_report/asset/setup.png)
+2. 询问用户
+![alt text](/final_report/asset/customer.png)
+
 
 
 
@@ -427,4 +446,4 @@ ssh -L 127.0.0.1:8000:localhost:8000 root@js2.blockelite.cn -p 17012
 
 1. Ravenscraft, Eric (2012-10-29). "Google Search Updated, Brings New Google Now Cards And Voice Actions - Yes, You Can Set Calendar Events". Android Police. Retrieved 2012-10-31. https://www.androidpolice.com/2012/10/29/google-search-updated-brings-new-google-now-cards-and-voice-actions-yes-you-can-set-calendar-events/
 2. Gartenberg, Chaim (June 5, 2017). "Siri on iOS 11 gets improved speech and can suggest actions based on how you use it". The Verge. Vox Media. Retrieved June 10, 2017. https://www.theverge.com/2017/6/5/15732136/apple-siri-update-announced-new-features-wwdc-2017
-3. 
+3.  Roh, T., Esomonu, C., Hendricks, J., Aggarwal, A., Hasan, N. T., & Benden, M. (2023).  Examining workweek variations in computer usage patterns: An application of ergonomic monitoring software.  *PLOS ONE*, 18(7), e0287976. https://doi.org/10.1371/journal.pone.0287976
