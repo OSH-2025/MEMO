@@ -82,7 +82,287 @@ LoRA 是一种近年来提出的轻量级微调方法，主要思想是在保持
 
 #### LoRA 在本模块中的具体应用
 
-### 预测调度
+
+### 端到端用户行为预测和应用优化系统
+
+#### 系统概述
+
+本系统是一个智能的用户行为预测系统，通过监控用户在Windows上的应用使用模式，利用部署在Linux云服务器上的大语言模型进行预测，并提前预加载用户可能要使用的应用程序，从而提升用户体验。
+
+
+
+#### 环境要求
+
+> **Windows端**
+>- Python 3.8+
+>- 必需库：`psutil`, `pywin32`, `requests`, `threading`
+>- 支持SSH客户端（Windows 10/11自带）
+
+> **Linux云服务器**
+>- Python 3.8+
+>- PyTorch + Transformers
+>- FastAPI + Uvicorn
+>- 微调后的LLM模型
+
+
+
+#### 配置文件说明(json)
+
+```r
+
+{
+  "system": {
+    "queue_size": 10,              // 活动队列大小
+    "prediction_window": 5,        // 预测窗口大小
+    "prediction_cooldown": 30,     // 预测冷却时间(秒)
+    "confidence_threshold": 0.6    // 预加载置信度阈值
+  },
+  "llm": {
+    "use_ssh_tunnel": true,        // 是否使用SSH隧道
+    "server_host": "js2.blockelite.cn",
+    "server_port": 8000,
+    "timeout": 15
+  },
+  "ssh": {
+    "host": "js2.blockelite.cn",   // 云服务器地址
+    "port": 17012,                 // SSH端口 (新端口)
+    "username": "root",
+    "tunnel_local_port": 8000,     // 本地隧道端口
+    "tunnel_remote_port": 8000     // 远程隧道端口
+  }
+}
+```
+
+#### 系统启动流程
+
+1. 启动云服务器LLM服务
+
+```r
+ssh root@js2.blockelite.cn -p 17012
+cd /home/vipuser/llm
+python model_api_server.py
+```
+
+2.  建立SSH隧道（新窗口）
+
+```r
+ssh -L 8000:localhost:8000 root@js2.blockelite.cn -p 17012
+```
+
+3. 启动Windows端系统（再开新窗口）
+
+```r
+python end_to_end_system.py
+```
+
+4.  系统运行状态
+
+正常运行时，你会看到：
+
+```r
+🎯 端到端用户行为预测和应用优化系统
+======================================
+
+✅ 云服务器LLM模型已就绪
+🚀 系统启动中...
+📊 开始监控用户活动...
+🔮 LLM预测服务已就绪...
+
+📊 新活动: 2025-06-28 22:30:15 - 切换到窗口: Chrome (应用: chrome.exe)
+🔮 开始预测，基于最近 5 个活动
+✅ 解析成功: Code.exe 在 22:32:15
+⏰ 将在 120.0 秒后预加载应用 Code.exe
+```
+
+支持的应用
+
+- Code.exe - Visual Studio Code
+- chrome.exe - Google Chrome
+- msedge.exe - Microsoft Edge
+- explorer.exe - 文件资源管理器
+- notepad.exe - 记事本
+- calc.exe - 计算器
+- QQ.exe - QQ
+- WeChat.exe - 微信
+- SnippingTool.exe - 截图工具
+
+#### 故障排除
+
+**常见问题**
+
+Q1: SSH连接失败
+
+```r
+ssh: connect to host js2.blockelite.cn port 17012: Connection refused
+```
+**解决办法：**
+1. 检查网络连接
+2. 确认端口号是否正确（17012）
+3. 检查云服务器是否运行
+
+ Q2: SSH隧道建立失败
+
+```r
+bind [127.0.0.1]:8000: Address already in use
+```
+
+**解决办法：**
+本地8000端口被占用 ,关闭其他占用8000端口的程序：
+
+```r
+netstat -ano | findstr :8000
+taskkill /PID <PID号> /F
+```
+
+
+
+
+Q3: API连接失败
+
+```r
+❌ 连接失败: 连接被拒绝
+```
+
+**解决办法：**
+1. 确认SSH隧道已建立
+2. 确认云服务器API服务正在运行
+3. 测试本地连接：curl http://localhost:8000/health
+
+Q4: 预测解析失败
+
+```r
+
+❌ 无法解析云服务器预测结果
+```
+**可能原因以及解决办法：**
+1. LLM返回格式不标准，这是正常的。系统会尝试智能提取应用信息
+2. 可以降低 confidence_threshold 阈值
+
+Q5: 应用预加载失败
+```r
+
+❌ 不支持的应用: xxx.exe
+```
+
+**解决办法：**
+
+1. 检查应用是否在支持列表中
+2. 确认应用路径在 ApplicationManager 中正确配置
+   
+
+#### 调试模式
+启用详细日志，查看日志文件：：
+
+```r
+logging.basicConfig(level=logging.DEBUG)
+```
+
+
+#### 性能调优
+**系统参数调整**
+1. 提高预测频率：
+
+```r
+"prediction_cooldown": 15  // 降低到15秒
+```
+
+2. 提高预加载门槛：
+
+```r
+"confidence_threshold": 0.8  // 提高到0.8
+```
+
+3. 增加监控范围：
+
+```r
+"queue_size": 15,
+"prediction_window": 8
+```
+
+4. 网络优化: 使用更稳定的SSH连接：
+
+```r
+ssh -L 8000:localhost:8000 -o ServerAliveInterval=60 -o ServerAliveCountMax=3 root@js2.blockelite.cn -p 17012
+```
+
+#### 系统监控
+**关键指标**
+1. 预测成功率: 成功解析的预测比例
+2. 应用命中率: 预加载应用被实际使用的比例
+3. 响应时间: LLM预测响应时间
+4. 资源使用: CPU和内存占用日志分析
+
+```r
+
+# 统计预测成功率
+
+grep "✅ 解析成功" end_to_end_system.log | wc -l
+
+# 统计预加载次数  
+
+grep "🚀 已预加载应用" end_to_end_system.log | wc -l
+
+# 查看最近的错误
+
+grep "ERROR" end_to_end_system.log | tail -10
+```
+
+#### 开发指南
+
+**添加新应用支持**
+
+在 ApplicationManager 中添加应用路径：
+
+```r
+self.app_executables = {
+
+    # 现有应用...
+
+​    'new_app.exe': r'C:\Path\To\New\App.exe'
+}
+```
+
+在 _extract_app_from_prediction 中添加识别规则：
+
+```r
+app_patterns = {
+
+    # 现有规则...
+
+​    r'New App Name': 'new_app.exe'
+}
+```
+
+**自定义预测逻辑**
+
+修改 _predict_via_cloud_api 中的指令：
+
+```r
+instruction = """
+自定义的预测指令...
+"""
+```
+
+#### 安全注意事项
+
+**1. SSH密钥认证（推荐）：**
+
+```r
+ssh-keygen -t rsa -b 4096
+ssh-copy-id root@js2.blockelite.cn -p 17012
+```
+
+**2. 限制SSH隧道绑定：**
+
+```r
+
+ssh -L 127.0.0.1:8000:localhost:8000 root@js2.blockelite.cn -p 17012
+```
+
+**3. 配置防火墙：**
+
+1. 仅允许必要的端口访问
+2. 配置云服务器安全组
 
 
 
