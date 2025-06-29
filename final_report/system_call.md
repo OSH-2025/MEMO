@@ -38,20 +38,20 @@
 
 ## 核心代码
 1. 解析prediction_buffer.csv中的内容
-![alt text](\asset\parse.png)
+![alt text](/final_report/asset/parse.png)
 
 根据预测的条件，我们将prediction_buffer.csv中的条目解析成4个部分。type分成apps和urls两类，分别表示应用和网页。weekday即是启动的星期，time是启用的具体的时间，target对于应用来说是启用的路径，对于网页来说是相应的网址。
 
-2. 预测结果调用前判断
-![alt text](\asset\call.png)
+1. 预测结果调用前判断
+![alt text](/final_report/asset/call.png)
 如果星期和时间都对应相等，则会启用相应的软件或者网址。
 
-3. 启动程序/网页
-![alt text](\asset\launch.png)
+1. 启动程序/网页
+![alt text](/final_report/asset/launch.png)
 
 根据网页或者程序类型的不同，启动网页或者程序。
-4. 主循环
-![alt text](\asset\circle.png)
+1. 主循环
+![alt text](/final_report/asset/circle.png)
 
 预测程序启用即进入主循环。首先从buffer中不断读取entries；然后解析该entry，提取出对应的时间、路径的网址。如果判断需要启动该程序，则让用户进行选择是否需要启动。如果用户点击yes，则启动该程序，同时把该条目加入updated_entries；如果用户点击no，则不把这一条目加入updated entries。如果还没有到启用时间，则无论如何将这一条目加入到updated entries。这样即实现了模拟删除的过程。
 
@@ -62,9 +62,9 @@
 
 6.28 我们实现了从prediction_buffer.csv中读取条目的程序，并且能够根据用户需求重写prediction_buffer.csv，并绘制相应的图形界面。
 1. 启动应用程序
-![alt text](\asset\setup.png)
+![alt text](/final_report/asset/setup.png)
 2. 询问用户
-![alt text](\asset\customer.png)
+![alt text](/final_report/asset/customer.png)
 
 # References
 1. Roh, T., Esomonu, C., Hendricks, J., Aggarwal, A., Hasan, N. T., & Benden, M. (2023).  **Examining workweek variations in computer usage patterns: An application of ergonomic monitoring software.**  *PLOS ONE*, 18(7), e0287976. https://doi.org/10.1371/journal.pone.0287976
