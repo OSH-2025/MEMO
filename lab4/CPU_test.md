@@ -1,3 +1,4 @@
+知乎链接：https://zhuanlan.zhihu.com/p/1923135296872121168
 # 运行命令
 ```r
  ./llama-batched-bench -m Qwen3-8B-UD-Q5_K_XL.gguf -c 2048 -b 2048 -ub 512 -npp 128,256,512 -ntg 128,256 -npl 1,2,4,8,16,32
@@ -204,6 +205,8 @@ First token eval time ≈ 132.72 ms（因为 avg per token）
 
 所以，首 Token 延迟 ≈ 904505.37 + 132.72 = 904638.09 ms(约为15分钟)
 ```
+
+
 
 
 
