@@ -1,8 +1,0 @@
-{
-    "model_path": "./LLM-Research/Meta-Llama-3___1-8B-Instruct",
-    "lora_path": "./output/llama3_1_instruct_lora/checkpoint-138",
-    "data_dir": "activity_data",
-    "prediction_interval": 30,
-    "enable_monitoring": true,
-    "enable_prediction": true
-} 

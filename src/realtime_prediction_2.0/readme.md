@@ -1,8 +1,10 @@
-# 端到端用户行为预测和应用优化系统
+# 实时用户行为预测和应用优化系统（MEMO）
 
 ## 系统概述
 
 本系统是一个智能的用户行为预测系统，通过监控用户在Windows上的应用使用模式，利用部署在Linux云服务器上的大语言模型进行预测，并提前预加载用户可能要使用的应用程序，从而提升用户体验。
+
+2025.6.29 更新用户图形界面( `gui.py` )，极大简化操作流程
 
 ## 环境要求
 
@@ -17,121 +19,14 @@
 - FastAPI + Uvicorn
 - 微调后的LLM模型
 
-## 快速开始
-
-### 1. 准备云服务器
-
-**连接到云服务器：**
-
-```r
-ssh root@js2.blockelite.cn -p 17012
-```
-
-启动LLM API服务：
-
-```r
-cd /home/vipuser/llm
-python model_api_server.py
-```
-
-
-你应该看到类似输出：
-
-```r
-INFO: Application startup complete.
-INFO: Uvicorn running on http://0.0.0.0:8000
-```
-
-
-
-
-### 2. 建立SSH隧道
-
-在Windows上打开PowerShell或Command Prompt：
-
-```r
-ssh -L 8000:localhost:8000 root@js2.blockelite.cn -p 17012
-```
-
-输入密码后，保持这个窗口开启。成功后应该看到Ubuntu欢迎信息。
-
-### 3. 验证连接
-
-在另一个PowerShell窗口测试：
-
-```r
-# 测试API连接
-
-curl http://localhost:8000/health
-
-# 或使用PowerShell内置命令
-
-Invoke-WebRequest -Uri "http://localhost:8000/health"
-```
-
-应该返回：
-
-```r
-{"status":"healthy","model_status":"loaded"}
-```
-
-### 4. 运行预测系统
-
-```r
-
-python end_to_end_system.py
-```
-
-配置文件说明(json)
-
-```r
-
-{
-  "system": {
-    "queue_size": 10,              // 活动队列大小
-    "prediction_window": 5,        // 预测窗口大小
-    "prediction_cooldown": 30,     // 预测冷却时间(秒)
-    "confidence_threshold": 0.6    // 预加载置信度阈值
-  },
-  "llm": {
-    "use_ssh_tunnel": true,        // 是否使用SSH隧道
-    "server_host": "js2.blockelite.cn",
-    "server_port": 8000,
-    "timeout": 15
-  },
-  "ssh": {
-    "host": "js2.blockelite.cn",   // 云服务器地址
-    "port": 17012,                 // SSH端口 (新端口)
-    "username": "root",
-    "tunnel_local_port": 8000,     // 本地隧道端口
-    "tunnel_remote_port": 8000     // 远程隧道端口
-  }
-}
-```
-
 ## 使用说明
 
-### 系统启动流程
+在 `\MEMO\src\realtime_prediction_2.0\windows` 目录下执行
 
-#### 启动云服务器LLM服务
-
-```r
-ssh root@js2.blockelite.cn -p 17012
-cd /home/vipuser/llm
-python model_api_server.py
+```python 
+  python gui.py
 ```
-
-#### 建立SSH隧道（新窗口）
-
-```r
-ssh -L 8000:localhost:8000 root@js2.blockelite.cn -p 17012
-```
-
-启动Windows端系统（再开新窗口）
-
-```r
-python end_to_end_system.py
-```
+看到图形化界面，输入SSH连接命令及密码即可
 
 #### 系统运行状态
 
