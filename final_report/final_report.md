@@ -878,7 +878,7 @@ OpenAI 在大多数任务中使用的强化学习算法都是近端
 ![alt text](/final_report/asset/PPO.png)
 
 近端策略优化涉及到四个模型：
-（1）策略模（Policy Model），生成模型回复。
+（1）策略模型（Policy Model），生成模型回复。
 （2）奖励模型（Reward Model），输出奖励分数来评估回复质量的好坏。
 （3）评论模型（Critic Model），来预测回复的好坏，可以在训练过程中实时调整模型，选择对未来累积收益最大的行为。
 （4）参考模型（Reference Model）提供了一个 SFT 模型的备份，帮助模型不会出现过于极端的变化。近端策略优化的实施流程如下：
