@@ -1,5 +1,7 @@
 # WSL2:Ubuntu部署llama.cpp
 
+本文已公开发表：[【教程】如何在WSL2:Ubuntu上部署llama.cpp-CSDN博客](https://blog.csdn.net/2301_79726826/article/details/149078646?sharetype=blogdetail&sharerId=149078646&sharerefer=PC&sharesource=2301_79726826&spm=1011.2480.3001.8118)
+
 llama.cpp 是一个完全由 C 与 C++ 编写的轻量级推理框架，支持在 CPU 或 GPU 上高效运行 Meta 的 LLaMA 等大语言模型（LLM），**设计上尽可能减少外部依赖**，能够轻松在多种后端与平台上运行。
 
 ## 安装llama.cpp
